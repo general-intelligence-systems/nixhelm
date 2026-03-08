@@ -14,8 +14,6 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
-      - name: Install dependencies
-        run: gem install activemodel
       - name: Build category index
         run: ruby packages/build-index.rb _site
       - name: Deploy to gh-pages

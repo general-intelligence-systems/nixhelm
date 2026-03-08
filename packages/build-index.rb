@@ -1,143 +1,52 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Build category JSON files from packages/index.json for GitHub Pages.
-
 require 'json'
 require 'fileutils'
-require 'active_model'
 
-class App
-  include ActiveModel::Model
-  include ActiveModel::Attributes
+Category = Struct.new(:id, :name, :parent, keyword_init: true) do
 
-  attribute :name, :string
-  attribute :categories
+  def filename = "#{self.id}.json"
 
-  def to_h
-    { 'name' => name, 'categories' => categories }
+  def top_level? = parent.nil?
+
+  def children(all_categories) = all_categories.select { |c| c.parent == id }
+
+  def apps(all_categories, all_apps)
+    own = all_apps.select { |a| a.categories.include?(id) }
+    child_apps = children(all_categories).flat_map { |c| c.apps(all_categories, all_apps) }
+    (own + child_apps).uniq(&:name)
   end
 end
 
-class Category
-  include ActiveModel::Model
-  include ActiveModel::Attributes
-
-  attribute :id, :string
-  attribute :name, :string
-  attribute :parent, :string
-  attribute :children, default: -> { [] }
-  attribute :apps, default: -> { [] }
-
-  def top_level?
-    parent.nil?
-  end
-
-  def sub_name
-    id.split('/', 2).last
-  end
-
-  # All apps in this category and its children, deduped, sorted by name
-  def aggregated_apps
-    seen = {}
-    [self, *children.sort_by(&:id)].each_with_object([]) do |cat, result|
-      cat.apps.each do |app|
-        next if seen[app.name]
-
-        seen[app.name] = true
-        result << app
-      end
-    end.sort_by(&:name)
-  end
-
-  def to_h
-    h = { 'id' => id, 'name' => name }
-    h['parent'] = parent if parent
-    h
-  end
-end
-
-class IndexBuilder
-  def initialize(src, out_dir)
-    @out_dir = out_dir
-    @data = JSON.parse(File.read(src))
-    @categories = {}
-    @apps = []
-
-    load_categories
-    load_apps
-  end
-
-  def build
-    FileUtils.mkdir_p(@out_dir)
-    write_root_index
-    write_sub_category_files
-    write_top_level_files
-    print_summary
-  end
-
-  private
-
-  def load_categories
-    @data['categories'].each do |raw|
-      cat = Category.new(raw)
-      @categories[cat.id] = cat
-    end
-
-    @categories.each_value do |cat|
-      next if cat.top_level?
-
-      parent = @categories[cat.parent]
-      parent.children << cat if parent
-    end
-  end
-
-  def load_apps
-    @data['apps'].each do |raw|
-      app = App.new(raw)
-      @apps << app
-      app.categories.each do |cid|
-        @categories[cid]&.apps&.<< app
-      end
-    end
-  end
-
-  def write_root_index
-    write_json(File.join(@out_dir, 'index.json'), @data)
-  end
-
-  def write_sub_category_files
-    @categories.each_value do |cat|
-      cat.children.sort_by(&:id).each do |child|
-        dir = File.join(@out_dir, cat.id)
-        FileUtils.mkdir_p(dir)
-        path = File.join(dir, "#{child.sub_name}.json")
-        write_json(path, child.apps.sort_by(&:name).map(&:to_h))
-      end
-    end
-  end
-
-  def write_top_level_files
-    top_level.each do |cat|
-      path = File.join(@out_dir, "#{cat.id}.json")
-      write_json(path, cat.aggregated_apps.map(&:to_h))
-    end
-  end
-
-  def write_json(path, data)
-    File.write(path, JSON.pretty_generate(data) + "\n")
-  end
-
-  def top_level
-    @categories.values.select(&:top_level?).sort_by(&:id)
-  end
-
-  def print_summary
-    sub_count = @categories.values.sum { |c| c.children.length }
-    puts "Built #{top_level.length} top-level + #{sub_count} sub-category files in #{@out_dir}/"
-  end
+App = Struct.new(:name, :categories, keyword_init: true) do
+  def to_h = { 'name' => name, 'categories' => categories }
 end
 
 src = File.join(__dir__, 'index.json')
-out_dir = ARGV[0] || '_site'
-IndexBuilder.new(src, out_dir).build
+out = ARGV[0] || '_site'
+
+categories = nil
+apps = nil
+data = nil
+
+JSON.parse(File.read(src)).tap do |json|
+  data       = json
+  categories = json['categories'].map { |x| Category.new(**x.transform_keys(&:to_sym)) }
+  apps       = json['apps'].map       { |x| App.new(**x.transform_keys(&:to_sym)) }
+end
+
+FileUtils.mkdir_p(out)
+File.write("#{out}/index.json", JSON.pretty_generate(data) + "\n")
+
+categories.each do |cat|
+  path      = File.join(out, cat.filename)
+  directory = File.dirname(path)
+  contents  = JSON.pretty_generate(cat.apps(categories, apps).map(&:to_h)) + "\n"
+
+  FileUtils.mkdir_p(directory)
+  File.write(path, contents)
+end
+
+top = categories.count(&:top_level?)
+puts "Built #{top} top-level + #{categories.length - top} sub-category files in #{out}/"
