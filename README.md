@@ -110,6 +110,10 @@ nix run .#helmupdater -- init "oci://ghcr.io/myorg/charts" myorg/nginx --commit
 The command will create the properly formatted commit that you can then submit
 as a pull request to the repo.
 
+## Packages to Add
+
+See [packages/](packages/README.md) for the full categorized wishlist.
+
 ## License
 
 Apache-2.0

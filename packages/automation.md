@@ -1,0 +1,23 @@
+# Automation
+
+- [ ] activepieces
+- [ ] apache-airflow
+- [ ] automatisch
+- [ ] changedetection.io
+- [ ] cronicle
+- [ ] cronmaster
+- [ ] dagu
+- [ ] dittofeed
+- [ ] feedmixer
+- [ ] handbrake
+- [ ] healthchecks
+- [ ] huginn
+- [ ] kestra
+- [ ] kibitzr
+- [ ] leon
+- [ ] matchering
+- [ ] mylar3
+- [ ] n8n
+- [ ] olivetin
+- [ ] pyload
+- [ ] stackstorm

@@ -1,0 +1,26 @@
+name: pages
+on:
+  push:
+    branches: [main]
+    paths: [packages/index.json]
+  workflow_dispatch: {}
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+      - name: Install dependencies
+        run: gem install activemodel
+      - name: Build category index
+        run: ruby packages/build-index.rb _site
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          force_orphan: true

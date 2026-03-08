@@ -1,0 +1,5 @@
+# Pastebins
+
+- [ ] opengist
+- [ ] privatebin
+- [ ] wastebin

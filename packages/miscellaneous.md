@@ -1,0 +1,25 @@
+# Miscellaneous
+
+- [ ] baby-buddy
+- [ ] chia
+- [ ] clamav
+- [ ] cloudflared
+- [ ] collabora
+- [ ] cups
+- [ ] cyberchef
+- [ ] diskoverdata
+- [ ] f-droid
+- [ ] fscrawler
+- [ ] habitica
+- [ ] infisical
+- [ ] ipfs
+- [ ] it-tools
+- [ ] ix-chart
+- [ ] libre-translate
+- [ ] lubelogger
+- [ ] netbootxyz
+- [ ] penpot
+- [ ] reactive-resume
+- [ ] storj
+- [ ] teslamate
+- [ ] zerotier
