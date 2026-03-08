@@ -1,6 +1,6 @@
 {
   repo = "https://n-at-han-k.github.io/bootstrap-operator";
   chart = "bootstrap-operator";
-  version = "0.1.1";
-  chartHash = "sha256-R5sBwybDr016pQDn+ywcmXq3iRrKXcpPeHGvXTy9bqM=";
+  version = "0.1.2";
+  chartHash = "sha256-0wy88mDXM5A6t01XRzJfnUKH1J89tGUm5XzWTxjauzM=";
 }
