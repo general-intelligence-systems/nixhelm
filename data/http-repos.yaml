@@ -40,6 +40,9 @@ cilium:
 clastix:
   - https://clastix.github.io/charts
 
+clickhouse:
+  - https://clickhouse.github.io/ClickStack-helm-charts
+
 cloudnative-pg:
   - https://cloudnative-pg.github.io/charts
   - https://cloudnative-pg.io/charts

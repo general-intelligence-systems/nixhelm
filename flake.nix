@@ -56,6 +56,7 @@
             pkgs.yq-go
             pkgs.jq
             pkgs.unixtools.xxd
+            pkgs.ruby
           ];
         };
       }

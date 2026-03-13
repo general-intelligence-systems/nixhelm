@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+find charts -name '*.nix' ! -name 'default.nix' | wc -l

@@ -1,0 +1,29 @@
+name: update-readme
+
+on:
+  workflow_call: {}
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - uses: fregante/setup-git-user@v2
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Generate README
+        run: ruby bin/generate-readme
+
+      - name: Commit and push
+        run: |
+          git add README.md
+          git diff --cached --quiet || git commit -m "docs: update readme"
+          git push

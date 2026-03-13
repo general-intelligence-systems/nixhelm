@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+require 'erb'
+require 'ostruct'
+
+vars = {
+  chart_count: `bin/chart-count`.strip.to_i,
+  repo_count: Dir.glob('charts/*/').count,
+}
+
+template = ERB.new(File.read('README.md.erb'))
+result = template.result(OpenStruct.new(vars).instance_eval { binding })
+File.write('README.md', result)

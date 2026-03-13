@@ -38,3 +38,8 @@ jobs:
           git add charts/
           git diff --cached --quiet || git commit -m "charts: update all"
           git push
+
+  readme:
+    needs: [collect]
+    if: always()
+    uses: ./.github/workflows/update-readme.yml
