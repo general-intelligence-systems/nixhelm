@@ -18,5 +18,6 @@
     python3
     ruby
     glibc
+    stdenv.cc.cc.lib
   ];
 }
