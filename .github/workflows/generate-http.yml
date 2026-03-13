@@ -6,8 +6,6 @@ on:
 jobs:
   setup:
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/general-intelligence-systems/nixhelm-generate:latest
     outputs:
       matrix: ${{ steps.matrix.outputs.repos }}
     steps:
@@ -16,14 +14,17 @@ jobs:
       - name: Build matrix
         id: matrix
         run: |
-          repos=$(yq -o=json 'keys' data/http-repos.yaml | jq -c '.')
+          repos=$(python3 -c "
+          import yaml, json
+          with open('data/http-repos.yaml') as f:
+              data = yaml.safe_load(f)
+          print(json.dumps(list(data.keys())))
+          ")
           echo "repos=$repos" >> $GITHUB_OUTPUT
 
   generate:
     needs: setup
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/general-intelligence-systems/nixhelm-generate:latest
     strategy:
       matrix:
         repo: ${{ fromJSON(needs.setup.outputs.matrix) }}
@@ -31,8 +32,12 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - uses: DeterminateSystems/determinate-nix-action@v3
+
+      - uses: DeterminateSystems/magic-nix-cache-action@v2
+
       - name: Generate charts
-        run: bash bin/generate-repo "${{ matrix.repo }}" http
+        run: nix develop --command bash bin/generate-repo "${{ matrix.repo }}" http
 
       - uses: actions/upload-artifact@v4
         with:
