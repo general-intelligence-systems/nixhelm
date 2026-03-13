@@ -1,0 +1,537 @@
+1password:
+  url: https://1password.github.io/connect-helm-charts
+  charts:
+    connect:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+ananace-charts:
+  url: https://ananace.gitlab.io/charts
+  charts:
+    lemmy:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+anza-labs:
+  url: https://anza-labs.github.io/charts
+  charts:
+    pocket-id:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+argoproj:
+  url: https://argoproj.github.io/argo-helm
+  charts:
+    argo-cd:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    argocd-image-updater:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    argo-workflows:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+atlantis:
+  url: https://runatlantis.github.io/helm-charts
+  charts:
+    atlantis:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+authelia:
+  url: https://charts.authelia.com
+  charts:
+    authelia:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+authentik:
+  url: https://charts.goauthentik.io
+  charts:
+    authentik:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+bitnami:
+  url: https://charts.bitnami.com/bitnami
+  charts:
+    elasticsearch:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    external-dns:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    ghost:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    mariadb-galera:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    mastodon:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    mongodb:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    mysql:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    nginx:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    postgresql:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    rabbitmq-cluster-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    valkey:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    wordpress:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+bjw-s-labs:
+  url: https://bjw-s-labs.github.io/helm-charts
+  charts:
+    app-template:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+bootstrap-operator:
+  url: https://n-at-han-k.github.io/bootstrap-operator
+  charts:
+    bootstrap-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+bytestash:
+  url: https://jordan-dalby.github.io/ByteStash
+  charts:
+    bytestash:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+camunda:
+  url: https://helm.camunda.io
+  charts:
+    camunda-platform:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+cilium:
+  url: https://helm.cilium.io
+  charts:
+    cilium:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+clastix:
+  url: https://clastix.github.io/charts
+  charts:
+    kamaji:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+cloudnative-pg:
+  url: https://cloudnative-pg.github.io/charts
+  charts:
+    cloudnative-pg:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    plugin-barman-cloud:
+      url: https://cloudnative-pg.io/charts
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+concourse:
+  url: https://concourse-charts.storage.googleapis.com
+  charts:
+    concourse:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+coredns:
+  url: https://coredns.github.io/helm
+  charts:
+    coredns:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+dendrite:
+  url: https://matrix-org.github.io/dendrite
+  charts:
+    dendrite:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+dirigible:
+  url: https://eclipse-dirigible.github.io/dirigible
+  charts:
+    dirigible:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+djjudas21:
+  url: https://djjudas21.github.io/charts
+  charts:
+    lldap:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+emberstack:
+  url: https://emberstack.github.io/helm-charts
+  charts:
+    reflector:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+emqx:
+  url: https://repos.emqx.io/charts
+  charts:
+    emqx-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+external-dns:
+  url: https://kubernetes-sigs.github.io/external-dns
+  charts:
+    external-dns:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+external-secrets:
+  url: https://charts.external-secrets.io
+  charts:
+    external-secrets:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+firefly-iii:
+  url: https://firefly-iii.github.io/kubernetes
+  charts:
+    firefly-iii:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    importer:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+fluxcd-community:
+  url: https://fluxcd-community.github.io/helm-charts
+  charts:
+    flux2:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+fossorial:
+  url: https://charts.fossorial.io
+  charts:
+    newt:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+general-intelligence-systems:
+  url: https://general-intelligence-systems.github.io/kubero-helm
+  charts:
+    kubero:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+goharbor:
+  url: https://helm.goharbor.io
+  charts:
+    harbor:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+grafana:
+  url: https://grafana.github.io/helm-charts
+  charts:
+    alloy-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    grafana:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    loki:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    promtail:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    tempo:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+groundhog2k:
+  url: https://groundhog2k.github.io/helm-charts
+  charts:
+    ghost:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+hashicorp:
+  url: https://helm.releases.hashicorp.com
+  charts:
+    vault:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+hcloud:
+  url: https://charts.hetzner.cloud
+  charts:
+    hcloud-cloud-controller-manager:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+immich:
+  url: https://immich-app.github.io/immich-charts
+  charts:
+    immich:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+isindir:
+  url: https://isindir.github.io/sops-secrets-operator
+  charts:
+    sops-secrets-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+istio:
+  url: https://istio-release.storage.googleapis.com/charts
+  charts:
+    base:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    cni:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    gateway:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    istiod:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+jetstack:
+  url: https://charts.jetstack.io
+  charts:
+    cert-manager:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+jupyterhub:
+  url: https://hub.jupyter.org/helm-chart
+  charts:
+    jupyterhub:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+karakeep-app:
+  url: https://karakeep-app.github.io/helm-charts
+  charts:
+    karakeep:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+kiali:
+  url: https://kiali.org/helm-charts
+  charts:
+    kiali-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+koenkk:
+  url: https://koenkk.github.io/zigbee2mqtt-chart
+  charts:
+    zigbee2mqtt:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+kubernetes-csi:
+  url: https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/master/charts
+  charts:
+    csi-driver-nfs:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+kubernetes-dashboard:
+  url: https://kubernetes-retired.github.io/dashboard
+  charts:
+    kubernetes-dashboard:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+kubernetes-ingress-nginx:
+  url: https://kubernetes.github.io/ingress-nginx
+  charts:
+    ingress-nginx:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+kubernetes-sigs:
+  url: https://kubernetes-sigs.github.io/headlamp
+  charts:
+    headlamp:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    metrics-server:
+      url: https://kubernetes-sigs.github.io/metrics-server
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    nfs-subdir-external-provisioner:
+      url: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    node-feature-discovery:
+      url: https://kubernetes-sigs.github.io/node-feature-discovery/charts
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+kyverno:
+  url: https://kyverno.github.io/kyverno
+  charts:
+    kyverno:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+longhorn:
+  url: https://charts.longhorn.io
+  charts:
+    longhorn:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+mariadb-operator:
+  url: https://mariadb-operator.github.io/mariadb-operator
+  charts:
+    mariadb-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+metallb:
+  url: https://metallb.github.io/metallb
+  charts:
+    metallb:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+mojo2600:
+  url: https://mojo2600.github.io/pihole-kubernetes
+  charts:
+    pihole:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+n-at-han-k:
+  url: https://n-at-han-k.github.io/helm-joget/charts
+  charts:
+    joget:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+nextcloud:
+  url: https://nextcloud.github.io/helm
+  charts:
+    nextcloud:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+noooste:
+  url: https://helm.noste.dev
+  charts:
+    garage-ui:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+nvidia:
+  url: https://helm.ngc.nvidia.com/nvidia
+  charts:
+    gpu-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+oauth2-proxy:
+  url: https://oauth2-proxy.github.io/manifests
+  charts:
+    oauth2-proxy:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+openbao:
+  url: https://openbao.github.io/openbao-helm
+  charts:
+    openbao:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+openebs:
+  url: https://openebs.github.io/zfs-localpv
+  charts:
+    zfs-localpv:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+operaton:
+  url: https://operaton.github.io/operaton-helm
+  charts:
+    operaton:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+percona:
+  url: https://percona.github.io/percona-helm-charts
+  charts:
+    psmdb-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+project-akri:
+  url: https://project-akri.github.io/akri
+  charts:
+    akri:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+prometheus-community:
+  url: https://prometheus-community.github.io/helm-charts
+  charts:
+    kube-prometheus-stack:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    prometheus-blackbox-exporter:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    prometheus:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    prometheus-operator-crds:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+rancher:
+  url: https://releases.rancher.com/server-charts/stable
+  charts:
+    rancher:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+redpanda:
+  url: https://charts.redpanda.com
+  charts:
+    redpanda:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+rocm:
+  url: https://rocm.github.io/k8s-device-plugin
+  charts:
+    amd-gpu:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+rook-release:
+  url: https://charts.rook.io/release
+  charts:
+    rook-ceph-cluster:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    rook-ceph:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+seafile:
+  url: https://haiwen.github.io/seafile-helm-chart/repo
+  charts:
+    ce:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    pro:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+sealed-secrets:
+  url: https://bitnami-labs.github.io/sealed-secrets
+  charts:
+    sealed-secrets:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+sergeyshevch:
+  url: https://sergeyshevch.github.io/charts
+  charts:
+    s3manager:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+stakater:
+  url: https://stakater.github.io/stakater-charts
+  charts:
+    reloader:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+sysdig:
+  url: https://charts.sysdig.com
+  charts:
+    sysdig-deploy:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+tailscale:
+  url: https://pkgs.tailscale.com/helmcharts
+  charts:
+    tailscale-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+traefik:
+  url: https://traefik.github.io/charts
+  charts:
+    traefik:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+twin:
+  url: https://twin.github.io/helm-charts
+  charts:
+    gatus:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+valkey:
+  url: https://valkey.io/valkey-helm
+  charts:
+    valkey:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+vault-config-operator:
+  url: https://redhat-cop.github.io/vault-config-operator
+  charts:
+    vault-config-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+victoriametrics:
+  url: https://victoriametrics.github.io/helm-charts
+  charts:
+    victoria-metrics-agent:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    victoria-metrics-cluster:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    victoria-metrics-k8s-stack:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    victoria-metrics-operator:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+windmill-labs:
+  url: https://windmill-labs.github.io/windmill-helm-charts
+  charts:
+    windmill:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+zitadel:
+  url: https://charts.zitadel.com
+  charts:
+    zitadel:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'

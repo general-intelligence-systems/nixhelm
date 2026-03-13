@@ -1,0 +1,61 @@
+berriai:
+  registry: docker.litellm.ai/berriai
+  charts:
+    litellm-helm:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+cloudpirates:
+  registry: registry-1.docker.io/cloudpirates
+  charts:
+    redis:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+dagger:
+  registry: registry.dagger.io
+  charts:
+    dagger-helm:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+envoyproxy:
+  registry: registry-1.docker.io/envoyproxy
+  charts:
+    gateway-helm:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    gateway-crds-helm:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+
+forgejo:
+  registry: code.forgejo.org/forgejo-helm
+  charts:
+    forgejo:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+lago:
+  registry: ghcr.io/getlago/helm-charts
+  charts:
+    lago:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+vikunja:
+  registry: ghcr.io/go-vikunja/helm-chart
+  charts:
+    vikunja:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+
+kalbasit:
+  registry: ghcr.io/kalbasit/helm
+  charts:
+    ncps:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+
+librechat:
+  registry: ghcr.io/danny-avila/librechat-chart
+  charts:
+    librechat:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
+sourcegraph:
+  registry: oci.trueforge.org/truecharts
+  charts:
+    sourcegraph:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'

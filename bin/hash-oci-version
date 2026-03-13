@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+read -r name chart version registry
+
+hex=$(crane manifest "$registry/$chart:$version" | jq -r '.layers[0].digest' | cut -d: -f2)
+hash=$(echo "$hex" | xxd -r -p | base64 | tr -d '\n')
+
+echo "$name $chart $version oci://$registry sha256-$hash"

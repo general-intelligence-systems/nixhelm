@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+yq -o=json data/http-repos.yaml | jq -r '
+  to_entries[] |
+  .key as $name |
+  .value.url as $default_url |
+  .value.charts | to_entries[] |
+  "\($name)\t\(.key)\t\(.value.url // $default_url)\t\(.value.regex)"
+' |
+while IFS=$'\t' read -r name chart url regex; do
+  curl -sL "$url/index.yaml" | yq -o=json ".entries.\"$chart\"" |
+  jq -r '.[] | "\(.version)\t\(.digest)"' |
+  while IFS=$'\t' read -r version hex; do
+    echo "$version" | grep -qE "$regex" || continue
+    hash=$(echo "$hex" | xxd -r -p | base64 | tr -d '\n')
+    echo "$name $chart $version $url sha256-$hash"
+  done | sort -t' ' -k3 -rV
+done

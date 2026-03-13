@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+versions=""
+latest=""
+repo=""
+chart=""
+
+while read -r name ch version url hash; do
+  [[ -z "$latest" ]] && latest="$version"
+  [[ -z "$repo" ]] && repo="$url"
+  [[ -z "$chart" ]] && chart="$ch"
+  versions+="    \"$version\" = \"$hash\";"$'\n'
+done
+
+cat <<EOF
+{
+  repo = "$repo";
+  chart = "$chart";
+  latest = "$latest";
+  versions = {
+$versions  };
+}
+EOF
