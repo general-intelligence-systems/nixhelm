@@ -196,6 +196,12 @@ general-intelligence-systems:
   charts:
     kubero:
       regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    kubevirt-cr:
+      url: https://general-intelligence-systems.github.io/kubevirt-helm
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+    kubevirt-operator:
+      url: https://general-intelligence-systems.github.io/kubevirt-helm
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
 
 goharbor:
   url: https://helm.goharbor.io
