@@ -1,6 +1,6 @@
 {
   repo = "oci://oci.trueforge.org/truecharts";
   chart = "sourcegraph";
-  version = "9.24.0";
-  chartHash = "sha256-Nzz93uXW9mWCo+CUXztyf8lwEuhu5L+Vcj2e51/GNoA=";
+  version = "9.24.2";
+  chartHash = "sha256-rjHV2GxobAaHxJszyd8Fu+5GcZiDbZUBx77HVOulnyo=";
 }
