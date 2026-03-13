@@ -17,7 +17,7 @@ jobs:
       - name: Build matrix
         id: matrix
         run: |
-          repos=$(yq -o=json 'keys' data/oci-repos.yaml)
+          repos=$(yq -o=json 'keys' data/oci-repos.yaml | jq -c '.')
           echo "repos=$repos" >> $GITHUB_OUTPUT
 
   generate:
