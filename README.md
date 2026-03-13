@@ -1,4 +1,4 @@
-# nixhelm
+# nixhelm2
 
 A collection of Helm charts in a nix-digestible format.
 
@@ -10,7 +10,7 @@ Nixhelm supports both traditional HTTP Helm chart repositories and OCI-compliant
 - **OCI registries** (GitHub Container Registry, Docker Hub, Harbor, etc.)
 
 If your chart is hosted in a git repo, remember that you can fetch it as a flake
-input and pass to `fetchChart` [directly](https://github.com/general-intelligence-systems/nixhelm/issues/10).
+input and pass to `fetchChart`.
 
 ## Outputs
 
@@ -70,7 +70,7 @@ Add nixhelm as a flake input and use `lib` to fetch and render charts:
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    nixhelm.url = "github:general-intelligence-systems/nixhelm";
+    nixhelm.url = "github:general-intelligence-systems/nixhelm2";
   };
 
   outputs = { nixpkgs, nixhelm, ... }:
