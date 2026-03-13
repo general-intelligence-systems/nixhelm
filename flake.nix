@@ -47,7 +47,7 @@
 
         formatter = pkgs.nixfmt-tree;
 
-        devShell = pkgs.mkShell {
+        devShells.default = pkgs.mkShell {
           packages = [
             pkgs.nixfmt-tree
             pkgs.kubernetes-helm
