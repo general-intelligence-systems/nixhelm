@@ -1,0 +1,39 @@
+name: update-all
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  http:
+    uses: ./.github/workflows/generate-http.yml
+
+  oci:
+    uses: ./.github/workflows/generate-oci.yml
+
+  collect:
+    needs: [http, oci]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: fregante/setup-git-user@v2
+
+      - name: Download all chart artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: charts
+          pattern: charts-*
+          merge-multiple: true
+
+      - name: Generate default.nix files
+        run: bash bin/generate-defaults
+
+      - name: Commit and push
+        run: |
+          git add charts/
+          git diff --cached --quiet || git commit -m "charts: update all"
+          git push

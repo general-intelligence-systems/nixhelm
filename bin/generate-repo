@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo="$1"
+type="$2" # http or oci
+
+echo "generate-repo: $repo ($type)" >&2
+
+if [[ "$type" == "http" ]]; then
+  versions=$(bin/helm-versions "$repo")
+elif [[ "$type" == "oci" ]]; then
+  oci_lines=$(bin/oci-versions "$repo")
+  total=$(echo "$oci_lines" | grep -c . || true)
+  i=0
+  versions=$(echo "$oci_lines" | while read -r line; do
+    i=$((i + 1))
+    echo "  hash-oci: [$i/$total] $line" >&2
+    echo "$line" | bin/hash-oci-version
+  done)
+else
+  echo "error: unknown type '$type' (expected http or oci)" >&2
+  exit 1
+fi
+
+mkdir -p "charts/$repo"
+
+echo "$versions" | awk '{print $2}' | sort -u | while read -r chart; do
+  echo "$versions" | grep "^$repo $chart " | bin/mkchart > "charts/$repo/$chart.nix"
+  echo "  wrote charts/$repo/$chart.nix" >&2
+done

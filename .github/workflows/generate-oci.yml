@@ -1,0 +1,44 @@
+name: generate-oci
+
+on:
+  workflow_call: {}
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.matrix.outputs.repos }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install yq
+        uses: mikefarah/yq@master
+
+      - name: Build matrix
+        id: matrix
+        run: |
+          repos=$(yq -o=json 'keys' data/oci-repos.yaml)
+          echo "repos=$repos" >> $GITHUB_OUTPUT
+
+  generate:
+    needs: setup
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo: ${{ fromJSON(needs.setup.outputs.repos) }}
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+        with:
+          extra_nix_config: 'experimental-features = nix-command flakes'
+
+      - name: Generate charts
+        run: nix develop --command bash bin/generate-repo "${{ matrix.repo }}" oci
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: charts-${{ matrix.repo }}
+          path: charts/${{ matrix.repo }}/

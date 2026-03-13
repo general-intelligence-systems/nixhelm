@@ -1,14 +1,28 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-yq -o=json data/oci-repos.yaml | jq -r '
+filter="${1:-}"
+
+entries=$(yq -o=json data/oci-repos.yaml | jq -r '
   to_entries[] |
   .key as $name |
   .value.registry as $registry |
   .value.charts | to_entries[] |
   "\($name)\t\(.key)\t\($registry)\t\(.value.regex)"
-' |
+')
+
+if [[ -n "$filter" ]]; then
+  entries=$(echo "$entries" | grep "^${filter}	" || true)
+fi
+
+total=$(echo "$entries" | grep -c . || true)
+[[ "$total" -eq 0 ]] && exit 0
+i=0
+
+echo "$entries" |
 while IFS=$'\t' read -r name chart registry regex; do
+  i=$((i + 1))
+  echo "  oci-versions: [$i/$total] $registry/$chart" >&2
   crane ls "$registry/$chart" 2>/dev/null | grep -E "$regex" | sort -rV |
   while read -r version; do
     echo "$name $chart $version $registry"

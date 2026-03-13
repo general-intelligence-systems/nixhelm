@@ -1,14 +1,28 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-yq -o=json data/http-repos.yaml | jq -r '
+filter="${1:-}"
+
+entries=$(yq -o=json data/http-repos.yaml | jq -r '
   to_entries[] |
   .key as $name |
   .value.url as $default_url |
   .value.charts | to_entries[] |
   "\($name)\t\(.key)\t\(.value.url // $default_url)\t\(.value.regex)"
-' |
+')
+
+if [[ -n "$filter" ]]; then
+  entries=$(echo "$entries" | grep "^${filter}	" || true)
+fi
+
+total=$(echo "$entries" | grep -c . || true)
+[[ "$total" -eq 0 ]] && exit 0
+i=0
+
+echo "$entries" |
 while IFS=$'\t' read -r name chart url regex; do
+  i=$((i + 1))
+  echo "  helm-versions: [$i/$total] $name/$chart" >&2
   curl -sL "$url/index.yaml" | yq -o=json ".entries.\"$chart\"" |
   jq -r '.[] | "\(.version)\t\(.digest)"' |
   while IFS=$'\t' read -r version hex; do

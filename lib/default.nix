@@ -41,4 +41,40 @@
         tar xzf "${tarball}" --strip-components=1 -C "$out"
       '';
     };
+
+  applyValues =
+    {
+      chart,
+      name,
+      namespace ? null,
+      values ? { },
+      includeCRDs ? true,
+      kubeVersion ? null,
+      apiVersions ? [ ],
+      extraOpts ? [ ],
+    }:
+    let
+      namespaceFlag = if namespace != null then "--namespace ${namespace}" else "";
+      crdFlag = if includeCRDs then "--include-crds" else "";
+      kubeFlag = if kubeVersion != null then "--kube-version ${kubeVersion}" else "";
+      apiFlags = builtins.concatStringsSep " " (map (v: "-a ${v}") apiVersions);
+    in
+    pkgs.stdenv.mkDerivation {
+      name = "helm-rendered-${name}";
+      passAsFile = [ "helmValues" ];
+      helmValues = builtins.toJSON values;
+      phases = [ "installPhase" ];
+      installPhase = ''
+        ${pkgs.kubernetes-helm}/bin/helm template \
+          ${crdFlag} \
+          ${namespaceFlag} \
+          ${kubeFlag} \
+          --values "$helmValuesPath" \
+          "${name}" \
+          "${chart}" \
+          ${apiFlags} \
+          ${builtins.concatStringsSep " " extraOpts} \
+          >> $out
+      '';
+    };
 }

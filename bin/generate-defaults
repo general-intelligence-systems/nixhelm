@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Generate default.nix for each repo directory.
+for dir in charts/*/; do
+  [[ -d "$dir" ]] || continue
+  name=$(basename "$dir")
+  imports=""
+  for f in "$dir"/*.nix; do
+    [[ $(basename "$f") == "default.nix" ]] && continue
+    chart=$(basename "$f" .nix)
+    imports+="  \"$chart\" = import ./$chart.nix;"$'\n'
+  done
+  cat > "$dir/default.nix" <<EOF
+{
+$imports}
+EOF
+  echo "  $dir/default.nix" >&2
+done
+
+# Generate top-level charts/default.nix
+imports=""
+for dir in charts/*/; do
+  [[ -d "$dir" ]] || continue
+  name=$(basename "$dir")
+  imports+="  \"$name\" = import ./$name;"$'\n'
+done
+cat > charts/default.nix <<EOF
+{
+$imports}
+EOF
+echo "  charts/default.nix" >&2
+
+echo "Done generating default.nix files." >&2

@@ -4,61 +4,17 @@ set -euo pipefail
 rm -rf charts
 mkdir -p charts
 
-http_tmp=$(mktemp)
-oci_tmp=$(mktemp)
-trap 'rm -f "$http_tmp" "$oci_tmp"' EXIT
-
-echo "Fetching HTTP chart versions..." >&2
-bin/helm-versions > "$http_tmp"
-
-echo "Fetching OCI chart versions..." >&2
-bin/oci-versions | while read -r line; do
-  echo "$line" | bin/hash-oci-version
-done > "$oci_tmp"
-
-# Generate chart .nix files from a versions file.
-# Each line: name chart version url hash
-generate_charts() {
-  local src="$1"
-  awk '{print $1, $2}' "$src" | sort -u | while read -r name chart; do
-    mkdir -p "charts/$name"
-    grep "^$name $chart " "$src" | bin/mkchart > "charts/$name/$chart.nix"
-    echo "  charts/$name/$chart.nix" >&2
-  done
-}
-
 echo "Generating HTTP charts..." >&2
-generate_charts "$http_tmp"
+for repo in $(yq -r 'keys | .[]' data/http-repos.yaml); do
+  bin/generate-repo "$repo" http
+done
 
 echo "Generating OCI charts..." >&2
-generate_charts "$oci_tmp"
-
-# Generate default.nix for each repo directory.
-for dir in charts/*/; do
-  name=$(basename "$dir")
-  imports=""
-  for f in "$dir"/*.nix; do
-    [[ $(basename "$f") == "default.nix" ]] && continue
-    chart=$(basename "$f" .nix)
-    imports+="  \"$chart\" = import ./$chart.nix;"$'\n'
-  done
-  cat > "$dir/default.nix" <<EOF
-{
-$imports}
-EOF
-  echo "  $dir/default.nix" >&2
+for repo in $(yq -r 'keys | .[]' data/oci-repos.yaml); do
+  bin/generate-repo "$repo" oci
 done
 
-# Generate top-level charts/default.nix
-imports=""
-for dir in charts/*/; do
-  name=$(basename "$dir")
-  imports+="  \"$name\" = import ./$name;"$'\n'
-done
-cat > charts/default.nix <<EOF
-{
-$imports}
-EOF
-echo "  charts/default.nix" >&2
+echo "Generating default.nix files..." >&2
+bin/generate-defaults
 
 echo "Done." >&2

@@ -55,6 +55,7 @@
             pkgs.curl
             pkgs.yq-go
             pkgs.jq
+            pkgs.unixtools.xxd
           ];
         };
       }
