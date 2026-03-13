@@ -1,114 +1,146 @@
 # nixhelm
 
-This is a collection of helm charts in a nix-digestible format.
+A collection of Helm charts in a nix-digestible format.
 
 ## Supported chart repositories
 
-Nixhelm supports both traditional HTTP helm chart repositories and OCI-compliant registries:
+Nixhelm supports both traditional HTTP Helm chart repositories and OCI-compliant registries:
 
 - **HTTP/HTTPS repositories** (ChartMuseum, traditional Helm repos)
 - **OCI registries** (GitHub Container Registry, Docker Hub, Harbor, etc.)
 
 If your chart is hosted in a git repo, remember that you can fetch it as a flake
-input and pass to `buildHelmChart` [directly](https://github.com/farcaller/nixhelm/issues/10).
+input and pass to `fetchChart` [directly](https://github.com/farcaller/nixhelm/issues/10).
 
 ## Outputs
 
-The flake has the following outputs:
+The flake exposes three top-level outputs:
 
-`chartsMetadata.${repo}.${chart}` contains the metadata about a specific chart.
+### `meta`
 
-`chartsDerivations.${system}.${repo}.${chart}` contains the derivations producing
-the charts.
+`meta.${repo}.${chart}` contains raw metadata about each chart:
 
-`charts { pkgs = ... }.${repo}.${chart}` a shortcut for the above that doesn't
-depend on the nixpkgs input and allows to specify any nixpkgs.
+```nix
+{
+  repo = "https://argoproj.github.io/argo-helm";
+  chart = "argo-cd";
+  latest = "9.4.10";
+  versions = {
+    "9.4.10" = "sha256-hmCCq6j8bkeOG+DOmSvMW9LMBaBARC2aeqWyDVnX1SA=";
+    "9.4.9" = "sha256-...";
+    # ...
+  };
+}
+```
 
-The charts are updated nightly.
+### `lib`
+
+`lib { pkgs }` returns a set of three functions for working with charts:
+
+- **`fetchChart { repo, chart, version, chartHash }`** -- downloads a chart tarball as a fixed-output derivation.
+- **`extractChart tarball`** -- extracts a chart tarball into a directory.
+- **`applyValues { chart, name, namespace?, values?, ... }`** -- renders a chart with `helm template`.
+
+### `charts`
+
+`charts.${system}.${repo}.${chart}` contains built derivations:
+
+- `.latest` -- the latest stable version, extracted.
+- `.versions.${version}` -- a specific version, extracted.
 
 ## Usage
 
+### Building a chart
+
 ```sh
-nix build .#chartsDerivations.x86_64-linux."argoproj"."argo-cd"
+# Build the latest version
+nix build .#charts.x86_64-linux.argoproj.argo-cd.latest
+
+# Build a specific version
+nix build .#charts.x86_64-linux.argoproj.argo-cd.versions.'"9.4.10"'
 ```
 
-Will download the Argo CD helm chart to `result/`.
+The chart will be extracted to `result/`.
 
-To build a chart, you should use the kube generators from
-[github:farcaller/nix-kube-generators](https://github.com/farcaller/nix-kube-generators),
-and just pass your chart to the `buildCharts` function. So for example to render
-the Argo CD chart:
+### Using in a flake
+
+Add nixhelm as a flake input and use `lib` to fetch and render charts:
 
 ```nix
-      argo = (kubelib.buildHelmChart {
+{
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixhelm.url = "github:farcaller/nixhelm";
+  };
+
+  outputs = { nixpkgs, nixhelm, ... }:
+    let
+      pkgs = nixpkgs.legacyPackages.x86_64-linux;
+      helmlib = nixhelm.lib { inherit pkgs; };
+    in {
+      # Use a pre-built chart derivation directly
+      packages.x86_64-linux.argo-chart =
+        nixhelm.charts.x86_64-linux.argoproj.argo-cd.latest;
+
+      # Or render a chart with custom values using applyValues
+      packages.x86_64-linux.argo-rendered = helmlib.applyValues {
+        chart = nixhelm.charts.x86_64-linux.argoproj.argo-cd.latest;
         name = "argo";
-        chart = (nixhelm.charts { inherit pkgs; }).argoproj.argo-cd;
         namespace = "argo";
-      });
+        values = {
+          server.replicas = 2;
+        };
+      };
+    };
+}
 ```
 
-If you want to use this setup within Argo CD, check out [cake](https://github.com/farcaller/cake).
+`applyValues` accepts the following parameters:
 
-## Using the cache
-
-This repository and all the charts within are publicly cached at `cachix` as
-[nixhelm](https://app.cachix.org/cache/nixhelm). Here's how you can quickly
-enable it in your nix installation:
-
-### Without flakes
-
-```sh
-nix-env -iA cachix -f https://cachix.org/api/v1/install
-```
-
-### With flakes
-
-```sh
-nix profile install nixpkgs#cachix
-```
-
-### Then enable the cache
-
-```sh
-cachix use nixhelm
-```
-
-Alternatively, manually add this to `/etc/nix/nix.conf`:
-
-```nix
-substituters = https://cache.nixos.org https://nixhelm.cachix.org
-trusted-public-keys = cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= nixhelm.cachix.org-1:esqauAsR4opRF0UsGrA6H3gD21OrzMnBBYvJXeddjtY=
-```
+| Parameter | Required | Description |
+|---|---|---|
+| `chart` | yes | An extracted chart derivation |
+| `name` | yes | Release name for `helm template` |
+| `namespace` | no | Kubernetes namespace |
+| `values` | no | Attribute set of Helm values |
+| `includeCRDs` | no | Include CRDs (default: `true`) |
+| `kubeVersion` | no | Kubernetes version to template for |
+| `apiVersions` | no | List of additional API versions |
+| `extraOpts` | no | List of extra flags passed to `helm template` |
 
 ## Adding new charts
 
-Clone the repository and run the following command from within it:
+Charts are defined declaratively in YAML files under `data/`. To add a new chart, add an entry to the appropriate file and submit a pull request.
 
-```sh
-nix run .#helmupdater -- init $REPO $REPO_NAME/$CHART_NAME --commit
+### HTTP repository
+
+Add an entry to `data/http-repos.yaml`:
+
+```yaml
+my-repo:
+  url: https://my-repo.github.io/helm-charts
+  charts:
+    my-chart:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
 ```
 
-Where `REPO` is the URL to the chart repository, `REPO_NAME` is the short name for the
-repository and the `CHART_NAME` is the name of the chart in the repository.
+### OCI registry
 
-### HTTP Repository Example
+Add an entry to `data/oci-repos.yaml`:
 
-If you want to add [prometheus](https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus):
-
-```sh
-nix run .#helmupdater -- init "https://prometheus-community.github.io/helm-charts" prometheus-community/prometheus --commit
+```yaml
+my-repo:
+  registry: ghcr.io/my-org/charts
+  charts:
+    my-chart:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
 ```
 
-### OCI Registry Example
+### Notes
 
-For charts hosted in OCI registries, use the `oci://` scheme:
-
-```sh
-nix run .#helmupdater -- init "oci://ghcr.io/myorg/charts" myorg/nginx --commit
-```
-
-The command will create the properly formatted commit that you can then submit
-as a pull request to the repo.
+- The `regex` field controls which versions are included. Use it to filter out pre-release tags.
+- If a repo already exists in the YAML file, just add your chart under its `charts` key.
+- Charts are generated and updated automatically via CI -- you only need to declare them.
 
 ## Packages to Add
 
