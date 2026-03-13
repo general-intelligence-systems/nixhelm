@@ -1,0 +1,37 @@
+{
+  repo = "https://victoriametrics.github.io/helm-charts";
+  chart = "victoria-logs-cluster";
+  latest = "0.0.30";
+  versions = {
+    "0.0.30" = "sha256-Lj/hLxWBC7iaqsVMVn1/YqMPj6e6MAlDqxsbwlUKpFU=";
+    "0.0.29" = "sha256-/VAvd5lYzpHN0ahhtg2BK/PoMWIJ80fvzl1+jcpxjc4=";
+    "0.0.28" = "sha256-NUCXAlG0r1/V+7hzzDaOEThBXJ92SqmDd5q+kuaVPEA=";
+    "0.0.27" = "sha256-SPUFmetCxboYezuO3okcMhuxqofQ3MALB3+Rz65UKLY=";
+    "0.0.26" = "sha256-xr6JGdayeqOl7UAorGpBlAwqX9da/rUWy19qfHQ9Z3E=";
+    "0.0.25" = "sha256-8JROvUYaSHm+9SOh8TFP4XSGvOnoYdFlsV6v+las2Ic=";
+    "0.0.24" = "sha256-i7eR43sgV6Hr1pBpJb4VmeI79W7OAlWn/KCQgbInqlY=";
+    "0.0.23" = "sha256-cL9txETmimqwBmNwNyzxr3ALS0xKPOSKT7MdjlwdTvM=";
+    "0.0.22" = "sha256-Qv6skIODm6qquBieGEGiInmT/uAIszI/d5HlWH/6gE8=";
+    "0.0.21" = "sha256-7g3RtyztjWz6Df4YrIzAskn47+5rlYZB6tj3Qt2f7+A=";
+    "0.0.20" = "sha256-GZg0jvKJW3w41qzg9QZGRT/J559wihj+wUStd7r0Sxk=";
+    "0.0.19" = "sha256-Fpy8G1FJ4O1byIXsYQDG4TGXro1SC+c8jcqy4P2IuX4=";
+    "0.0.18" = "sha256-VIymuT/U9siI9CUzEdXmm/I0YN5tG5yOSXo+gS820nQ=";
+    "0.0.17" = "sha256-RB7sBRNy/pfKcwMjLCdNwOVyk2bL3Y70blzMBDVYTN0=";
+    "0.0.16" = "sha256-N/8HosOnxSyMstx8CNjqffV/1vEjR3O9IkmE3GSudJk=";
+    "0.0.15" = "sha256-0r4JgSBpbSplfC7uowpx+enlzxC0P8e2LzDayNbxgVw=";
+    "0.0.14" = "sha256-G/UGRkypax495xFyiWJG2BQkG8AVzHW4sI02cyLKM6w=";
+    "0.0.13" = "sha256-Q8RF5BeA/cdd0Je6JXjLrW0fI7ZbxqxO7vDL3jF326M=";
+    "0.0.12" = "sha256-qzo5K6uAUVltuGUPWJ/+iFtZv0fHzASshc59mbnHqmU=";
+    "0.0.11" = "sha256-oGFp7R8r0fVWaVWqXHeMW1lZIPGlpRXxAQsAC/aZS4c=";
+    "0.0.10" = "sha256-3rY8FXj6H4GKiDZF9v2jBhqvIn/9Uk+1snWeohLXQw4=";
+    "0.0.9" = "sha256-FZZwhBrrST6w3g3QGg9EusmSXKPjoFft1ev9eWiWJGc=";
+    "0.0.8" = "sha256-j/Cx6dpn0W5hw0UsK+AlV8S/LqYwmVKqhf6CiMvguUs=";
+    "0.0.7" = "sha256-dP6UIkl5DcaeB8cYaCYRNMSPxjSdieeQ4ofeojbUQVo=";
+    "0.0.6" = "sha256-+XAAzFK8uThDHVW6MCdhQSz4JO+oNPDxrR5+TBBEZW0=";
+    "0.0.5" = "sha256-wkadTwwNwMWZi0LEOWBHY+pLthtODMjvsIwZEQn9QKg=";
+    "0.0.4" = "sha256-R3OEn4M7NSm/vnA6mqZCbUGnv6xnMhRxBFEBBJ143VY=";
+    "0.0.3" = "sha256-7iYcj28bHhmcvoahGt6bRw/9pQBdrmUNMtu7p+Hz1DA=";
+    "0.0.2" = "sha256-IfCEonb6XBDs0b3U7je3g8yNZVk5D6DKdpUbcLVlrFA=";
+    "0.0.1" = "sha256-QU2iQWNL74wuCyrmRnTjV5aejjGgzrTBcLh2KBqyOpQ=";
+  };
+}

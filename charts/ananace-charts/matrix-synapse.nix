@@ -1,0 +1,15 @@
+{
+  repo = "https://ananace.gitlab.io/charts";
+  chart = "matrix-synapse";
+  latest = "3.12.23";
+  versions = {
+    "3.12.23" = "sha256-";
+    "3.12.22" = "sha256-";
+    "3.12.21" = "sha256-";
+    "3.12.19" = "sha256-";
+    "3.12.18" = "sha256-";
+    "3.12.17" = "sha256-";
+    "3.12.16" = "sha256-";
+    "3.12.15" = "sha256-";
+  };
+}

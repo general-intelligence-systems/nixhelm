@@ -1,0 +1,37 @@
+{
+  repo = "https://helm.releases.hashicorp.com";
+  chart = "vault-secrets-operator";
+  latest = "1.3.0";
+  versions = {
+    "1.3.0" = "sha256-aEGGH5KZ+paDic5OSNV59ijz+MAkfAh640JvZu+kXMU=";
+    "1.2.0" = "sha256-QACN9OgLKCQHDV+xARaQwZ4y8ggy62xS2e63n75zZjE=";
+    "1.1.0" = "sha256-DPPnR2YyvPAs2Jtwa/HOKMZWDvMe9oYNtPJH9HVduv0=";
+    "1.0.1" = "sha256-UBk0SoeBEUpC4SVVG92VeIhfUSkhukp2/RGGwR3OAts=";
+    "1.0.0" = "sha256-PSkvKvlPR6uf9mLRFB9xN1JPrh6d2XPMklDfD+U6aWI=";
+    "0.10.0" = "sha256-cDGHr4rf8gXwadwW8K46CRBx4YvQE9uMXOElhNwYbJo=";
+    "0.9.1" = "sha256-xCvbNG2PaPCM08Jnr7QL30yElN0KULPFfnpyEqaDqkw=";
+    "0.9.0" = "sha256-T6lvXGqZVzWQoyieDph6m4RZo6AGZ5vhbsQ1v5YNgx8=";
+    "0.8.1" = "sha256-VAL9MpE9hhVfSbTZGbyiTrs8Y27krbCoIwFyKmt+mvo=";
+    "0.8.0" = "sha256-4P3Vxmu4to9jaiu/1mQ681owNQQQyu9fgTSCFpDQSeE=";
+    "0.7.1" = "sha256-kx8zzJVk7/rASN+rN8B1AjRb81cdnJiBuMADd6mTgD8=";
+    "0.7.0" = "sha256-ShcAet3xUSCgxdZrTZHSZ1woc3iALIxOChTznXlI898=";
+    "0.6.0" = "sha256-dFGU1b87vEqs9O7xsK8Kzzfg0ueeqIwGVGwTP4Rp7zw=";
+    "0.5.2" = "sha256-LTGBg6Git9JVgmpsGohTRZnvkfNuZV5m8joSxhETzLM=";
+    "0.5.1" = "sha256-IC7/nxrADkvFr6YvjSPp2b3eQ4AGJTt3f7SaTXsevbA=";
+    "0.5.0" = "sha256-Ez0s/bCIoNjT8Jry93oRc7D+cWwagAtiFhKvrdxRYhA=";
+    "0.4.3" = "sha256-qCIWBMg0XDO5hP4EvV/Urm2RMqzM3xRyFfjwBxemhO0=";
+    "0.4.2" = "sha256-1PtznD+xPRBCDf+AjNosaI0G6ySg2P+bGbye/YdTnqU=";
+    "0.4.1" = "sha256-vF3WgrAQ2OgRjDqx3g8K47A0YQRsCXvm5OuHdsANryA=";
+    "0.4.0" = "sha256-iyrEZqiu1pbfa7d/KyYnhz9kSYxB6n1s3gmcX7yofzQ=";
+    "0.3.4" = "sha256-3DgLA1pzkMVlw9vawVsshHomwtTGKEyE17ZSmDcGVuc=";
+    "0.3.3" = "sha256-V6OfE6B5UMhr/QMN07uYHKe1kjfJd2ktN1KtXYF+dsQ=";
+    "0.3.2" = "sha256-C3OFSFIgGDxO8oKxQw6E4BrC4hUQyJ8HShSokT1vYA0=";
+    "0.3.1" = "sha256-XgOj3s8Kqq+kTQyQHB8KWe0Am82kqZl6+Wg3xskzmuc=";
+    "0.3.0-rc.1" = "sha256-1Mbu/Mkn0jqGCO/0dDZ9rWAlvvzrzwBHA881ZCd3xGE=";
+    "0.2.0" = "sha256-5fhz3tdI1iMIca2u2ZNVp1RhyS9Xl/NdFptndZxxi9E=";
+    "0.1.0-rc.1" = "sha256-Mf1epFxXTWYBKIzunUWrTZjKD9c/Q4GqTtvRtXVmbCE=";
+    "0.1.0-beta.1" = "sha256-+F7k4mtn0c7DNMbdDRICbO6bS6Ps8/8+f64M2MOt2Zo=";
+    "0.1.0-beta" = "sha256-GFe78cWw997jw4GRberrKV1KLICaBAvkyP4MLH+TNM4=";
+    "0.1.0" = "sha256-YcVcMNPMkjz7zptA59ZNlhTQ+3TZdLh3hAQHfo6OUxg=";
+  };
+}
