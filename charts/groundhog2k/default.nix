@@ -1,0 +1,3 @@
+{
+  "ghost" = import ./ghost.nix;
+}

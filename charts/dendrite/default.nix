@@ -1,0 +1,3 @@
+{
+  "dendrite" = import ./dendrite.nix;
+}

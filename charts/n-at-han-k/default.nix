@@ -1,0 +1,3 @@
+{
+  "joget" = import ./joget.nix;
+}

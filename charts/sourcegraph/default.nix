@@ -1,0 +1,3 @@
+{
+  "sourcegraph" = import ./sourcegraph.nix;
+}

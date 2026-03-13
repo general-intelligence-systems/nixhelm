@@ -1,0 +1,3 @@
+{
+  "atlantis" = import ./atlantis.nix;
+}

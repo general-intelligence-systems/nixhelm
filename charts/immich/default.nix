@@ -1,0 +1,3 @@
+{
+  "immich" = import ./immich.nix;
+}

@@ -1,0 +1,3 @@
+{
+  "ncps" = import ./ncps.nix;
+}

@@ -1,0 +1,3 @@
+{
+  "kubero" = import ./kubero.nix;
+}

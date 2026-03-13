@@ -1,0 +1,3 @@
+{
+  "concourse" = import ./concourse.nix;
+}

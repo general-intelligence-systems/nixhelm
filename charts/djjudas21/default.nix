@@ -1,0 +1,3 @@
+{
+  "lldap" = import ./lldap.nix;
+}

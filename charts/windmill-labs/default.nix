@@ -1,0 +1,3 @@
+{
+  "windmill" = import ./windmill.nix;
+}

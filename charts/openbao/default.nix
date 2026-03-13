@@ -1,0 +1,3 @@
+{
+  "openbao" = import ./openbao.nix;
+}

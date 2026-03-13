@@ -1,0 +1,3 @@
+{
+  "valkey" = import ./valkey.nix;
+}

@@ -1,0 +1,3 @@
+{
+  "librechat" = import ./librechat.nix;
+}

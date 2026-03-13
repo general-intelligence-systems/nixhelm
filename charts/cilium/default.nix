@@ -1,0 +1,3 @@
+{
+  "cilium" = import ./cilium.nix;
+}

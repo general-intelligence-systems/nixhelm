@@ -1,0 +1,3 @@
+{
+  "reloader" = import ./reloader.nix;
+}

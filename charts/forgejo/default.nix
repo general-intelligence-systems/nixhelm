@@ -1,0 +1,3 @@
+{
+  "forgejo" = import ./forgejo.nix;
+}

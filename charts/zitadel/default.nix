@@ -1,0 +1,3 @@
+{
+  "zitadel" = import ./zitadel.nix;
+}

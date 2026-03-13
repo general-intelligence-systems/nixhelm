@@ -1,0 +1,3 @@
+{
+  "gatus" = import ./gatus.nix;
+}

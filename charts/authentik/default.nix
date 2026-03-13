@@ -1,0 +1,3 @@
+{
+  "authentik" = import ./authentik.nix;
+}

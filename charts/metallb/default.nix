@@ -1,0 +1,3 @@
+{
+  "metallb" = import ./metallb.nix;
+}

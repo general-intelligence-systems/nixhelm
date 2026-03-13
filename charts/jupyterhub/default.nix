@@ -1,0 +1,3 @@
+{
+  "jupyterhub" = import ./jupyterhub.nix;
+}

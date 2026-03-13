@@ -1,0 +1,3 @@
+{
+  "coredns" = import ./coredns.nix;
+}

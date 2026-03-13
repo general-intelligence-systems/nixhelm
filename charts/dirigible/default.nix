@@ -1,0 +1,3 @@
+{
+  "dirigible" = import ./dirigible.nix;
+}

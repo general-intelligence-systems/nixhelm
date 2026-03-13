@@ -1,0 +1,3 @@
+{
+  "newt" = import ./newt.nix;
+}
