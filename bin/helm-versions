@@ -6,9 +6,8 @@ filter="${1:-}"
 entries=$(yq -o=json data/http-repos.yaml | jq -r '
   to_entries[] |
   .key as $name |
-  .value.url as $default_url |
-  .value.charts | to_entries[] |
-  "\($name)\t\(.key)\t\(.value.url // $default_url)\t\(.value.regex)"
+  .value[] |
+  "\($name)\t\(.)"
 ')
 
 if [[ -n "$filter" ]]; then
@@ -18,12 +17,11 @@ fi
 total=$(echo "$entries" | grep -c . || true)
 [[ "$total" -eq 0 ]] && exit 0
 echo "$entries" |
-while IFS=$'\t' read -r name chart url regex; do
-  curl -sL "$url/index.yaml" | yq -o=json ".entries.\"$chart\"" |
-  jq -r '.[] | "\(.version)\t\(.digest)"' |
-  while IFS=$'\t' read -r version hex; do
-    echo "$version" | grep -qE "$regex" || continue
+while IFS=$'\t' read -r name url; do
+  curl -sL "$url/index.yaml" | yq -o=json '.entries' |
+  jq -r 'to_entries[] | .key as $chart | .value[] | "\($chart)\t\(.version)\t\(.digest)"' |
+  while IFS=$'\t' read -r chart version hex; do
     hash=$(echo "$hex" | xxd -r -p | base64 | tr -d '\n')
     echo "$name $chart $version $url sha256-$hash"
-  done | sort -t' ' -k3 -rV
+  done | sort -t' ' -k2,2 -k3,3rV
 done

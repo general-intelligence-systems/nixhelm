@@ -69,38 +69,32 @@ OCI registry example (`charts/forgejo/forgejo.nix`):
 }
 ```
 
-The format is identical for HTTP and OCI -- only the `repo` URL scheme differs (`https://` vs `oci://`). Each chart file contains all known stable versions, not just the latest.
+The format is identical for HTTP and OCI -- only the `repo` URL scheme differs (`https://` vs `oci://`). Each chart file contains all known versions, not just the latest.
 
 ## Data Files
 
-Charts are declared in two YAML files. The `regex` field filters which upstream version tags are included.
+Charts are declared in two YAML files.
 
 ### `data/http-repos.yaml`
 
+Each repo maps to a list of HTTP Helm repository URLs. All charts and all versions from each URL's `index.yaml` are included automatically -- no chart names or version filters are specified.
+
 ```yaml
 argoproj:
-  url: https://argoproj.github.io/argo-helm
-  charts:
-    argo-cd:
-      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
-    argocd-image-updater:
-      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+  - https://argoproj.github.io/argo-helm
 ```
 
-A chart can override the repo-level URL:
+When charts come from multiple URLs, list all of them:
 
 ```yaml
 cloudnative-pg:
-  url: https://cloudnative-pg.github.io/charts
-  charts:
-    cloudnative-pg:
-      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
-    plugin-barman-cloud:
-      url: https://cloudnative-pg.io/charts
-      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+  - https://cloudnative-pg.github.io/charts
+  - https://cloudnative-pg.io/charts
 ```
 
 ### `data/oci-repos.yaml`
+
+OCI repos use a different format with explicit chart names and `regex` version filters.
 
 ```yaml
 forgejo:
@@ -139,7 +133,7 @@ Alternatively, just add the YAML entry and let the nightly CI workflow generate 
 | `bin/generate` | Full regeneration: wipes `charts/`, regenerates all repos from both YAML files, runs `generate-defaults`. |
 | `bin/generate-repo <repo> <http\|oci>` | Generates all chart `.nix` files for one repo into `charts/<repo>/`. |
 | `bin/generate-defaults` | Generates `default.nix` import files for each repo directory and the top-level `charts/default.nix`. |
-| `bin/helm-versions [filter]` | Reads `data/http-repos.yaml`, fetches each repo's `index.yaml`, outputs version/hash data. |
+| `bin/helm-versions [filter]` | Reads `data/http-repos.yaml`, fetches each URL's `index.yaml`, enumerates all charts and versions, outputs version/hash data. |
 | `bin/oci-versions [filter]` | Reads `data/oci-repos.yaml`, lists OCI tags via `crane ls`, outputs version data. |
 | `bin/hash-oci-version` | Reads version lines from stdin, computes SRI hashes from OCI manifests via `crane manifest`. |
 | `bin/mkchart` | Reads version/hash lines from stdin, outputs a Nix attribute set (the chart `.nix` file content). |
@@ -177,6 +171,6 @@ Dependabot is configured for weekly GitHub Actions dependency updates.
 - Chart `.nix` files in `charts/` are **generated** -- do not edit them by hand. Edit the YAML data files in `data/` and regenerate instead.
 - `default.nix` files are **auto-generated** by `bin/generate-defaults` -- never edit them manually.
 - Files must be git-tracked for Nix to see them.
-- The `regex` field in the data YAML files controls which version tags are included (typically stable-only patterns).
+- The `regex` field in `data/oci-repos.yaml` controls which OCI version tags are included (typically stable-only patterns). HTTP repos include all versions automatically.
 - SRI hashes are computed automatically from upstream digests (HTTP `index.yaml` or OCI manifests via `crane`) -- never write them by hand.
 - Charts are updated nightly via GitHub Actions.

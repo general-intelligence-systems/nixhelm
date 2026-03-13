@@ -118,10 +118,7 @@ Add an entry to `data/http-repos.yaml`:
 
 ```yaml
 my-repo:
-  url: https://my-repo.github.io/helm-charts
-  charts:
-    my-chart:
-      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+  - https://my-repo.github.io/helm-charts
 ```
 
 ### OCI registry
