@@ -1,0 +1,36 @@
+{
+  repo = "https://prometheus-community.github.io/helm-charts";
+  chart = "prometheus-windows-exporter";
+  latest = "0.12.3";
+  versions = {
+    "0.12.3" = "sha256-t6gllu6Z4Wi6sMSG40V9EOo8nRdC5QQ1cG05725bddc=";
+    "0.12.2" = "sha256-JnVICPPLgmSVe1fbbn0HEam9PbQChtItigqA/k2rbhs=";
+    "0.12.1" = "sha256-IPm1SjPAv0OcDWcA550IsaAR/UnpKwv7697tOVzlKcI=";
+    "0.12.0" = "sha256-Lk28pqQFH4UGepiSRsRn/Kzf2cEoAdHOG59DRTl8liM=";
+    "0.11.2" = "sha256-2PNZb4MwuBLbDng3F5NUaKXK+7bDBZnXN1gFSdNaUFE=";
+    "0.11.1" = "sha256-Xnrrr7KIUv2LLuyF6OjWMTrzni9gkIHDz+Unlvf74n8=";
+    "0.11.0" = "sha256-6EwAw1uUtSvdUh9Bd1I0g6iuhA30Sw5HsSofm0dgn9Y=";
+    "0.10.3" = "sha256-jRq9di2rsw2jRe0WggLKpW+SPc/YfE18Cy+avyNP9UA=";
+    "0.10.2" = "sha256-BQNlUag3RzsmIudIoBSYMdkwZTld539RxcPg0ra4fTo=";
+    "0.10.1" = "sha256-p6dIYgbwplSTil2tiCQQkbSB7Chhe3laN5H+/Za/5b0=";
+    "0.10.0" = "sha256-vIRqdUsPUSUWmGJ43ivTEzsI9h4usxveUf22zfFxz5U=";
+    "0.9.2" = "sha256-v9RhXE5p5jvYEQ3AtjcxqBOB7wsnKsJ7Oio96PBIVxg=";
+    "0.9.1" = "sha256-rQR5b/dQqQuR8P4jcKXYIRMiwadf7UmvsY4Ybcrph/U=";
+    "0.9.0" = "sha256-lBDdveXWwwGSLEPOtmhslmf0eKQ00EHtKtSYo5RxXq4=";
+    "0.8.1" = "sha256-LEaQ9pFzLWXLownIiKeOpLzdKLw3l3NbxgEDKxlqtWw=";
+    "0.8.0" = "sha256-BDnzh61zgmpAt/d7fRLbpYyEACHK+apbO+53NN6i7aA=";
+    "0.7.1" = "sha256-1QoF8YKDpvddl/mXh650elZGSNh/JUNeLvqG6UkrMuo=";
+    "0.7.0" = "sha256-Ie08Fx0d8TIeLkmzsK3nY3PMe/9jw84NkOtbwxqU3MY=";
+    "0.6.0" = "sha256-9ayqyFHXlwR0Ly/bAQfaIfaqy/QMZGJKlmsXku+pS9o=";
+    "0.5.2" = "sha256-Z4iwJclTOC4d3d4z9ZIiIVTQc10UihJmEaNakuN1O+0=";
+    "0.5.1" = "sha256-R/nqNnEtiiXWbv6G+6vvdLpBMV51aSAKlr5BmMlVIDw=";
+    "0.5.0" = "sha256-myR5GoPWPF3OHWtgRPvWc+xAKyRSEK/u8eUo1Sk/vdI=";
+    "0.4.0" = "sha256-5i7d8ztoG56lFhcrQWxS0m98qxKmrZ/JlASNQ/++dpM=";
+    "0.3.1" = "sha256-UGe5BzQihJpaqCg/oxcwvrhWRDhzpXi9gdhhZb0PJ/c=";
+    "0.3.0" = "sha256-e/9UhG8q/Y854DH2bKWp7bpVclUr4AKA3cpTFGb+hgM=";
+    "0.2.0" = "sha256-RBJZCJSRqH5pFWpHah2yPthQokdTJhdnH2GenJsONmw=";
+    "0.1.2" = "sha256-94wFJicbuebnpXsrlHOk3nQDazlKpWT0ixEk6XicWjk=";
+    "0.1.1" = "sha256-wAl4bicH3BVbQqO3iejERb3m/3l+fJ+2hKYYI0if1+k=";
+    "0.1.0" = "sha256-z8eABP79nGdffhz3QSfNbIv6gXitTmMSJCJl5rjrQFo=";
+  };
+}

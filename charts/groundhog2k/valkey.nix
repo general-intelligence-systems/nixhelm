@@ -1,0 +1,35 @@
+{
+  repo = "https://groundhog2k.github.io/helm-charts";
+  chart = "valkey";
+  latest = "2.2.5";
+  versions = {
+    "2.2.5" = "sha256-ZaauCd1gKoOwR7CW6Sfgyy+ilNRArSelyLGGT5ABDV4=";
+    "2.2.4" = "sha256-PUQofjkjQPMRhBkwyS6LU593rIPKcp7EF5LYhiVAezI=";
+    "2.2.3" = "sha256-0lPUR5u24+Zrs3XMF8HY57QxgoSfjZ+468e+1LSgvlk=";
+    "2.2.2" = "sha256-IvBuTIcnebcdKNyDUFHrzaEjvkl5wHF1d/jytk5ulE8=";
+    "2.2.1" = "sha256-7+9HgFWLMpvfXUdGvR/NRbD6lhEFKCfmgAb54MT7UqA=";
+    "2.2.0" = "sha256-frNc1JK5IM7sgq7AhrO7dECjQny1RU1oZSkZJ64P6UM=";
+    "2.1.8" = "sha256-Lwj8oyH3AEyKpi9vPxezGT1fc+TRj2+dJ3NcPdROHE4=";
+    "2.1.7" = "sha256-48v+kDjIT+oyKudf/hL2WtSFfXOvo16VZN5FTnJqGFQ=";
+    "2.1.6" = "sha256-JwmQKgyoaAozatyAjBFY3yak/HQR6kLhgK0O1i3d7AE=";
+    "2.1.5" = "sha256-OxD0h4FXOIEoN/pjMuyV+qaTTqiaEn9LgqtDwtxJxzs=";
+    "2.1.4" = "sha256-ADiAlLqn4fLz+pWj8JSSIfC1+S72Xzn7pHvaJ5Ysl/o=";
+    "2.1.3" = "sha256-f5SF9Yo1ZGlsAEn7RTE7H/DFlAEO/iLSKaaWDh0IO9g=";
+    "2.1.2" = "sha256-/QUSBCB3bpF09ZGgBLTCaG7Uj8jpj0s0/836zrcZzBE=";
+    "2.1.1" = "sha256-nV/aaFskD/W714NKDtZ5xwb1zFivPpTQgkKr/Wd6i9M=";
+    "2.1.0" = "sha256-mXoUGdnH17tn9FxzIjDdWIfri8/sXvhh3RHfihRe6R4=";
+    "2.0.4" = "sha256-JSVzNiwGeBeTR9HgXkElpJ3yTM3Ab2/9Z5t1ltJyP84=";
+    "2.0.3" = "sha256-ITsSOIZXb1XlajFlSdcjMO5rYyR8VeqEsBE6jAhSvxw=";
+    "2.0.2" = "sha256-rIwEov6iX1RSWTS7RiSkxwFl6uV1LAXJWE6JHvKE7fY=";
+    "2.0.1" = "sha256-YSU+Z1TfVICumbmdahfWWdQnCAKKTv3efAtRYT92G38=";
+    "2.0.0" = "sha256-dQvccrHdCKg/BzDJAhouw5C0IWAUIL3jzI3ISC8MHic=";
+    "1.0.7" = "sha256-jVChRjQFELhmht1wtBUl3vdu9oSStaIqu83v6ctbO2U=";
+    "1.0.6" = "sha256-45GX7ba1Hul+S5tuoAJpxp7q+wPsc4OKRwtMHMrCwwI=";
+    "1.0.5" = "sha256-FwQ+Gi54UH945cDcewU4U+sUbU51cKcNJl7kEA/N600=";
+    "1.0.4" = "sha256-fO9+aK+HwnTljOuxys94lw4Ybg1SKQb6B53Q9QVXmD4=";
+    "1.0.3" = "sha256-R2n25eFosqIAjh/YLsF8+omSuT42EAq6ZYgG9487j7g=";
+    "1.0.2" = "sha256-jeotJGL0lHep6GUwJ/fSOUzm9JUSxHWX8cuF+1bVOkA=";
+    "1.0.1" = "sha256-jPug3tWn6SOcO+WT2rdEztXb/a8ldZFWzOrPasoKH6Y=";
+    "1.0.0" = "sha256-0hBw/YVuQVEwu3QVtYDAbflzlgdkhT/BfKWCNGtoLck=";
+  };
+}
