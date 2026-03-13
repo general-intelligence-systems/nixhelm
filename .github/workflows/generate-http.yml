@@ -11,13 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Install yq
-        uses: mikefarah/yq@master
-
       - name: Build matrix
         id: matrix
         run: |
-          repos=$(yq -o=json 'keys' data/http-repos.yaml | jq -c '.')
+          repos=$(python3 -c "
+          import yaml, json
+          with open('data/http-repos.yaml') as f:
+              data = yaml.safe_load(f)
+          print(json.dumps(list(data.keys())))
+          ")
           echo "repos=$repos" >> $GITHUB_OUTPUT
 
   generate:
@@ -25,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repo: ${{ fromJSON(needs.setup.outputs.repos) }}
+        repo: ${{ fromJSON(needs.setup.outputs.matrix) }}
       fail-fast: false
     steps:
       - uses: actions/checkout@v6
