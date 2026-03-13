@@ -14,6 +14,7 @@ jobs:
 
   collect:
     needs: [http, oci]
+    if: always()
     runs-on: ubuntu-latest
     permissions:
       contents: write
