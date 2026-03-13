@@ -20,5 +20,6 @@ all_versions=$(printf '%s\n%s\n' "$existing" "$new_hashed" | grep . | sort -k3 -
 
 # Write chart files
 echo "$all_versions" | awk '{print $2}' | sort -u | while read -r chart; do
-  echo "$all_versions" | grep "^$repo $chart " | bin/mkchart > "charts/${chart}.nix"
+  mkdir -p "charts/${repo}"
+  echo "$all_versions" | grep "^$repo $chart " | bin/mkchart > "charts/${repo}/${chart}.nix"
 done
