@@ -1,5 +1,11 @@
-{
-  "argocd-image-updater" = import ./argocd-image-updater.nix;
-  "argo-cd" = import ./argo-cd.nix;
-  "argo-workflows" = import ./argo-workflows.nix;
-}
+let
+  entries = builtins.readDir ./.;
+  nixFiles = builtins.filter (
+    name: name != "default.nix" && builtins.match ".*\\.nix" name != null
+  ) (builtins.attrNames entries);
+  toChart = name: {
+    name = builtins.replaceStrings [ ".nix" ] [ "" ] name;
+    value = import (./. + "/${name}");
+  };
+in
+builtins.listToAttrs (map toChart nixFiles)

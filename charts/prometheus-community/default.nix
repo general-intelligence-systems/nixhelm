@@ -1,6 +1,11 @@
-{
-  "kube-prometheus-stack" = import ./kube-prometheus-stack.nix;
-  "prometheus-blackbox-exporter" = import ./prometheus-blackbox-exporter.nix;
-  "prometheus" = import ./prometheus.nix;
-  "prometheus-operator-crds" = import ./prometheus-operator-crds.nix;
-}
+let
+  entries = builtins.readDir ./.;
+  nixFiles = builtins.filter (
+    name: name != "default.nix" && builtins.match ".*\\.nix" name != null
+  ) (builtins.attrNames entries);
+  toChart = name: {
+    name = builtins.replaceStrings [ ".nix" ] [ "" ] name;
+    value = import (./. + "/${name}");
+  };
+in
+builtins.listToAttrs (map toChart nixFiles)

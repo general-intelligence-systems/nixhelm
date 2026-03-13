@@ -1,32 +1,22 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Generate default.nix for each repo directory.
+# Stamp the dynamic default.nix into each repo directory.
+# These files use builtins.readDir to auto-discover chart .nix files,
+# so the content is identical for every repo.
 for dir in charts/*/; do
   [[ -d "$dir" ]] || continue
-  name=$(basename "$dir")
-  imports=""
-  for f in "$dir"/*.nix; do
-    [[ $(basename "$f") == "default.nix" ]] && continue
-    chart=$(basename "$f" .nix)
-    imports+="  \"$chart\" = import ./$chart.nix;"$'\n'
-  done
-  cat > "$dir/default.nix" <<EOF
-{
-$imports}
+  cat > "$dir/default.nix" <<'EOF'
+let
+  entries = builtins.readDir ./.;
+  nixFiles = builtins.filter (
+    name: name != "default.nix" && builtins.match ".*\\.nix" name != null
+  ) (builtins.attrNames entries);
+  toChart = name: {
+    name = builtins.replaceStrings [ ".nix" ] [ "" ] name;
+    value = import (./. + "/${name}");
+  };
+in
+builtins.listToAttrs (map toChart nixFiles)
 EOF
-
 done
-
-# Generate top-level charts/default.nix
-imports=""
-for dir in charts/*/; do
-  [[ -d "$dir" ]] || continue
-  name=$(basename "$dir")
-  imports+="  \"$name\" = import ./$name;"$'\n'
-done
-cat > charts/default.nix <<EOF
-{
-$imports}
-EOF
-
