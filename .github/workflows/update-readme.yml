@@ -2,6 +2,10 @@ name: update-readme
 
 on:
   workflow_call: {}
+  workflow_dispatch: {}
+  push:
+    branches: [trench]
+    paths: ['README*']
 
 jobs:
   update-readme:
@@ -11,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          ref: main
+          ref: trench
 
       - uses: fregante/setup-git-user@v2
 
