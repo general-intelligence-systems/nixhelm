@@ -45,6 +45,7 @@
   "karakeep-app" = import ./karakeep-app;
   "kiali" = import ./kiali;
   "koenkk" = import ./koenkk;
+  "kubecost" = import ./kubecost;
   "kubernetes-csi" = import ./kubernetes-csi;
   "kubernetes-dashboard" = import ./kubernetes-dashboard;
   "kubernetes-ingress-nginx" = import ./kubernetes-ingress-nginx;
