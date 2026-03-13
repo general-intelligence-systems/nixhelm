@@ -45,6 +45,13 @@
       {
         charts = mapCharts;
 
+        packages.ci-image = pkgs.dockerTools.buildLayeredImage (import ./image.nix {
+          inherit pkgs;
+          inherit (pkgs) lib;
+          org = "general-intelligence-systems";
+          registry = "ghcr.io/general-intelligence-systems";
+        });
+
         formatter = pkgs.nixfmt-tree;
 
         devShell = pkgs.mkShell {
