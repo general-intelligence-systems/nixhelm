@@ -1,0 +1,3 @@
+{
+  "authelia" = import ./authelia.nix;
+}

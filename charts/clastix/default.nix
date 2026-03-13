@@ -1,0 +1,3 @@
+{
+  "kamaji" = import ./kamaji.nix;
+}

@@ -1,0 +1,3 @@
+{
+  "redpanda" = import ./redpanda.nix;
+}

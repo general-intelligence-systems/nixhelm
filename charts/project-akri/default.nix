@@ -1,0 +1,3 @@
+{
+  "akri" = import ./akri.nix;
+}

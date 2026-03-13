@@ -1,0 +1,3 @@
+{
+  "traefik" = import ./traefik.nix;
+}

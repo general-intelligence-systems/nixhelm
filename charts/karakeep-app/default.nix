@@ -1,0 +1,3 @@
+{
+  "karakeep" = import ./karakeep.nix;
+}

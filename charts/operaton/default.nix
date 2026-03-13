@@ -1,0 +1,3 @@
+{
+  "operaton" = import ./operaton.nix;
+}

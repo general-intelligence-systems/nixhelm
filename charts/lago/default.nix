@@ -1,0 +1,3 @@
+{
+  "lago" = import ./lago.nix;
+}

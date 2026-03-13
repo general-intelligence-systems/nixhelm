@@ -1,0 +1,3 @@
+{
+  "kyverno" = import ./kyverno.nix;
+}

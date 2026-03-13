@@ -1,0 +1,3 @@
+{
+  "harbor" = import ./harbor.nix;
+}

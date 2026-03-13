@@ -1,0 +1,3 @@
+{
+  "nextcloud" = import ./nextcloud.nix;
+}

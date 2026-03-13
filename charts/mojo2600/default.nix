@@ -1,0 +1,3 @@
+{
+  "pihole" = import ./pihole.nix;
+}

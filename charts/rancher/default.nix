@@ -1,0 +1,3 @@
+{
+  "rancher" = import ./rancher.nix;
+}

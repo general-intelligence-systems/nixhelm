@@ -1,0 +1,3 @@
+{
+  "redis" = import ./redis.nix;
+}

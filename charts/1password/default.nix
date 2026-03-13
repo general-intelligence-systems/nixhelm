@@ -1,0 +1,3 @@
+{
+  "connect" = import ./connect.nix;
+}

@@ -1,0 +1,3 @@
+{
+  "vikunja" = import ./vikunja.nix;
+}

@@ -1,0 +1,3 @@
+{
+  "bytestash" = import ./bytestash.nix;
+}

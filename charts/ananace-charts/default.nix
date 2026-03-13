@@ -1,0 +1,3 @@
+{
+  "lemmy" = import ./lemmy.nix;
+}
