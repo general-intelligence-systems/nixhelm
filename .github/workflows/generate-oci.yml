@@ -36,8 +36,8 @@ jobs:
 
       - uses: DeterminateSystems/magic-nix-cache-action@v2
 
-      - name: Generate charts
-        run: nix develop --command bash bin/generate-repo "${{ matrix.repo }}" oci
+      - name: Update charts
+        run: nix develop --command bash bin/generate-oci-repo "${{ matrix.repo }}"
 
       - uses: actions/upload-artifact@v4
         with:

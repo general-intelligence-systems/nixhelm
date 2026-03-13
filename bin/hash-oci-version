@@ -2,7 +2,6 @@
 set -euo pipefail
 
 read -r name chart version registry
-echo "  hash-oci-version: $registry/$chart:$version" >&2
 
 hex=$(crane manifest "$registry/$chart:$version" | jq -r '.layers[0].digest' | cut -d: -f2)
 hash=$(echo "$hex" | xxd -r -p | base64 | tr -d '\n')

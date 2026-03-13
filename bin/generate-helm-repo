@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo="$1"
+
+versions=$(bin/helm-versions "$repo")
+
+mkdir -p "charts/$repo"
+
+echo "$versions" | awk '{print $2}' | sort -u | while read -r chart; do
+  echo "$versions" | grep "^$repo $chart " | bin/mkchart > "charts/$repo/$chart.nix"
+done

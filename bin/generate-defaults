@@ -15,7 +15,7 @@ for dir in charts/*/; do
 {
 $imports}
 EOF
-  echo "  $dir/default.nix" >&2
+
 done
 
 # Generate top-level charts/default.nix
@@ -29,6 +29,4 @@ cat > charts/default.nix <<EOF
 {
 $imports}
 EOF
-echo "  charts/default.nix" >&2
 
-echo "Done generating default.nix files." >&2

@@ -4,17 +4,12 @@ set -euo pipefail
 rm -rf charts
 mkdir -p charts
 
-echo "Generating HTTP charts..." >&2
 for repo in $(yq -r 'keys | .[]' data/http-repos.yaml); do
-  bin/generate-repo "$repo" http
+  bin/generate-helm-repo "$repo"
 done
 
-echo "Generating OCI charts..." >&2
 for repo in $(yq -r 'keys | .[]' data/oci-repos.yaml); do
-  bin/generate-repo "$repo" oci
+  bin/generate-oci-repo "$repo"
 done
 
-echo "Generating default.nix files..." >&2
 bin/generate-defaults
-
-echo "Done." >&2

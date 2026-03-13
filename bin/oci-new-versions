@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+filter="${1:-}"
+
+known=$(bin/oci-hashes $filter | awk '{print $1" "$2" "$3}')
+
+bin/oci-versions $filter | awk -v known="$known" '
+BEGIN {
+  n = split(known, lines, "\n")
+  for (i = 1; i <= n; i++) seen[lines[i]] = 1
+}
+{
+  key = $1" "$2" "$3
+  if (!(key in seen)) print
+}
+'

@@ -17,12 +17,8 @@ fi
 
 total=$(echo "$entries" | grep -c . || true)
 [[ "$total" -eq 0 ]] && exit 0
-i=0
-
 echo "$entries" |
 while IFS=$'\t' read -r name chart url regex; do
-  i=$((i + 1))
-  echo "  helm-versions: [$i/$total] $name/$chart" >&2
   curl -sL "$url/index.yaml" | yq -o=json ".entries.\"$chart\"" |
   jq -r '.[] | "\(.version)\t\(.digest)"' |
   while IFS=$'\t' read -r version hex; do
