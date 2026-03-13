@@ -15,5 +15,8 @@
     unixtools.xxd
     git
     cacert
+    nodejs
+    python3
+    ruby
   ];
 }
