@@ -25,16 +25,13 @@ jobs:
   generate:
     needs: setup
     runs-on: ubuntu-latest
+    container: ghcr.io/general-intelligence-systems/nix-for-github-actions:latest
     strategy:
       matrix:
         repo: ${{ fromJSON(needs.setup.outputs.matrix) }}
       fail-fast: false
     steps:
       - uses: actions/checkout@v6
-
-      - uses: DeterminateSystems/determinate-nix-action@v3
-
-      - uses: DeterminateSystems/magic-nix-cache-action@v2
 
       - name: Generate charts
         run: nix develop --command bash bin/generate-helm-repo "${{ matrix.repo }}"
