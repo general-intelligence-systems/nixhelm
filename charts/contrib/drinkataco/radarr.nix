@@ -1,0 +1,32 @@
+{
+  repo = "https://media-servarr.shw.al/charts";
+  chart = "radarr";
+  latest = "1.2.0";
+  versions = {
+    "1.2.0" = "sha256-7/B7+N8ujko+rSHRVc6phx97JOnDfSzsey+sD60bKPE=";
+    "1.1.0" = "sha256-KEqtoAF7G8jCztkDSDCu/f56CajBqkH3eQ/K2Z58qUo=";
+    "1.0.0" = "sha256-H6B1m+oyMp8lzKsvY3XTXOau6s+PPqAxLryIQtxCBbQ=";
+    "0.20.0" = "sha256-3eC/iw19XIylrEhFqONtaEQUj9gjYsnQSQE+MmZ5pqk=";
+    "0.19.0" = "sha256-rcKnAxGhsEP2Vn53F2S5LCXyPF57LQjepcrJsfheKg4=";
+    "0.18.0" = "sha256-RFAwXbz2JWiNnYnQ+BVYFbP08mEseReBosOu6yzWB/k=";
+    "0.17.1" = "sha256-6kxf7ocnusqSBUkk5k4vlrNnoz5pPKitG+GmOCEMglc=";
+    "0.17.0" = "sha256-MaS43OlvNhH6xZWfZ0cJYYrScES1NgyDkTbZm8ytBH0=";
+    "0.16.1" = "sha256-A+4GiP29dm2850qKOyLKAU/ZlY5w+fON9f84a9yqz/o=";
+    "0.16.0" = "sha256-8r8SAAvWnrwOqnJ+4z7w5lot1vppEq7DA0TL+lsMTGg=";
+    "0.8.0" = "sha256-aOiyeL+NXmkTa80dAagDpqakK3dNXyL3oXi5Lk75HGE=";
+    "0.7.0" = "sha256-2kWhZDHSvQKBX/251rB9fcSzI2IcIozeWpOMD+/5zYc=";
+    "0.6.0" = "sha256-Cj/sQovSWsz3oPV9NDTpgl1QwvGCesB46X1vHujzW9A=";
+    "0.5.3" = "sha256-VynAtoqMsD+VRBg/AqoCJZRyH2cibHWvpw1NSionAjY=";
+    "0.5.1" = "sha256-k9tsLIpnkA1xM5mDvBmMaagunzfdUqWiABQkdgcpVbw=";
+    "0.5.0" = "sha256-egcweQJmFsxje1L6A1jn+e/i95OCEP8prl9L4+W/j2g=";
+    "0.4.0" = "sha256-/F+y3xqDVXL5cwEMPyqTkPunGfcnXhWbUHRBlHSDOSA=";
+    "0.3.1" = "sha256-zvVwtf60yyhc4+j1ldQNI/4mBLhyXDmiiFrvsXxwagc=";
+    "0.3.0" = "sha256-MLF6Ew9b00Bap46K9XnaGaTRa0CRYsETDp4vqdYvUYw=";
+    "0.2.3" = "sha256-IPTZBmkrSr+bSYT8S0sS6hD4PVzHjOMoDQXYD5slIfA=";
+    "0.2.2" = "sha256-X9qqDRvJnBfBKSZ/ngmSmd7q0m/Twx9T+ST34bX71zs=";
+    "0.2.1" = "sha256-y35uAIEjun/8zAekOmNtU1l51RqOGRp/8SCrs2vqVC4=";
+    "0.2.0" = "sha256-XyOoqOvXaouyokgkP1pb2z2jKyoYU0bUOehgYfgiMxI=";
+    "0.1.1" = "sha256-s755QrwdryfO9alQqgvN9TzWmOAl2LfM7NsoZcS6YqI=";
+    "0.1.0" = "sha256-e/YKub+1G7UkQW2JAtksubIDki3rWCUWQje9gmbxefo=";
+  };
+}

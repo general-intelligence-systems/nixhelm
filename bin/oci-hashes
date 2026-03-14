@@ -20,7 +20,8 @@ total=$(echo "$entries" | grep -c . || true)
 
 echo "$entries" |
 while IFS=$'\t' read -r name chart registry; do
-  nix eval --json --file "charts/${name}/${chart}.nix" versions |
+  category=$(bin/chart-category "$name")
+  nix eval --json --file "charts/${category}/${name}/${chart}.nix" versions |
     jq -r --arg name "$name" --arg chart "$chart" --arg registry "oci://$registry" \
       'to_entries[] | "\($name) \($chart) \(.key) \($registry) \(.value)"'
 done

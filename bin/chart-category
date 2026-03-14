@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Returns "stable" or "contrib" for a given repo name
+repo="$1"
+if yq -e ".[] | select(. == \"$repo\")" data/stable.yaml &>/dev/null; then
+  echo "stable"
+else
+  echo "contrib"
+fi

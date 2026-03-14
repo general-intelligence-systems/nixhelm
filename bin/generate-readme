@@ -4,7 +4,7 @@ require 'ostruct'
 
 vars = {
   chart_count: `bin/chart-count`.strip.to_i,
-  repo_count: Dir.glob('charts/*/').count,
+  repo_count: Dir.glob('charts/{stable,contrib}/*/').count,
 }
 
 template = ERB.new(File.read('README.md.erb'))

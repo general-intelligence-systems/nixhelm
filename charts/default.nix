@@ -1,5 +1,5 @@
 let
-  entries = builtins.readDir ./.;
-  dirs = builtins.filter (name: entries.${name} == "directory") (builtins.attrNames entries);
+  stable = import ./stable;
+  contrib = import ./contrib;
 in
-builtins.listToAttrs (map (name: { inherit name; value = import (./. + "/${name}"); }) dirs)
+stable // { inherit stable contrib; }

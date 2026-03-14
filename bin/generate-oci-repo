@@ -2,6 +2,7 @@
 set -euo pipefail
 
 repo="$1"
+category=$(bin/chart-category "$repo")
 
 # Get only new versions that don't already have hashes
 new_lines=$(bin/oci-new-versions "$repo")
@@ -20,6 +21,6 @@ all_versions=$(printf '%s\n%s\n' "$existing" "$new_hashed" | grep . | sort -k3 -
 
 # Write chart files
 echo "$all_versions" | awk '{print $2}' | sort -u | while read -r chart; do
-  mkdir -p "charts/${repo}"
-  echo "$all_versions" | grep "^$repo $chart " | bin/mkchart > "charts/${repo}/${chart}.nix"
+  mkdir -p "charts/${category}/${repo}"
+  echo "$all_versions" | grep "^$repo $chart " | bin/mkchart > "charts/${category}/${repo}/${chart}.nix"
 done

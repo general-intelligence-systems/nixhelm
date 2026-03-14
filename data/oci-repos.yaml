@@ -48,6 +48,38 @@ kalbasit:
     ncps:
       regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
 
+kserve:
+  registry: ghcr.io/kserve/charts
+  charts:
+    kserve:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    kserve-crd:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    kserve-crd-minimal:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    kserve-resources:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    kserve-runtime-configs:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    kserve-llmisvc-crd:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    kserve-llmisvc-crd-minimal:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    kserve-llmisvc-resources:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    kserve-localmodel-crd:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    kserve-localmodel-crd-minimal:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    kserve-localmodel-resources:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    llmisvc-crd:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    llmisvc-crd-minimal:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+    llmisvc-resources:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+
 librechat:
   registry: ghcr.io/danny-avila/librechat-chart
   charts:

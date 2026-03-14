@@ -4,7 +4,7 @@ set -euo pipefail
 # Stamp the dynamic default.nix into each repo directory.
 # These files use builtins.readDir to auto-discover chart .nix files,
 # so the content is identical for every repo.
-for dir in charts/*/; do
+for dir in charts/{stable,contrib}/*/; do
   [[ -d "$dir" ]] || continue
   cat > "$dir/default.nix" <<'EOF'
 let
@@ -20,3 +20,27 @@ in
 builtins.listToAttrs (map toChart nixFiles)
 EOF
 done
+
+# Generate default.nix for each category directory (stable/, contrib/).
+# These import all repo subdirectories within the category.
+for dir in charts/stable charts/contrib; do
+  [[ -d "$dir" ]] || continue
+  cat > "$dir/default.nix" <<'EOF'
+let
+  entries = builtins.readDir ./.;
+  dirs = builtins.filter (name: entries.${name} == "directory") (builtins.attrNames entries);
+in
+builtins.listToAttrs (map (name: { inherit name; value = import (./. + "/${name}"); }) dirs)
+EOF
+done
+
+# Generate top-level charts/default.nix.
+# Merges stable repos to the top level for backward compatibility,
+# and exposes stable/contrib as explicit attributes.
+cat > charts/default.nix <<'EOF'
+let
+  stable = import ./stable;
+  contrib = import ./contrib;
+in
+stable // { inherit stable contrib; }
+EOF
