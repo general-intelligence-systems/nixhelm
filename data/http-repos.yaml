@@ -20,7 +20,7 @@ authentik:
   - https://charts.goauthentik.io
 
 bitnami:
-  - https://charts.bitnami.com/bitnami
+  - https://general-intelligence-systems.github.io/bitnami-charts
 
 bjw-s-labs:
   - https://bjw-s-labs.github.io/helm-charts
