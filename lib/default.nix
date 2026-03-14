@@ -1,5 +1,5 @@
 { pkgs }:
-{
+rec {
   fetchChart =
     {
       repo,
@@ -77,4 +77,24 @@
           >> $out
       '';
     };
+
+  # ── fromYAML ──────────────────────────────────────────────────────────
+  # Parse a multi-document YAML string into a list of Nix attrsets.
+  fromYAML = yaml: pkgs.lib.pipe yaml [
+    (yaml: (pkgs.stdenv.mkDerivation {
+      inherit yaml;
+      passAsFile = "yaml";
+      name = "fromYAML";
+      phases = [ "buildPhase" ];
+      buildPhase = "${pkgs.yq}/bin/yq -Ms . $yamlPath > $out";
+    }))
+    builtins.readFile
+    builtins.fromJSON
+    (builtins.filter (v: v != null))
+  ];
+
+  # ── fromHelm ──────────────────────────────────────────────────────────
+  # Render a helm chart and parse the output into a list of Nix attrsets.
+  # Accepts the same arguments as applyValues.
+  fromHelm = args: pkgs.lib.pipe args [ applyValues builtins.readFile fromYAML ];
 }
