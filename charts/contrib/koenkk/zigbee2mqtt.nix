@@ -31,3 +31,6 @@
     "1.37.1" = "sha256-DYmU4GsF2hbCvaSoyK6mbDFnUuhDuMtapL/tOZj6wgA=";
   };
 }
+   "1.37.1" = "sha256-DYmU4GsF2hbCvaSoyK6mbDFnUuhDuMtapL/tOZj6wgA=";
+  };
+}
