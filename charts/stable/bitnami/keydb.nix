@@ -1,42 +1,9 @@
 {
-  repo = "https://charts.bitnami.com/bitnami";
+  repo = "https://general-intelligence-systems.github.io/bitnami-charts";
   chart = "keydb";
-  latest = "0.5.22";
+  latest = "0.5.23";
   versions = {
-    "0.5.22" = "sha256-thNxRnnAyL4kt2Ch6xGQcO2r8u3+WSQRpRBnHlDCE1c=";
-    "0.5.21" = "sha256-GlOwx81f7hj1UP7OWIcIGRbb63uUUB1R6of8KqCJ1a0=";
-    "0.5.20" = "sha256-su+DbATcQe6KLUEfdJRb883TxXMul5ww01t+inEU3n8=";
-    "0.5.19" = "sha256-zNA6kjSKuSey4nGCdmi1t3rXED+Wlnp0bFsUkfSGfM0=";
-    "0.5.17" = "sha256-sqF5BSCSz5+vsUCGwYkBh0BNIYbcBcHfwlmqy3McyYo=";
-    "0.5.16" = "sha256-90OH4i3RyK1iytunkIe16FoDPsuU2NplUD6CNvlTWCQ=";
-    "0.5.15" = "sha256-bOJFqS6Z+1EG0O1JPnAKJKQQgl/ffWxxUfv0nKTSAwg=";
-    "0.5.14" = "sha256-pZHtoNtVl1DdZ0Qhr7hhfJSwrOp6wqP2NOheggTCFcU=";
-    "0.5.13" = "sha256-SWLGPqSxlQ+W9e0eYspzTYZsf84YjsrDYRhmvRvHhrg=";
-    "0.5.12" = "sha256-hy1PQUqhtcmJo0GG5LepjS6XXcBEjhhHvsHFe6vIb+s=";
-    "0.5.11" = "sha256-ToBPw3Y87aAcpKBl/ekZkT74v95Hi2Vlt8NMwmQHaa8=";
-    "0.5.10" = "sha256-4Z5wUkphsO/OeT8BmM1H9eZGXViKZ1rkEjCmK+dFer0=";
-    "0.5.9" = "sha256-kQ0QlWWvOq9fo7yV/E4y5+4EE9/luRbZjtTBUP1B/Dw=";
-    "0.5.8" = "sha256-+umuFnaupOK4yf5pUoa1PDXQMns1fHyKT8c1I79pSfo=";
-    "0.5.7" = "sha256-oH7+MXj5xdz2syuZnhM1g6TnnmTAsATElSMePT8oWf8=";
-    "0.5.6" = "sha256-BqJwEEg+V2+rb7HhoL8NUdXiy4JuES17LMci1agAsB4=";
-    "0.5.5" = "sha256-3MttDQtCZql1ftj66rAqw8u/+uxsYV7vZ1IkyzD6NmU=";
-    "0.5.4" = "sha256-/RBnGGYGl/9iybvRz8i8UFUQTI5k2feIt3e/DsliQ7g=";
-    "0.5.3" = "sha256-rNx+n/X92XUtXsmAzhPnA4jjwrQI4txDgIba18+oKd4=";
-    "0.5.2" = "sha256-ASCgAKdPyUllDx+kwMQYI7bbe9LjC64dfBIn+sGMXFM=";
-    "0.5.1" = "sha256-PHKtSicoSCX7yKwSw8XYa6HzRLTf+Csezq2epK6TGWg=";
-    "0.5.0" = "sha256-wVR2DH6cbO3tMPvTHTNHZUtMht49DKyxvXuv/dkHVJc=";
-    "0.4.0" = "sha256-gV4DAYZDQ4hI3Wbufdwn9X8oQxL5Fs598kRw/XSfW1Y=";
-    "0.3.3" = "sha256-KBToecx6UnMCVEJndqHu8MJJmbMSob7JDZ+QI5xLFjY=";
-    "0.3.2" = "sha256-jLupOp1mB67Ah23XNVRLy2d0rI3f4eTbaYIJV8N3Sdo=";
-    "0.3.1" = "sha256-cSoNIx32jmamAKAWfF6WVaEXncVi5Lyr0XEY3vQvSGg=";
-    "0.3.0" = "sha256-BmUzE1XjteN8D7aKC0ZD///Bbzqwu4YpUoFeu+5y27M=";
-    "0.2.0" = "sha256-3Gm9/D/hJFd+CW04Eok2bC2PH6wv+ceYFl4wQcQb9dQ=";
-    "0.1.6" = "sha256-BerYXUrrtTrAJyFnlidnKGVh5nT9WCRR6iPABcYjAqY=";
-    "0.1.5" = "sha256-KD7bVMB4X7/5UtVPUidZPM1ZVehV9scLTZiGdMSKHZI=";
-    "0.1.4" = "sha256-AprIB1k5U2Ps5/05XgXeEv2kfwmt6g/8GpOhJO1/RLc=";
-    "0.1.3" = "sha256-dABIBlb420ptzKxPj4vax9AseMwhtUSlW0IYTxgDCtg=";
-    "0.1.2" = "sha256-zQHoVbGEHN3RxIlcX/WeFpi/iXvKOzmwNR65Gc4Hsdw=";
-    "0.1.1" = "sha256-Psh5UclgduwiPQfOO+EjMvIOV/Yx+VgdIM6bVmA96rw=";
-    "0.1.0" = "sha256-BATDqsB4Cr1PuBhuB7VnjHy6rjP5VZfrlQz2kETcFws=";
+    "0.5.23" = "sha256-N9xedhv00i+RTYadX22kqdsHKj2Aosu320hHjJKF+k4=";
+    "0.5.22" = "sha256-Z9MPqzfEYAa9dVGy/J0LAmzuhNgQLi0DgkoOUptp/Fg=";
   };
 }
