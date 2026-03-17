@@ -1,7 +1,7 @@
 1password:
   - https://1password.github.io/connect-helm-charts
 
-supabase
+supabase:
   - https://supabase-community.github.io/supabase-kubernetes
 
 ananace-charts:
