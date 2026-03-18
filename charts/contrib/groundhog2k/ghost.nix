@@ -442,3 +442,6 @@
     "0.1.0" = "sha256-bXqy4tifCeGVqAoYy3XNoj3VtH31pj9g/y6D+CocALo=";
   };
 }
+0.1.0" = "sha256-bXqy4tifCeGVqAoYy3XNoj3VtH31pj9g/y6D+CocALo=";
+  };
+}

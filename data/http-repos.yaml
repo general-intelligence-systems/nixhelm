@@ -7,6 +7,9 @@ vmware-tanzu
 chatwoot:
  - https://chatwoot.github.io/charts
 
+perses:
+  - https://perses.github.io/helm-charts
+  
 supabase:
   - https://supabase-community.github.io/supabase-kubernetes
 
