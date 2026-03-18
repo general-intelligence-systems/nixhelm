@@ -16,3 +16,6 @@
     "1.9.0" = "sha256-nRrmiwZf5G3/uItM56zIY3wrfE3j2Gb2i9jeyPXviCk=";
   };
 }
+9.0" = "sha256-nRrmiwZf5G3/uItM56zIY3wrfE3j2Gb2i9jeyPXviCk=";
+  };
+}
