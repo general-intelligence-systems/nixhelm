@@ -1,6 +1,12 @@
 1password:
   - https://1password.github.io/connect-helm-charts
 
+vmware-tanzu
+  - https://vmware-tanzu.github.io/helm-charts
+
+chatwoot:
+ - https://chatwoot.github.io/charts
+
 supabase:
   - https://supabase-community.github.io/supabase-kubernetes
 
