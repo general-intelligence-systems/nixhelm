@@ -26,3 +26,6 @@
     "0.1.0" = "sha256-D+xTEWO/3J61WRNjUrahMyHCQmxHKqwjBrapnxWEBiY=";
   };
 }
+.1.0" = "sha256-D+xTEWO/3J61WRNjUrahMyHCQmxHKqwjBrapnxWEBiY=";
+  };
+}

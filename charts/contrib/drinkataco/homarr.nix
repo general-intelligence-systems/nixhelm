@@ -53,3 +53,6 @@
     "0.1.0" = "sha256-aV4bx9lS8sNgB6x3xuXZ2IWVh9A2bLq7c+X1dhM6ec0=";
   };
 }
+.1.0" = "sha256-aV4bx9lS8sNgB6x3xuXZ2IWVh9A2bLq7c+X1dhM6ec0=";
+  };
+}
