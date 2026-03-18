@@ -1,7 +1,7 @@
 1password:
   - https://1password.github.io/connect-helm-charts
 
-vmware-tanzu
+vmware-tanzu:
   - https://vmware-tanzu.github.io/helm-charts
 
 chatwoot:
