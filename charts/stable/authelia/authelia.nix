@@ -232,13 +232,4 @@
     "0.1.0" = "sha256-q85HssthahaLhf+wzJhuUZarU21vERQdE3QlKcHXarY=";
   };
 }
-mWtmCR5ETxN2p+hgx8dAuJyA3lsWkEQ=";
-    "0.1.6" = "sha256-32u1iu0rah+HsrYevSNUHMixMf8+NzscCYK8aPgll58=";
-    "0.1.5" = "sha256-EtcyDVS9LQtH50b/SKReJ/WdoO3wB7krKmFbEZsxA3k=";
-    "0.1.4" = "sha256-OuIRmOpFHrxDvaIafZzZneG5OVHTrKj5xUE7NNGlPMo=";
-    "0.1.3" = "sha256-HyoE6xcYNeYLB5mJ4xwegQ1pPpVr2dhCy4h8fgLbr8o=";
-    "0.1.2" = "sha256-uUOu82JyzuNmoHMBurkD9YmTs/MxA9YhUZoJRcFizMw=";
-    "0.1.1" = "sha256-N1w1ueqKDL9oiRiJSG69XWFr0Gdu4vT+Y/e8Wyj0flk=";
-    "0.1.0" = "sha256-q85HssthahaLhf+wzJhuUZarU21vERQdE3QlKcHXarY=";
-  };
-}
+
