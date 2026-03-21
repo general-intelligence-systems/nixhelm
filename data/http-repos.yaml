@@ -1,6 +1,9 @@
 1password:
   - https://1password.github.io/connect-helm-charts
-
+  
+bugsink:
+  - https://bugsink.github.io/helm-charts
+  
 cyclika94:
   - https://cyclikal94.github.io/matrix-helm-charts
 
