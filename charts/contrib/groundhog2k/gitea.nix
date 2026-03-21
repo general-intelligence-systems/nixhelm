@@ -174,3 +174,6 @@
     "0.1.0" = "sha256-/SVWZz0avkajHSfv/v9SRHF/jzktF+RhXA8xFUd+m64=";
   };
 }
+.1.0" = "sha256-/SVWZz0avkajHSfv/v9SRHF/jzktF+RhXA8xFUd+m64=";
+  };
+}
