@@ -252,3 +252,8 @@
     "0.1.0" = "sha256-sdD1Y5tMIcDtSVTUniE/CrqEakTeTI6OhwGDuZFvZjM=";
   };
 }
+1.2" = "sha256-7s6c4D7QTY8AGTYs7YHsjlXSydORXA/e8AKRbxnQgg8=";
+    "0.1.1" = "sha256-HZDywV/eBgvQzDC5i7QoJM8w7xEZT/QXr5HHlkqwg8Q=";
+    "0.1.0" = "sha256-sdD1Y5tMIcDtSVTUniE/CrqEakTeTI6OhwGDuZFvZjM=";
+  };
+}
