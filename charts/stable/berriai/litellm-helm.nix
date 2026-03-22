@@ -843,6 +843,3 @@
     "0.1.1" = "sha256-9c/DyrHTCPu/40ZJUJlcXHKv/R1dLtBrUoY6dxnQnXI=";
   };
 }
-1.1" = "sha256-9c/DyrHTCPu/40ZJUJlcXHKv/R1dLtBrUoY6dxnQnXI=";
-  };
-}

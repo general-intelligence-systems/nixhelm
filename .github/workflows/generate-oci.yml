@@ -36,7 +36,18 @@ jobs:
       - name: Update charts
         run: nix develop --command bash bin/generate-oci-repo "${{ matrix.repo }}"
 
+      - name: Isolate repo charts for upload
+        run: |
+          mkdir -p _upload
+          for dir in charts/stable/${{ matrix.repo }} charts/contrib/${{ matrix.repo }}; do
+            if [ -d "$dir" ]; then
+              mkdir -p "_upload/$(dirname "$dir")"
+              cp -r "$dir" "_upload/$dir"
+            fi
+          done
+
       - uses: actions/upload-artifact@v4
         with:
           name: charts-${{ matrix.repo }}
-          path: charts/
+          path: _upload/charts/
+          if-no-files-found: ignore
