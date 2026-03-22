@@ -3,7 +3,8 @@
   
 bugsink:
   - https://bugsink.github.io/helm-charts
-  
+
+
 cyclika94:
   - https://cyclikal94.github.io/matrix-helm-charts
 
@@ -111,6 +112,7 @@ general-intelligence-systems:
   - https://general-intelligence-systems.github.io/code-server-helm
   - https://general-intelligence-systems.github.io/kubero-helm
   - https://general-intelligence-systems.github.io/kubevirt-helm
+  - https://general-intelligence-systems.github.io/guacamole-helm
 
 goharbor:
   - https://helm.goharbor.io
