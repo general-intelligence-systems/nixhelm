@@ -1,8 +1,9 @@
 {
   repo = "https://helm.goharbor.io";
   chart = "harbor";
-  latest = "1.18.2";
+  latest = "1.18.3";
   versions = {
+    "1.18.3" = "sha256-3g/lEl+9ntqXsXLnq4sQO2SudAKntaAPTMC4vQwXiM0=";
     "1.18.2" = "sha256-dJvqpO5t1zPrEBsfYf77FGxbFNpURP/r1asQNF10eCE=";
     "1.18.1" = "sha256-+UlsUSbncCLrsFEON6ozN8xczdl31YPQVjOW9n9kdDA=";
     "1.18.0" = "sha256-wNg0+9qH/b5hIF26TxFG3Tee6evD6ZTCYe+mFaNy5dw=";
