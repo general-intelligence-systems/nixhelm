@@ -13,11 +13,6 @@
     "25.1.2" = "sha256-C951PLCOWlJNo/gLPhiDBerP14/EAp7YIXp2BKRELBA=";
     "25.1.1-beta3" = "sha256-OJvwXNuB55kEgmAAqYmuzYvViC8b+Npog/5wrv01DR8=";
     "25.1.1-beta1" = "sha256-8w9UcTOKyIIMdID0ZTavmCNfH9jo6M1yoS5tpYxajKc=";
-    "25.1.1-beta1" = "sha256-8w9UcTOKyIIMdID0ZTavmCNfH9jo6M1yoS5tpYxajKc=";
-    "25.1.1-beta1" = "sha256-8w9UcTOKyIIMdID0ZTavmCNfH9jo6M1yoS5tpYxajKc=";
-    "25.1.1-beta1" = "sha256-GbrB5vmquB4Askj6SbH3SePZX5coAMbcwwLeuXh6yOY=";
-    "25.1.1-beta1" = "sha256-HGTRNKYRLEN0P7/kFszs9fX5AWGE/Qg6rId6TGPe85o=";
-    "25.1.1-beta1" = "sha256-qrLilRu333sOBrAoDQgsBK2d456v/POArz0K5Vje568=";
     "25.1.1" = "sha256-XPMbFxfAByYsm5zqnsV9lmDVrg91w6WfHIBcMBfJt6o=";
     "5.10.7" = "sha256-c4GVnxP6oJA5OYOblTJnXgL7+zKJUVcqTojlZ0o3is4=";
     "5.10.6" = "sha256-IUClvT+lTcKEgrTgdelS7dyNyPJkD491yxO/KahEqeI=";

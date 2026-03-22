@@ -59,7 +59,6 @@
     "2024.2.1" = "sha256-zGz/NwzbL8Hbhj/82q8Wq+/w0H/bZHsmXMbW3cV+3+g=";
     "2024.2.0-rc2" = "sha256-5lIeCjYbprmp2R96D/T/YaOVgT03hsmSylg5hRjICi0=";
     "2024.2.0-rc1" = "sha256-IoQbZv+p+rAzx+vQvSFZY0o9XOzIkM+l1KgFbrzRwBg=";
-    "2024.2.0-rc1" = "sha256-xZqomrvjwq7kijM9mIoFblvjomKvXkSdK2DMru3pzfE=";
     "2024.2.0" = "sha256-6VVARpFxIoko+tsfa/UnlFhYJf3iMo+giQr1/JGp0/I=";
     "2023.10.7" = "sha256-LyJV/tMqk8ByXdZXKvVjvMyhs2rjuIojBrUrHp6zAiw=";
     "2023.10.6" = "sha256-mnI3jCTA2ExAJR1kYNAYa6f3qdhRLHLnoCxx1oQRxAk=";

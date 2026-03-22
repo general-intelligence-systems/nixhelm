@@ -5,11 +5,14 @@ versions=""
 latest=""
 repo=""
 chart=""
+declare -A seen
 
 while read -r name ch version url hash; do
   [[ -z "$latest" ]] && latest="$version"
   [[ -z "$repo" ]] && repo="$url"
   [[ -z "$chart" ]] && chart="$ch"
+  [[ -n "${seen[$version]:-}" ]] && continue
+  seen[$version]=1
   versions+="    \"$version\" = \"$hash\";"$'\n'
 done
 

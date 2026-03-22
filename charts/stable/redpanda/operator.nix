@@ -5,7 +5,6 @@
   versions = {
     "v25.1.1-beta3" = "sha256-jW4XVbCKNBNF60qcz7FWW8XFyz43Adt5eDuSmezdt40=";
     "v25.1.1-beta2" = "sha256-IzsnDHjkjw3eqI6F3rb9jgtKIh/WPSFwpT3NBsRJ78E=";
-    "v25.1.1-beta2" = "sha256-u/VPMjj0drmCm/qP7QpiN9fuZ/egLpVtb+IELKVNtek=";
     "v25.1.1-beta1" = "sha256-U+IXvJEtK0jyRCOWpbql54tsPQw1EtBt59LfN/UveOc=";
     "v2.4.2" = "sha256-t23/0lKq1+bGmtB8COPf2dOWT2OwG4TPlOoShq9q/kE=";
     "v2.4.1" = "sha256-OtyzEYV/Cd4w0E4Vho5OfUP7zdsp4AFqJTtuKdhnX8Y=";
@@ -19,8 +18,6 @@
     "25.1.4" = "sha256-ez0xMKsHZIURjbtFMO9+pSldrEdHYeCjh0zFBb/z72A=";
     "25.1.3" = "sha256-cceJoHvaC59BnZTPfoU1ZPSQpPkmoyWci3xxIjo1RH8=";
     "25.1.2" = "sha256-0SKKBWVq0pWZJKitAK241OApd/Y/JCvIyq9tWgtLdVw=";
-    "25.1.1-beta1" = "sha256-Olkv0EWfQZUTWQXe13X9NEHeZeIyagX7bh7seiub8Pk=";
-    "25.1.1-beta1" = "sha256-Olkv0EWfQZUTWQXe13X9NEHeZeIyagX7bh7seiub8Pk=";
     "25.1.1-beta1" = "sha256-Olkv0EWfQZUTWQXe13X9NEHeZeIyagX7bh7seiub8Pk=";
     "25.1.1" = "sha256-N8UDH2Kq1fPMJbjaFdn7yne71Ot5IZg+4vV1B+2GAck=";
     "2.4.6" = "sha256-KV7bWEfURR25ruL7bKMB9nEocXnErI45/B74/YVCaaA=";
