@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+gh workflow run update-all.yml
+echo "update-all workflow dispatched"
