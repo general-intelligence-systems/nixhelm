@@ -1,5 +1,8 @@
 1password:
   - https://1password.github.io/connect-helm-charts
+
+livekit:
+  - https://helm.livekit.io
   
 bugsink:
   - https://bugsink.github.io/helm-charts
