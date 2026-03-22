@@ -1,14 +1,17 @@
 {
   repo = "https://kubernetes.github.io/ingress-nginx";
   chart = "ingress-nginx";
-  latest = "4.15.0";
+  latest = "4.15.1";
   versions = {
+    "4.15.1" = "sha256-Pv8L0YFR1uaxxEFGNBBXFEPdoax4KSyxiTRmKN54Tww=";
     "4.15.0" = "sha256-c0cqKuqRHS+5vo5WWPn/iQ3Iub686P4fImobAvl1TsE=";
+    "4.14.5" = "sha256-k+p88md1d6SJ4U/JTWAmoRlM8uRT3Ia/Q9pxYhCfDVk=";
     "4.14.4" = "sha256-WgwWbosc9EqRGYsw9EmY/1LWfOR4PMWcU9SiiAY53mg=";
     "4.14.3" = "sha256-nJdgCyNMcM7/ua3OXGam6X5p4nBkmbsDCCFdtKMQdp8=";
     "4.14.2" = "sha256-LkfoOPL5O/SgGo3N8EbNnAo9i8/XB3BCKZa3s1WjDk4=";
     "4.14.1" = "sha256-pnN/QxMe2Fq4GPfzaNUdqRdV10VuCOhMgoAqo4hfN7k=";
     "4.14.0" = "sha256-01Qj2lYtGrZsF/6xE3TBxfTCjGfXdUEDXeud0wI/Aec=";
+    "4.13.9" = "sha256-fOIrs1HEPsZjlYXvwiE0giznTAWuqr3ojFyzR3/Qx1w=";
     "4.13.8" = "sha256-j3lDg2PyT3kuJpYOFS3g5OYxjCnYOdEn1SoOT1AG4mI=";
     "4.13.7" = "sha256-CCcMMOIGt6zbpJ1MOrDBQQNIqXM6pNU6rGPfhQVLn4A=";
     "4.13.6" = "sha256-7dnNbjmxNYekryCXn3IjdiEUtN4ZyMQ7Z1oJMiKtSH8=";
@@ -26,6 +29,15 @@
     "4.12.3" = "sha256-CZJgMZPRxvUh/TwshRnWGzk2VsP6lwz496sYpf8O2fI=";
     "4.12.2" = "sha256-Lb7sMFKjdEdiExp8BC8kK4NPUP53NZGlAtrOo4tkoxk=";
     "4.12.1" = "sha256-WfZke4wKoSJnci+greFnE/sLFqGvkyInryBl/dGn87w=";
+    "4.12.0-beta.0" = "sha256-3AS3D/S3v6T458bvZSTODkLzO2YSUJSB6lfBc+fCi04=";
+    "4.12.0-beta.0" = "sha256-TxwO3eTIGp5cebRXky/6I+1p+xLpDGK4kVxOmMloNj4=";
+    "4.12.0-beta.0" = "sha256-ZOv6I6maGKIvWjmMFiaFy2HDd5p+RDu2i33VvOVVpfQ=";
+    "4.12.0-beta.0" = "sha256-fgl5ZQfbY7FWpvNM7BvKCU9hdBdiXOKwWY3T02uG9u0=";
+    "4.12.0-beta.0" = "sha256-hUbNIsoZe1d4HhBnELurxpAOQ4h6F/wHVsEG1O5FJhs=";
+    "4.12.0-beta.0" = "sha256-jfSyOnFFxUoqycq6jeUAVemQX8bWx3uurP/4ReSuAfw=";
+    "4.12.0-beta.0" = "sha256-md6dcacCsH7k29+QB9mauzZiEoshyMpwCry31GG4X+A=";
+    "4.12.0-beta.0" = "sha256-rtW8zHD0057WRazzl2GODEfwahvvyL3Zek5bV8iahmw=";
+    "4.12.0-beta.0" = "sha256-uEfZzcobb9ZNhsjBFURitAgx7zX5y0aN40rNuR8BICk=";
     "4.12.0" = "sha256-ZEUYCtcKEu2R0UMMe1TtDMZb5q38U00j1csBx5c0z/k=";
     "4.11.8" = "sha256-HSthuyGVmM2hF/TJNvOFUZHFzbFNz2hDGMACdRJOKkQ=";
     "4.11.7" = "sha256-vEbOvJBHnHRsQfmtRWr93XvdFDs9crutyycFCJ06Kfk=";
@@ -48,6 +60,8 @@
     "4.8.3" = "sha256-L4iBj1RE+AyBnWAgsGxhXjET1pJUn3ZedOwweeDA7k0=";
     "4.8.2" = "sha256-y+m3ni2rRi5dfZIjKEBauyk85Z16e+a1txEPreahvzk=";
     "4.8.1" = "sha256-+sRK7IoP4wN5b6ar9G8fipFDzmUrp5WvBwVJxcbuqN4=";
+    "4.8.0-beta.0" = "sha256-EUWuswenAs5qeBsvnQ6QPfGUVVbDKRNjQjC8CrZmLsE=";
+    "4.8.0-beta.0" = "sha256-TDJBAEHB6CdU2SZmqtHhhAMREUvuUytTSxsG41plvBM=";
     "4.8.0" = "sha256-fRYAP51dyr8l07W3Ud6t7zcvipETdt3xCSBQfr0QskE=";
     "4.7.5" = "sha256-iU7IMpWX8OVBtCASS4kQLOlMQmu26HEz7kScNDzqZKo=";
     "4.7.3" = "sha256-x/R1IhwgpaoLEk+LZFqzj3KMw35acOz/nPsNYAyNCZo=";
@@ -71,6 +85,8 @@
     "4.1.3" = "sha256-MKxid9894f2+nCYutBR8VrcZxmn58Yem0khOlqGwaLg=";
     "4.1.2" = "sha256-y/EeRbCZ3D4aDB6NvhISH21WgMOrEVvTnKUiwE6n6Vw=";
     "4.1.1" = "sha256-DdpM9P8SQziAbm7ZCCisoJP6LnG8hsgNT92TOXwsTqU=";
+    "4.1.0-beta.1" = "sha256-RMNJ8KBgDooZE4WaOpbZuduMVUaw6kfHs2TRhwoAC+U=";
+    "4.1.0-beta.0" = "sha256-Po5tIgP16Fg+/Q8d7slKWOIJwZdjFUQNiGoOporCwQg=";
     "4.1.0" = "sha256-6FnCiRjwfNePzeJCBlLAcIIJmWqnwam+CLQo9CXxLgM=";
     "4.0.19" = "sha256-yIzTZogcU8ojmqqO91LHERfoXQBR6NpZgcMPNsPBWio=";
     "4.0.18" = "sha256-ChmFDypq7WuNsNpEwVJgZmLHNd/nx0F3edw9gvBKq8s=";
@@ -88,6 +104,9 @@
     "4.0.3" = "sha256-PvDirheoTfgHF0Q9r33EiD+Gcwtuor8uhg+rERyFtCo=";
     "4.0.2" = "sha256-fa98E0qGfOLRlbqdUiUetCMzWmbcpeBarxNkIjYlpPU=";
     "4.0.1" = "sha256-jsWTpdO33qApUwWzhNmTgXxA5AR7SuLtVJuJVDXFtBc=";
+    "4.0.0-beta.3" = "sha256-w5WmZpMRHHIJSq17rfQpYOvMnOeuBlFd0Omo8RRCPv8=";
+    "4.0.0-beta.2" = "sha256-ZDmFvRyLf49ygSVr70c8RsQA1zOrIx0x9sMI2imCzWc=";
+    "4.0.0-beta.1" = "sha256-SpRKl6rYe8lVyT4cekDyo9H9uSilzDY+1SoROYzW8oA=";
     "3.41.0" = "sha256-H/aagn/fBUsBNH70lLMvh6zQZI5zRIBdQebn0ToTROI=";
     "3.40.0" = "sha256-ceAp1IXp+VyD1BqWmgoXMp4H0scRHoDbaFGGXyqbwk4=";
     "3.39.0" = "sha256-+iwh30fiucxGSPv5XCVq4BAWqp2XovfFFAfgwPqZkGY=";

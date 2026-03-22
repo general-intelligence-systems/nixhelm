@@ -1,8 +1,9 @@
 {
   repo = "https://media-servarr.shw.al/charts";
   chart = "jellyfin";
-  latest = "0.11.0";
+  latest = "0.12.0";
   versions = {
+    "0.12.0" = "sha256-dpGWlpIiZdsCSYTRLksNrtLup2q5RUm/XD/fgmqcYkg=";
     "0.11.0" = "sha256-QQL+5SoCcRjk7U8/og5bfvWM2DDWgRrANPpeDSYjIfg=";
     "0.10.0" = "sha256-VLJiLIRNaPxzvY9xn0zmR3m8hzb4pYjUTbObOwCNYJI=";
     "0.9.4" = "sha256-M+vSr8WWsIaASQsXS8J2h2t3q51FeLprnK3n6eejdkE=";
@@ -23,8 +24,5 @@
     "0.2.1" = "sha256-dpmm9jL1Je83fj6aBlPBt6QNUa2VrzICAi3q7Xy1XqQ=";
     "0.2.0" = "sha256-9NyxTDgk8RokhfvcTYbrOs7Lsa8AxKE6wgvZx8bEgzk=";
     "0.1.0" = "sha256-htJhyuMyuV6iCsD5vmCK7dWprgyudprK8+mmNktOvm0=";
-  };
-}
-.1.0" = "sha256-htJhyuMyuV6iCsD5vmCK7dWprgyudprK8+mmNktOvm0=";
   };
 }

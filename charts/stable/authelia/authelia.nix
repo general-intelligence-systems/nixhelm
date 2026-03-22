@@ -1,8 +1,9 @@
 {
   repo = "https://charts.authelia.com";
   chart = "authelia";
-  latest = "0.10.49";
+  latest = "0.10.50";
   versions = {
+    "0.10.50" = "sha256-U8x5aWFn15bJ/FP5Y0avorjrW0dwIBdj6AMgzBXeOuk=";
     "0.10.49" = "sha256-uqoZfS/NEj0jqynZUhDNAzCtqCNUMmQNszojxZwKC2A=";
     "0.10.48" = "sha256-QCFnkxznEw0kkZvkyR8LUxwT2jcSdA1p+gyzMbXgX70=";
     "0.10.47" = "sha256-BMlJcQ6QUCW4uwg6NoQg3SAukW/778YGzlfV/Ix54+c=";
@@ -70,6 +71,13 @@
     "0.9.3" = "sha256-PHEgXn+wuen8QtPbTOLqFIxa1E0eGc8FC9FzX1kaPsU=";
     "0.9.2" = "sha256-DZUCgUFyvXT40olJ9gXdf+H5B9QS3WgQ3KMpOllCAa4=";
     "0.9.1" = "sha256-aQcMhdk/8dGLuOBk9NXZ5ZEvwrHH7W4PWNh0P1OexRI=";
+    "0.9.0-beta7" = "sha256-pQ5g8BHYn87EJ+m/1n9Vx+vqvSaIDMAksLs+GpkrlF8=";
+    "0.9.0-beta6" = "sha256-3fEO/KJXbcWvnQRIJ/vrG5q9TC/zJ58wiUmdMtFiVAM=";
+    "0.9.0-beta5" = "sha256-t52C1zdsapAgzUQ7N0yYiiUU5KerE2mXvIApZVbVokg=";
+    "0.9.0-beta4" = "sha256-hgWFjFwB7gC+Y/QLiICKKtRnTXTvR4wzYtOfKeNEMUk=";
+    "0.9.0-beta3" = "sha256-aAaGcCAGnxFGiDLZK0sir0y+ZseICFYYZJOD+U1lJ7Q=";
+    "0.9.0-beta2" = "sha256-UfJoc8SFHUmAegFwwsJHKSK3xqDhObG0Yr/LXjusBA8=";
+    "0.9.0-beta1" = "sha256-vreM9mZTY3+8X6UMCCh13Nxxa2ZJv6heOlsVJd5oyY8=";
     "0.9.0" = "sha256-SrIPPOz1j3V6mBPFq6O3Zf2DTaFf+P0CEsgukDiWxJU=";
     "0.8.58" = "sha256-orq2R7Ouiz+HJk5bmDDIDiYk/Uu+gNRq9BNvgjhOM/c=";
     "0.8.57" = "sha256-pjilFZn1Qj4bU61UZk3MHbcLqUuewEjP1q0brjnDSRs=";
@@ -232,4 +240,3 @@
     "0.1.0" = "sha256-q85HssthahaLhf+wzJhuUZarU21vERQdE3QlKcHXarY=";
   };
 }
-

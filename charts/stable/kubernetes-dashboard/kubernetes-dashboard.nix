@@ -30,6 +30,8 @@
     "7.1.1" = "sha256-c646s396WO1PU6gKI1I4smlWa2UtODVww1LKEJthI1Q=";
     "7.1.0" = "sha256-uHHz2R8MQNK+ORTx4evEOlmJhfjJ5y7Cj69pQtHX42Y=";
     "7.0.1" = "sha256-BZiGb9u2q7OQZ/Fc/JbTMTo1q93oIAKj/tV/cUwpHM0=";
+    "7.0.0-alpha1" = "sha256-rIQFGRZsRZtL6ZI1L4wJkSSR9bsLXiHdnp2ZgAAcpOg=";
+    "7.0.0-alpha0" = "sha256-ZVY3wxpJY09tdnOM84/2OB/CcGd7DF2hYIkifAXr8ec=";
     "7.0.0" = "sha256-JgNT+lytm3Jgy5kXTIcL9ufDyORLgeTVY5NAjYWvyt8=";
     "6.0.8" = "sha256-t5SIOf026b18gdDyL2DYV/Z7C0q1AJaZsEKthT2CCII=";
     "6.0.7" = "sha256-+oQPg77d3xAZ5r4w83UpijblekUDg6qNP90hH4IpYwY=";

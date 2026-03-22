@@ -1,8 +1,9 @@
 {
   repo = "https://grafana.github.io/helm-charts";
   chart = "beyla";
-  latest = "1.13.0";
+  latest = "1.14.0";
   versions = {
+    "1.14.0" = "sha256-CKL0lQeZw7eWnrLluu8VWeoyY5yTZoRetKDj317DUfE=";
     "1.13.0" = "sha256-yqWqoj5oTd4vuhA0NQM047nAtcl/xl9lUNTFjeMeEqg=";
     "1.12.0" = "sha256-/f6xyV7RrCv3budcAuG1HZEi2v0eyowg7QaJCWYykm0=";
     "1.11.0" = "sha256-/95ixzMUYxe80yK21Z/Stllt2F/nwsAzUn/Vk5X5/LA=";

@@ -1,8 +1,47 @@
 {
   repo = "https://helm.ngc.nvidia.com/nvidia";
   chart = "gpu-operator";
-  latest = "1.6.2";
+  latest = "v26.3.0";
   versions = {
+    "v26.3.0" = "sha256-A1Of4CjHxM6re1dMIiBb80ByWNCXPsJf/2rJfsBzybE=";
+    "v25.10.1" = "sha256-lTLMTdWSSODrKgzUuqan6O1CWLXXWIrpwT9cg5SC7+U=";
+    "v25.10.0" = "sha256-0+0jfPMXd8FDRZylPdF6/riFapD7xF3DQO6ISUZf9dI=";
+    "v25.3.4" = "sha256-3HGbg8638EMG4Sly5AgwmTozcs/MYvgufdlYi+s4yVA=";
+    "v25.3.3" = "sha256-YGLvHxIXBCFy6Hz/Fpr5yyWX9g+TkPV2IUndfWG/zsc=";
+    "v25.3.2" = "sha256-g1VhEMMN4lU/gXBoqrjgzNKj9wqT6Iaouk3OxDhTc5w=";
+    "v25.3.1" = "sha256-KGTpOvpZihYde5RlS/zNiHGgbOXyfL7CzqASQbB62bA=";
+    "v25.3.0" = "sha256-+kZASP0Pywul2AY8uq7Ej4Jk1ryPt9a82qwr7s7qhVE=";
+    "v24.9.2" = "sha256-pVyl3+kkuPttDlTZs1rCmkzjJRXm+8diy7LnIJ/8958=";
+    "v24.9.1" = "sha256-tJZ19WBwS1cmh0pRX2QkJLt/cNtXh8jdXdjagRD1rOo=";
+    "v24.9.0" = "sha256-ZyPwMa8Ycc68+a2v0DrLxAKQkPrI35F5iUMbL4PvbzU=";
+    "v24.6.2" = "sha256-AgTEWOlVb59dCmw007XWc4C8dk61d+iSEyfKJDIn+Gk=";
+    "v24.6.1" = "sha256-4Z7oKNvFggrTJhjTzMakWfKpSt6D+uPMYLsnUU4/nko=";
+    "v24.6.0" = "sha256-bBJL7pFzAI7x1No2ddp8Rui2t7hfdrMjLOR3rYnRDRY=";
+    "v24.3.0" = "sha256-yjrXWFBGiXp3Lw+vZkoVODCYhsVof0ZSUgdS9CjwmH4=";
+    "v23.9.2" = "sha256-kmOlZHUA1TZP/ZHgCeg6pSZIYaUvYIzjOyRzN/XRlZM=";
+    "v23.9.1" = "sha256-rJQ+J43dUt8kq3T4ikp+U2IsJkaXlaJJQawlb4H1xeg=";
+    "v23.9.0" = "sha256-E9hYOzeDcYjjCcNvVQff7kGGQIdMpstFxlwjS10gKdo=";
+    "v23.6.2" = "sha256-ce8MVISN/e9D4jCCgrj/NZJ+MkzE6q5xaizknJ3RT3Y=";
+    "v23.6.1" = "sha256-TtRHedo8288I3jPDdziMRLRX2Czg8RD67+RYcLiuj7M=";
+    "v23.6.0" = "sha256-4AS8SLsgHo0EWhryl8fdOX186obwOzeWsw5GnK/Xef8=";
+    "v23.3.2" = "sha256-+PIeEgQD/AKNNtpJY+L1at1rnHrfzwZD973tYrAJxyA=";
+    "v23.3.1" = "sha256-24c1l2pYfEvKZmyHTplrUox5Rys+KDIksRkAM5vhkyE=";
+    "v23.3.0" = "sha256-bFO/hckHa0JBQqQW9dtd9xULfunGDMJ8s+hAEume0Fg=";
+    "v22.9.2" = "sha256-IwnCRbj63/XmXX3qE5pvli7YosxbcI8/FTHofD5Qnbk=";
+    "v22.9.1" = "sha256-/D5JnompGZTIam6S/nMnyozl1HQK1fQM7AsEs09Gflo=";
+    "v22.9.0" = "sha256-tu3w+4DrvH4iPEHraGyFFcNSRds99EWQ1cCqjlolrns=";
+    "v1.11.1" = "sha256-Jhb6RnuxeIOCDtXSOPB/HazZ97HGLDyJNKDgYm7c2tw=";
+    "v1.11.0" = "sha256-rRt9eadLN7/3beW/buQ3sB2U+UjHZyTLCtCUjA7ZQ1I=";
+    "v1.10.1" = "sha256-SFYBcFmcdyIR2NxESGxNIzBpvm5eiQ1ZN6lGaShbo3Y=";
+    "v1.10.0" = "sha256-dOL+zlxbTWTQniwC8Sv6FWoW7e/qOr1HghQGWw9RyCs=";
+    "v1.9.1" = "sha256-9h5MlSUh0oifWRX4PR+zbPZUQJDo9RpBG3Hj0vPhJtU=";
+    "v1.9.0-beta" = "sha256-kX888b6r6w1EEhoAXC1IrmbHmRHqeFmGvMbssaX4CTQ=";
+    "v1.9.0" = "sha256-JeGF9f12eY4KkssRGbwcLGelcRW27x6u0TsFWAh8RVs=";
+    "v1.8.2" = "sha256-MnCN6BVZHeh/r0BHJ6nJt+yxMbjN7pgdUoV6iNzHNnE=";
+    "v1.8.1" = "sha256-teTsM+N9ym2BCobMpboB0SXNYCxXisYyQyyQJYN/2Js=";
+    "v1.8.0" = "sha256-7uoY00dhi/pWjrAL9ojiJRISSaKuv/ZLQLkXuzWlYWU=";
+    "v1.7.1" = "sha256-uFxPKCb9g3hs8Uy428yTSV1gbFQRiuIKCBsjjri9L2Y=";
+    "v1.7.0" = "sha256-ewXn8Eg9FbxEGunNTKbIwTW1xCbIKO5FY44s2gsMcAY=";
     "1.6.2" = "sha256-FdJFzGvh0cozfS0YvUz4IbcBdBApkCf0mJLNRodgiqs=";
     "1.6.1" = "sha256-J859lzF4NL3UHOSlLFQiaszCAvOk3PMMA9KWDo34mzY=";
     "1.6.0" = "sha256-vSsUncT/9TTO6MGO8SFSr9WRfQDvHQG/yAcXddaG6ck=";
@@ -12,5 +51,6 @@
     "1.4.0" = "sha256-JznvwTfq3lrksWuiWYfj0scp1ccNx6ODwi7Rl1nalcc=";
     "1.3.0" = "sha256-NLTo+wVCxKvYAhK5d3gipt54GzW7BGo8dQteoUJm240=";
     "1.2.0" = "sha256-SfmPEfK3Xw1xLYPOawweZIdj3S/dZLdfJhBVQFupjwI=";
+    "1.0.0-techpreview.1" = "sha256-OkRH1gvMIsPwS+vElu4bczh4L8bgAuXVw4ZlojWzut4=";
   };
 }

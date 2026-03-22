@@ -1,8 +1,9 @@
 {
   repo = "https://victoriametrics.github.io/helm-charts";
   chart = "victoria-metrics-operator";
-  latest = "0.59.2";
+  latest = "0.59.3";
   versions = {
+    "0.59.3" = "sha256-9dHQ9lCAVtvc5IXFqz5jBXyEr7A7dr5yCDcNMc84AJE=";
     "0.59.2" = "sha256-9idMAxuaJwEbmw4olSQr7zE96ypJ+fKhy6Fk64/IS+c=";
     "0.59.1" = "sha256-Hi/NHdh8IY5EUAn+Fu6Ji3Yc5Q7a+RwdSxKAGUbIEuE=";
     "0.59.0" = "sha256-snMzQch+oGb5QOjJTUY9oWg3gmYs0BW56uT3TOjF04Q=";
@@ -35,6 +36,7 @@
     "0.50.0" = "sha256-7mJWRocCgrkWiY+vm4nND8dqvL7ww0vZ1rixz36WA6w=";
     "0.49.2" = "sha256-prYyAmulj8IECJLZkQM5i2DzjgvOQjdaGyFxcsSI9W8=";
     "0.49.1" = "sha256-wA/HTmbWJB5znFhqydIFNWfylir5OabzH9r0VrJZyzM=";
+    "0.49.0-rc1" = "sha256-XZ1iKXYLdok+pARPIGJJYtRfdF4cTvknskgGPMfl9q8=";
     "0.47.0" = "sha256-jfubbTioOfnnp5yqdLRc7uFwvbIIq5NTliNmbMOnHI4=";
     "0.46.0" = "sha256-Z8UIz3FYVlHnsoROYtqAJ+4+wUhUQmyOPhvVs8XpbFI=";
     "0.45.0" = "sha256-54V+vrxRqdNu8npa8NMkh7uctBJ8Xnd3XEjPzXE9k5o=";
@@ -55,6 +57,9 @@
     "0.40.3" = "sha256-H1/qb5NyhJ9iFyEsiZ/OC8r0RKfrvhTtUaDxMjPrC/Y=";
     "0.40.2" = "sha256-eYevc4T6RHoZGByMt6xacxnERpMh9Yyx32eeVS0SsNE=";
     "0.40.1" = "sha256-vldZaxW+Mxvr/GmYsBIwCd6BQ13kyRjn+vbzBZ1k0ZQ=";
+    "0.40.0-rc.1" = "sha256-6xET+hxX7XwBt/O+GQ5U0IFCcLfbZkW/RNltAoy6Aps=";
+    "0.40.0-rc.1" = "sha256-rMcs2CBjQab2YphRfVb5+eej0xJXWm4z6k5PCeinulU=";
+    "0.40.0-rc.1" = "sha256-yJm8oBDgokDH/sn7FHbNwt+ANoBGeUBcZgB2R0Lqp40=";
     "0.40.0" = "sha256-SmOe2u4pfPDupifS8fau7CAzkT1PUv77TkQ+N4Kfzo8=";
     "0.39.1" = "sha256-kjvyNuqo0+AXufrMiW+EuG8IEDtEJR7A7tbWOmRuN4Q=";
     "0.39.0" = "sha256-aq5XO0xcnT0s6SaeUB8Z4AXA4pzHCBWeNohfoIB3JvA=";
@@ -93,6 +98,8 @@
     "0.30.3" = "sha256-LbnfrxUGFUDwaCQJFSyY9ewvUhBy2unu6TZNNEu6pdc=";
     "0.30.2" = "sha256-OWGImB2Q0JLABL1EjbkhKTxSSf1ln779w+qR9JEyrQg=";
     "0.30.1" = "sha256-LEyqZ7Gnh0/zIdqayO3N34QW28Fn86CRIykH+o+V64U=";
+    "0.30.0-rc2" = "sha256-GaxKbvPoSAWOVrxmsWhdiaCWb8s+dhGYdYuBot8ugCA=";
+    "0.30.0-rc1" = "sha256-jb9Vm3RQVsWr9eg+4NRWcDE968WpiJCEmZ8zM4CRnZE=";
     "0.30.0" = "sha256-WVDSpQDRAHis0TzWivzDgnk1vx6NSg4b4F6v1WyBdiQ=";
     "0.29.6" = "sha256-krz+qbIMh1X3DH72TQVtbBlSosnYhERoS4MEPI40chA=";
     "0.29.5" = "sha256-EpKl8tfGLQicbYB3CACNDABty2VjdWC0cQMzDiSnRP4=";

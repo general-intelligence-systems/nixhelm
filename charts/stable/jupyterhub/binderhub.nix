@@ -1,8 +1,10 @@
 {
   repo = "https://hub.jupyter.org/helm-chart";
   chart = "binderhub";
-  latest = "1.0.0-0.dev.git.3924.ha3353c92";
+  latest = "1.0.0-0.dev.git.3928.hb7a0f8b7";
   versions = {
+    "1.0.0-0.dev.git.3928.hb7a0f8b7" = "sha256-39P2mqBfpzr1z7U/OM1nkJ/VTPYhwPpqKTqtBAOOe7o=";
+    "1.0.0-0.dev.git.3925.h72418ac1" = "sha256-ZLZKVGQFm0hmgJbz8raO9rYTTt6cng1rzm609ggkfaY=";
     "1.0.0-0.dev.git.3924.ha3353c92" = "sha256-LoM752XHd4Z+8qrNvDIpF4dHckWHj8BV4UIVwyxVGZU=";
     "1.0.0-0.dev.git.3919.ha0c55e87" = "sha256-SDJjpf3vZ8sIzDfV74BaYnUVpbLiGoJDA4XYnIKN3wc=";
     "1.0.0-0.dev.git.3917.h0e256d2a" = "sha256-vXS4klGYcxZh5ru7V6YTnbCAXtNsNi67bnyUo+O5AWw=";
@@ -764,11 +766,6 @@
     "0.1.0-0deae84" = "sha256-dUYzzLdzKsT7PVd6m3B6ybMpDQEjtKSKDqjH28naPiw=";
     "0.1.0-0d4acbd" = "sha256-O5ex/1equKJk+5ZUNoMAOUzRJ/KxrZSipzS4r9FjUtk=";
     "0.1.0-0bb083d" = "sha256-5cgTsi0zSBW1IswItbrHunzBUED0dW7GCcUq5RwEUsk=";
-    "0.1.0-0b19c22" = "sha256-D8QkTqXqtu2W7qDKsFps+ittfcoO7WUK7ImyranNRdc=";
-    "0.1.0-0b6c4f4" = "sha256-OKKAPROySVekXPh3x5DsqBGdfHetIy1heRUGbRnbhv0=";
-  };
-}
-unzBUED0dW7GCcUq5RwEUsk=";
     "0.1.0-0b19c22" = "sha256-D8QkTqXqtu2W7qDKsFps+ittfcoO7WUK7ImyranNRdc=";
     "0.1.0-0b6c4f4" = "sha256-OKKAPROySVekXPh3x5DsqBGdfHetIy1heRUGbRnbhv0=";
   };

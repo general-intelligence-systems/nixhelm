@@ -1,8 +1,17 @@
 {
   repo = "https://windmill-labs.github.io/windmill-helm-charts";
   chart = "windmill";
-  latest = "4.0.99";
+  latest = "4.0.108";
   versions = {
+    "4.0.108" = "sha256-xvLvpmw3fhncAEIsJ3Mz2oJo9yVcLBUpYSh0BElpiR8=";
+    "4.0.107" = "sha256-I3wdsZHBGLGiu84lhw4HphqrPhmgu4iNsbsb6WLfUXk=";
+    "4.0.106" = "sha256-OBqIYU0RTdzgUoCJicRxv5m9mLeHHJew9DIADpN7IVM=";
+    "4.0.105" = "sha256-Qv/6EjFf47ACpddSn24uebdIaP2NVEEHgk/X3ZkRuf0=";
+    "4.0.104" = "sha256-v0tOgrS1PymrjbKm9QwonpyQMmhVuokZyX8zYqbsVTI=";
+    "4.0.103" = "sha256-Ae4EDcKNX83jc+0vJwdaKKYegYUyj3t77xwbe1duBMI=";
+    "4.0.102" = "sha256-Nd0tNqJy9JYLsSp5jej4ZE7h/MP8RmntB0mYA4LpbSo=";
+    "4.0.101" = "sha256-54MGeiN3hHLq3Dty0qIaLvveOBu2JIryZFcHgFj1qbg=";
+    "4.0.100" = "sha256-SCK6BgOaaR4HVFKI90mRdwXyM17j6Nl+DfU1gof69ns=";
     "4.0.99" = "sha256-1djYbYQ84JJjkAAW4rf8wZZsa0vpzcMWxm2+F7/7i5M=";
     "4.0.98" = "sha256-Rwec2iEmhhmYna+mrnCibsnSSBlyTv9VzHZv/QgGCZs=";
     "4.0.97" = "sha256-g2GTij1CveZRuSP+vSifkaT7/sb3ADdx940RCZR92y0=";

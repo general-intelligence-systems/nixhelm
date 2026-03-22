@@ -1,8 +1,9 @@
 {
   repo = "https://concourse-charts.storage.googleapis.com";
   chart = "concourse";
-  latest = "20.1.2";
+  latest = "20.1.3";
   versions = {
+    "20.1.3" = "sha256-kxruX9KEmpdqmn7JKozgFyUBI8Ay132JhGSvYLOnrOA=";
     "20.1.2" = "sha256-hJfWQy0loQlO0bWW0AxNjSYFX5Q3FLO4vDXUr2IKLoM=";
     "20.1.1" = "sha256-3bDoJw7dmnJO3B7NVJcIm/SAoV/rMl6OlJHR58LDKB8=";
     "20.1.0" = "sha256-1SAC1CMat8AatC1LgvKn3NzMnuZd89bQl9p+oqU4RT0=";
@@ -171,8 +172,5 @@
     "8.2.7" = "sha256-anTFbWNBgGPV9tg3N3JhM7OzLB/8jtJ59E/zipQ9obo=";
     "8.2.6" = "sha256-s8FS/mmyEx5xAJ5h1z7xNcAFRhMHqUgSm63M1PtvnaQ=";
     "1.0.0" = "sha256-OTU95X0CvEEZRtMCp5RlTMX+oiuQKG+Gnd9jO8gAe8E=";
-  };
-}
-.0.0" = "sha256-OTU95X0CvEEZRtMCp5RlTMX+oiuQKG+Gnd9jO8gAe8E=";
   };
 }

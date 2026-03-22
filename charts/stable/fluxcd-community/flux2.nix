@@ -1,8 +1,9 @@
 {
   repo = "https://fluxcd-community.github.io/helm-charts";
   chart = "flux2";
-  latest = "2.18.1";
+  latest = "2.18.2";
   versions = {
+    "2.18.2" = "sha256-i0wK3s8pQM1kR2IWKDePYe9yvfa1v0Re+a2VhMSRDb8=";
     "2.18.1" = "sha256-CPb7Pk6lyOGLoRH3MT3RiQ3eB19yetydiu6ksay34SQ=";
     "2.18.0" = "sha256-pAEj22ZOpnoh9yg8IvrvqQVFTCtF6Ieju1p9rrlGHnQ=";
     "2.17.2" = "sha256-4IsBS9VZR2ej5vV1P4OTsyc2Nr2bAu2DKnqbmivfbBM=";

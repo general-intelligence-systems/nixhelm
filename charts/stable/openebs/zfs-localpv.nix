@@ -1,14 +1,30 @@
 {
   repo = "https://openebs.github.io/zfs-localpv";
   chart = "zfs-localpv";
-  latest = "2.9.1";
+  latest = "2.10.0-develop";
   versions = {
+    "2.10.0-develop" = "sha256-sOZ9Vefwy4NTl1K301htuZXkwrmCYhl2bAHCFx16Sws=";
+    "2.9.2-prerelease" = "sha256-3B6Ut/JO01kefhO7HJ7YJH8j4shqTYKpOYD7LFcHJm4=";
+    "2.9.1-prerelease" = "sha256-vovPimRU8QEya1b0NUR4yCtTwvWNTYpmYMSyMW/hD+Q=";
     "2.9.1" = "sha256-pub3tnBZIQmnWEwwaq0YJXqq/nZoiegjSTp0CHzjC9E=";
+    "2.9.0-rc.0" = "sha256-+NZxyPId6syXeUuDgqtU30iC3DuLdliSI1+oW1gGcqs=";
+    "2.9.0-prerelease" = "sha256-LEYTEw161b2AtmEpNbiW2KLoD8yBhNBmoDl4v8uYfoE=";
+    "2.9.0-develop" = "sha256-Hg1wb6MYfF/X1ffjVVTEaANGPsZ14tVv0o/yzKwQuvA=";
     "2.9.0" = "sha256-AC7inr9a7FXgq1F9EYFrfYxgoMOJIgSO0UGD7T0+daE=";
+    "2.8.1-prerelease" = "sha256-fhm8aWrDGO8ut23e8FsQAaDYbly8M8chUO3SiH9uyck=";
+    "2.8.0-prerelease" = "sha256-vVg91/99X7Jcod47+GoSRZ8XaXmCTLqqA4TUT4dsFIU=";
+    "2.8.0-develop" = "sha256-eGEioCtsMiAZrO/3OUYz4zn0iqnoN28aGnGjgKc/xNU=";
     "2.8.0" = "sha256-Ktqf0B+320jkiaQEY5hh2ICjBlSe5PXYKkqrGS4ECIE=";
+    "2.7.2-prerelease" = "sha256-pnJZb19hkLgGtIjAQkN/o1AkCFWRUlVXVvE0qczDL7Y=";
+    "2.7.1-prerelease" = "sha256-VCnef70Wwapzrhx1zLth7n2QUKU7BPhlehPFXC4sDZA=";
     "2.7.1" = "sha256-NQt/Q0iHlwVHme71AwCalbQ6ExZ1Un8MbIOukXd9Dzg=";
+    "2.7.0-prerelease" = "sha256-f+KaTYmys/Elm+xC81WjJiNGS6maFSCvJSZjhAdkcN4=";
+    "2.7.0-develop" = "sha256-3oSDuPXUm4mIw+ESzzjKkvRt8PCuCj8BGF8DolkIW4s=";
     "2.7.0" = "sha256-0nfD1Ul1fi87B2RQFZW9bv+47jPmae66HLsamP608bc=";
+    "2.6.3-prerelease" = "sha256-1TQtqc5vSXxbHrE1euoLECtENEGwGNMUSl4llonZ6/Q=";
+    "2.6.2-prerelease" = "sha256-EYmeNkoOAVhPXecY4yRG7gNf9m8mWemQLCsC9tYq6fc=";
     "2.6.2" = "sha256-H+abwoVNz9uRq4g0OPWo+EK4hdQewOI0pdElegIxsGM=";
+    "2.6.1-prerelease" = "sha256-e2mX6skLNpCoyiqVSsnPNYR0VOZiZcI/g+Ii3cPkCHg=";
     "2.6.1" = "sha256-ueIt+e63tpcxWWw5yl3pEYTKYpiG6JX5nyPWJnmHVaM=";
     "2.6.0" = "sha256-BCKbksiztzmggaFfmxsoHl46JYGfJku3NebXvSP0Zso=";
     "2.5.1" = "sha256-2FWYLg0Cwi8r5O9yBoGaEtD/UFVxFwYL+QXtzhRBVC8=";

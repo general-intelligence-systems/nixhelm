@@ -1,8 +1,11 @@
 {
   repo = "https://argoproj.github.io/argo-helm";
   chart = "argo-workflows";
-  latest = "1.0.2";
+  latest = "1.0.5";
   versions = {
+    "1.0.5" = "sha256-9jwbUmwILN0h9hll1oKAH0UT2hoYNHinxcPIY5WDEug=";
+    "1.0.4" = "sha256-QWqlvV/JiKC6+qjYcVhCohWf2p25sV+ZQHWSnnYxGoY=";
+    "1.0.3" = "sha256-iYMYXSaCPjLVnI6F7xpZtVja2fyhFSx/SpmfZL2pQKs=";
     "1.0.2" = "sha256-gfJ6w2yVUKNFgUfODgPDICf+YYr1tcfvvHM0PX/kR/M=";
     "1.0.1" = "sha256-LeNeRExXuepaHl6T2EAIudOG8E9g2ztm6OM//QR7nhw=";
     "1.0.0" = "sha256-lSe432d1646FS6WdpMgPa5xfk7XSETSeQSV+vxBlfPE=";
@@ -248,11 +251,6 @@
     "0.1.4" = "sha256-iKjvAQZDUEQzjmrp87al3lwuxcT2e/WAKXQN6vZsnFU=";
     "0.1.3" = "sha256-+51oeg9vM3mKjqEVwE+Aa6QSP4AyXbNvwGCxS4aCHUU=";
     "0.1.2" = "sha256-7s6c4D7QTY8AGTYs7YHsjlXSydORXA/e8AKRbxnQgg8=";
-    "0.1.1" = "sha256-HZDywV/eBgvQzDC5i7QoJM8w7xEZT/QXr5HHlkqwg8Q=";
-    "0.1.0" = "sha256-sdD1Y5tMIcDtSVTUniE/CrqEakTeTI6OhwGDuZFvZjM=";
-  };
-}
-1.2" = "sha256-7s6c4D7QTY8AGTYs7YHsjlXSydORXA/e8AKRbxnQgg8=";
     "0.1.1" = "sha256-HZDywV/eBgvQzDC5i7QoJM8w7xEZT/QXr5HHlkqwg8Q=";
     "0.1.0" = "sha256-sdD1Y5tMIcDtSVTUniE/CrqEakTeTI6OhwGDuZFvZjM=";
   };

@@ -1,8 +1,14 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "kube-prometheus-stack";
-  latest = "82.10.3";
+  latest = "82.13.1";
   versions = {
+    "82.13.1" = "sha256-l6p5zqKky8sV/GPfLZTFnZVpztMndOtvxtr2ucHd0Ew=";
+    "82.13.0" = "sha256-56/aytEPSiM1tzCxXyachxkP775oEpzsP8pVeBb8QeY=";
+    "82.12.0" = "sha256-e9QyMUr/Fuue6WDxBqkIvv7Jvm3hp5NICuj0V/CcPiQ=";
+    "82.11.0" = "sha256-+lIQ47tzJY3dRUlDrc5mx2mV9HK9wZ+iHDGnP7Cxb6A=";
+    "82.10.5" = "sha256-qG2kIhGyl/1nVyWRfX0OXb3uP2K948WdrzPkRpJE0Ek=";
+    "82.10.4" = "sha256-4MYBqV0zNhb9MJYeyTdIk/uitoUs59+H+X+e/dLLm0E=";
     "82.10.3" = "sha256-vmpvJNioAAIAHVSN58HHWtv3aZG7rzFrOCSkua4nMfY=";
     "82.10.2" = "sha256-HFimnvWxqzzYY5HmlLxTRwDaboTTiYuuPs0j3JruPFc=";
     "82.10.1" = "sha256-OtJPwdtoN+Pp/IiGz04DL9AIhdHs3gOe0vwQh3Fd/gQ=";
@@ -981,15 +987,6 @@
     "9.4.7" = "sha256-HNioVz+V6SzLI94NBBHInS6RKN5KSxoJMy23vEqHZhc=";
     "9.4.6" = "sha256-D+ptgHb1GBBAWM/oY/KkSNEhkF3DN+MGsqMSLdrId9w=";
     "9.4.5" = "sha256-2OfHatLdmKSDCXSrJqHCRasJPbbgW/OJChwRfFPYfxc=";
-    "9.4.4" = "sha256-VHVJ4ICSw4uOIMbtiyCzpTN2ePAFp7M/NxOorzD/rEg=";
-    "9.4.3" = "sha256-EBMDg4bQ6yJo2NsQqJLjnz2RkHnKj8B+NVCq8NG9eC8=";
-    "9.4.2" = "sha256-C8fr4Iewt/e3rftrVmzcyjZpuc2/W5NRbFt7Vt5AsaY=";
-    "9.4.1" = "sha256-+j677UcoVDKws30SU12CxMTP/vKCkQ/SvjO9TokfDM0=";
-    "9.4.0" = "sha256-EPCg6TB+fFSsSNP5wCwKZUI3oQhrx92tn8kBj2l3ArQ=";
-    "9.3.4" = "sha256-Ajlqxz8L0zvnLMZFYq6FsKc24D0yiWAy+2CPBsdvgv8=";
-  };
-}
-c=";
     "9.4.4" = "sha256-VHVJ4ICSw4uOIMbtiyCzpTN2ePAFp7M/NxOorzD/rEg=";
     "9.4.3" = "sha256-EBMDg4bQ6yJo2NsQqJLjnz2RkHnKj8B+NVCq8NG9eC8=";
     "9.4.2" = "sha256-C8fr4Iewt/e3rftrVmzcyjZpuc2/W5NRbFt7Vt5AsaY=";

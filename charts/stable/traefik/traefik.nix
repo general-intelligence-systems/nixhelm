@@ -1,8 +1,12 @@
 {
   repo = "https://traefik.github.io/charts";
   chart = "traefik";
-  latest = "39.0.5";
+  latest = "40.0.0-ea.1";
   versions = {
+    "40.0.0-ea.1" = "sha256-yqzsFtuMz87dQcPW/azrsKokP7sMFbHi8pCiw6rId2U=";
+    "39.1.0-ea.2" = "sha256-wE+wfHkVRCD5BEn+kBQb711AC3sA9+ECuVujy7J0Mi4=";
+    "39.1.0-ea.1" = "sha256-GSDz4/aQS+YA9okY+QsUqZq9uBR2czyR1TtH+rirzNo=";
+    "39.0.6" = "sha256-SB/dwz9+aCenv10qmzX7/zkl9kVlF1Bskz53wFg5CFM=";
     "39.0.5" = "sha256-LWl7boE85UG4Is7POi/2/LlzImDS+z56lzc4iqOb8vU=";
     "39.0.4" = "sha256-aNJtbZ49DU6wzRUb8LQGqiFFP8KxZmCn9xOo0pKzeUc=";
     "39.0.3" = "sha256-Z1Fx4D3zwaDzW7QOS7Av4ttR62Ln4uvSajnc6EhFZis=";
@@ -20,6 +24,7 @@
     "37.1.0" = "sha256-DZQO4UoGRgD3x5VF35PfgkownSCMMWX5LI/F9C3BujM=";
     "37.0.0" = "sha256-syMrFwOZiJhxkx4dPFysTJkyxaZoHSKdzL7gjhVQ+h8=";
     "36.3.0" = "sha256-zWy3XT11x2TYP/iZKEQ9yvYpI5kOOQmpasR0iztRErs=";
+    "36.2.0-rc1" = "sha256-gNKuhF0sdygcXfnBm6c52B+ZMHAfg8ndl+2c2i+asNc=";
     "36.2.0" = "sha256-JWsBYvhSdRHq9Fz0fZceOV4ncE3DM+VRxzI9j6k7apw=";
     "36.1.0" = "sha256-APQuQjKEpNwIaNi0RujZS1RcVLuPKC2PEXNLeM8/1F0=";
     "36.0.0" = "sha256-hekZQYQW45LuTus+/acgzOxjRnc+308XQRd+nOCHSw8=";
@@ -38,10 +43,12 @@
     "34.0.0" = "sha256-O0+TH2vCgaTCGWsyxNZI6OOCmQAehaGHANerHAs19LM=";
     "33.2.1" = "sha256-gpej70RjEfq3cL08QgiEqvZRbB71Vz/xRlG2dy1m2Rs=";
     "33.2.0" = "sha256-ISKdZIt+xwX27B4uGJlKOBFIGTqEVbwateFVeuBkTNs=";
+    "33.1.0-rc1" = "sha256-G4NY57HhzRnskdv9OVXeIBgU7/gS3KP8D1dlOVBXG8s=";
     "33.1.0" = "sha256-Rh0ycpkdU5A19D56usTAwPestbsUyFpL0uv4nVPfI1w=";
     "33.0.0" = "sha256-L3xIXOvQD5Xn/EvjDI/U/wMhibyROJSXqH1S6Ito08A=";
     "32.1.1" = "sha256-mDveuQR2AIqaNn1lU+JkxpLWj+kWIpTH582s4qkix30=";
     "32.1.0" = "sha256-Hwb3oO4CQn9MNbUCHX3brt23gLdyyuQRoKhKvxdzM4c=";
+    "32.0.0-rc1" = "sha256-H/2jnXYLxffhQdx4PFkNFgCrObI7BSe9pjp/ooOb9OU=";
     "32.0.0" = "sha256-6wBZH/gFrHsdyn0wgRwXuJuQffkHrcFdt3uVpqrKs58=";
     "31.1.1" = "sha256-xS/vzme2D80N9TXvBBA0mtLFx9WZcceEjggWKgmrFKU=";
     "31.1.0" = "sha256-SnryOQ8YUVlJPIWym/9jzR7jb9dKuW4oEv9nRzYLjy4=";
@@ -54,7 +61,11 @@
     "29.0.0" = "sha256-hNitPnK/eObbDwkeFm9rcQunZh6SN1AMuH9gaWpIBS0=";
     "28.3.0" = "sha256-sWhaN/17sc8BnnC1+lSAic/zw3x4IssH1e2Z5Ao1RRM=";
     "28.2.0" = "sha256-+NYH+IXZeRZvAuRJAE6hqL6UP0tGzykxhyDKJ97QHzY=";
+    "28.1.0-beta.3" = "sha256-a9fnv2Riej7U/CqcIHH6J+B8xuB0GMkbaa/jSzKNlNs=";
+    "28.1.0-beta.2" = "sha256-K54l3Eq9ildfO8ayOv7WDQfNSxrMLHseNZiDiuNaBhU=";
+    "28.1.0-beta.1" = "sha256-vcyTM1qVko4DEnrHBA2MeQDCrkx1AW8/6qwo/hMALyM=";
     "28.1.0" = "sha256-f0zeX32fx52CF99P+XU9qvt0S3SA8zlxpLZtxwLeNsA=";
+    "28.0.0-rc.1" = "sha256-u0/AouVCiZzgRqqjCjBwv/aA/G3Ovko+/nZGlbcQbec=";
     "28.0.0" = "sha256-4gWi2qek8C3Fs4XMJEYXucAUd6mlWPPp+gsjrAKFR+c=";
     "27.0.2" = "sha256-JxKY2bCJtQLuuTVSA07mdns1Ka9XyPnmBmXDphwVyXQ=";
     "27.0.1" = "sha256-4O492hhbTzQwVjsFAY2PijcLLyg4XngWvqjzVFOYVA8=";

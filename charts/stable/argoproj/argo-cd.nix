@@ -1,8 +1,13 @@
 {
   repo = "https://argoproj.github.io/argo-helm";
   chart = "argo-cd";
-  latest = "9.4.10";
+  latest = "9.4.15";
   versions = {
+    "9.4.15" = "sha256-DByJavEwE4fiDmZ+YkX7ZtdeBaWOgmPQzDnGTFA/fTg=";
+    "9.4.14" = "sha256-gnW01KZp9k0wJvoA6aDEf6v4kbXpgKWeeGuqGCxo3+w=";
+    "9.4.13" = "sha256-93IcrHpTaDPJ9UcVon/WuaOj6ZZnZGTXiQc7jYZm8GI=";
+    "9.4.12" = "sha256-sQJpT3wZ+N9UMn0baPJGgSYPN1Zft1MeUQI/T3sLiyc=";
+    "9.4.11" = "sha256-jpdPy5F+sokEO4bQK1gMDPzuxSgNOizSd87H2jVQCSA=";
     "9.4.10" = "sha256-n1ihetUtB6SbczYPB/geWZxVKV0/L4KKtsrxcbHSul0=";
     "9.4.9" = "sha256-A3DsYtrjnsAIBzKa6WQclT1/4q+BmBH2Zxcg5X+b9po=";
     "9.4.8" = "sha256-SRuJaItrHipx5K2bRl8c7MkMhXKKgb3xOZGloJp3GC4=";
@@ -867,18 +872,5 @@
     "0.2.2" = "sha256-neiQBRXZtQjQ9qVrMq2y9L2jaRRUBEBtjX/KHIopfqs=";
     "0.2.1" = "sha256-BnGjLm37mXwYpPnGYdmSqueeEAs3TQXszhmpPAYlLRY=";
     "0.1.0" = "sha256-InzHETCBv4KJ+yGO6S20Nof+CqLlpgpRi+2QXgWp0Tk=";
-  };
-}
-0.2.1" = "sha256-BnGjLm37mXwYpPnGYdmSqueeEAs3TQXszhmpPAYlLRY=";
-    "0.1.0" = "sha256-InzHETCBv4KJ+yGO6S20Nof+CqLlpgpRi+2QXgWp0Tk=";
-  };
-}
-.1.0" = "sha256-InzHETCBv4KJ+yGO6S20Nof+CqLlpgpRi+2QXgWp0Tk=";
-  };
-}
-.1.0" = "sha256-InzHETCBv4KJ+yGO6S20Nof+CqLlpgpRi+2QXgWp0Tk=";
-  };
-}
-.1.0" = "sha256-InzHETCBv4KJ+yGO6S20Nof+CqLlpgpRi+2QXgWp0Tk=";
   };
 }

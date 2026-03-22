@@ -1,8 +1,9 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "ghost";
-  latest = "0.187.1";
+  latest = "0.188.0";
   versions = {
+    "0.188.0" = "sha256-2/Iv76aE9FnKC5QwJCQHkg/PT1IVoXIDUUb+zmHQrRs=";
     "0.187.1" = "sha256-0aGTHeVcKGiL5LU1GRAECZkKchsfUOrRSL2zowcvu84=";
     "0.187.0" = "sha256-5E+xycplGGLm6LpKJeRadWJswLHRQUphYXgq/b9kJvk=";
     "0.186.0" = "sha256-3qGSOXh1hHsBHGaQClKKGtFT02uldBhpXpIIkkWAwkM=";
@@ -440,8 +441,5 @@
     "0.1.2" = "sha256-/TyQtemmAzzdU8RRrmGYsRWoB5ZflKvEAUH4QFHVXVk=";
     "0.1.1" = "sha256-r6147dVql+9XT9K8WhurnhRju3fE6JQ+1nyYlXinZDk=";
     "0.1.0" = "sha256-bXqy4tifCeGVqAoYy3XNoj3VtH31pj9g/y6D+CocALo=";
-  };
-}
-0.1.0" = "sha256-bXqy4tifCeGVqAoYy3XNoj3VtH31pj9g/y6D+CocALo=";
   };
 }

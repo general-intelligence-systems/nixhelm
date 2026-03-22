@@ -1,8 +1,9 @@
 {
   repo = "https://victoriametrics.github.io/helm-charts";
   chart = "victoria-traces-cluster";
-  latest = "0.0.6";
+  latest = "0.0.7";
   versions = {
+    "0.0.7" = "sha256-iLQF3IWNVk8IVeO9I4hyy0zfXh9zERgEYoLvoygrQyc=";
     "0.0.6" = "sha256-TOl5a/lqbR5m38HROhz6QeL5bnJdmtA6r/Fb7mv2Zmg=";
     "0.0.5" = "sha256-v65QKNZSswp5V2UuazLionm7bf182rqT2mEAsQfSxRk=";
     "0.0.4" = "sha256-Fz3WzwMMeyI9WbfxHK1bi+HkGFEe4l0IlLGjzmwCia8=";

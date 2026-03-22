@@ -1,8 +1,9 @@
 {
   repo = "https://victoriametrics.github.io/helm-charts";
   chart = "victoria-metrics-k8s-stack";
-  latest = "0.72.4";
+  latest = "0.72.5";
   versions = {
+    "0.72.5" = "sha256-7KvjvUDuaJhlXTBhnfBilyZhK7nf5yFNUL220S/1VfY=";
     "0.72.4" = "sha256-r8H3tiqFZsJd+YkvifwqOjjbFz27fkCtDZrTGcIcX0g=";
     "0.72.3" = "sha256-t7csG2JmYzEdTxqLu4xmt2Ne0cnifYlzcwfsP7mAIBQ=";
     "0.72.2" = "sha256-flRq4umiKN4RMG88rhXbI29Ok/pPFiHJLEQzL9zFd1s=";

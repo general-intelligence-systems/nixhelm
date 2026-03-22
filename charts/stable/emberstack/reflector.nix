@@ -1,8 +1,10 @@
 {
   repo = "https://emberstack.github.io/helm-charts";
   chart = "reflector";
-  latest = "10.0.19";
+  latest = "10.0.21";
   versions = {
+    "10.0.21" = "sha256-tz0Qr7v7setPXxa4h9yOU+moUhu7w4DYtcS492NkVxQ=";
+    "10.0.20" = "sha256-fmOitG3eDyGxw0P+rU7B3ew5RO+7Epm+xD9myU+vWAA=";
     "10.0.19" = "sha256-8fV3EhDwNqSN0gTH3+q+omNJajm1Lwn4zhtt3fV2sNs=";
     "10.0.18" = "sha256-uKb3TSXOMOA1bIFIIw8QXlwFZubVlWaEoJG65FVCTY0=";
     "10.0.17" = "sha256-Bem6dSdo1I3eFWBlTTY08pN94UB+hXb8FcwOxwfLFmo=";
@@ -22,6 +24,9 @@
     "10.0.3" = "sha256-xcZ277om8pqPd7UbICoBVHPJERhhdqDM6fWeTxSOZPc=";
     "10.0.2" = "sha256-avk7yknuWTA2WXuMlmgRhGEOBsKhnj5/mxNBvvXyFwg=";
     "10.0.1" = "sha256-kNo1OR+z/r1oXEaEV88jrHneXwGdRdHsvsXiXKhNsUM=";
+    "9.2.0-develop.18" = "sha256-SqYZTmzlItJDiqVaGUz/u/vIqFTEL6piICUDXopZS+Y=";
+    "9.2.0-develop.15" = "sha256-t2EkqtUrB8Mm+PTNJPInv4ZQw6kdmy9EtQ2iwzoZifw=";
+    "9.2.0-develop.14" = "sha256-KVokh9I8mJyLMbL1YCCBrCVrugb9EEDlgUfEEO6fg7I=";
     "9.1.45" = "sha256-un9o+3vEFJ0ofoth4NWuuoYTktMItimspbU1VKNwFfE=";
     "9.1.44" = "sha256-nzM7GpeIHiut0H8rTrgfyK2cL9K0SiFQNkY3cwVDzQ4=";
     "9.1.43" = "sha256-7GKcq1T9t/sArWz0DJfkB3ORhNAzxn0GrDO3PsParb4=";
