@@ -26,3 +26,6 @@
     "0.1.0" = "sha256-1kabdr/cDUOtm+KhIvFic3vVCBWfO3FowduQ/sDv4Ww=";
   };
 }
+.1.0" = "sha256-1kabdr/cDUOtm+KhIvFic3vVCBWfO3FowduQ/sDv4Ww=";
+  };
+}
