@@ -32,15 +32,17 @@
             chartHash = chartMeta.versions.${version};
           });
 
-        mapCharts = builtins.mapAttrs (
-          repoName: charts:
-          builtins.mapAttrs (
-            chartName: chartMeta: {
-              latest = buildChart chartMeta chartMeta.latest;
-              versions = builtins.mapAttrs (version: hash: buildChart chartMeta version) chartMeta.versions;
-            }
-          ) charts
-        ) self.meta;
+        mapCharts =
+          let
+            isChartMeta = v: v ? chart && v ? repo && v ? versions;
+            buildEntry = name: value:
+              if isChartMeta value then {
+                latest = buildChart value value.latest;
+                versions = builtins.mapAttrs (ver: _: buildChart value ver) value.versions;
+              }
+              else builtins.mapAttrs buildEntry value;
+          in
+          builtins.mapAttrs buildEntry self.meta;
       in
       {
         charts = mapCharts;
