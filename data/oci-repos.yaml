@@ -16,6 +16,12 @@ dagger:
     dagger-helm:
       regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
 
+element-hq:
+  registry: ghcr.io/element-hq/ess-helm
+  charts:
+    matrix-stack:
+      regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
+
 envoyproxy:
   registry: registry-1.docker.io/envoyproxy
   charts:
