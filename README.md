@@ -1,7 +1,7 @@
 <!-- Generated from README.md.erb by bin/generate-readme -- do not edit directly -->
 # nixhelm2
 
-A collection of **746** Helm charts across **104** repositories in a nix-digestible format.
+A collection of **749** Helm charts across **104** repositories in a nix-digestible format.
 
 ## Supported chart repositories
 
