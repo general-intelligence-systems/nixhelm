@@ -117,6 +117,7 @@ general-intelligence-systems:
   - https://general-intelligence-systems.github.io/kubero-helm
   - https://general-intelligence-systems.github.io/kubevirt-helm
   - https://general-intelligence-systems.github.io/guacamole-helm
+  - https://general-intelligence-systems.github.io/nix-store-operator
 
 goharbor:
   - https://helm.goharbor.io
