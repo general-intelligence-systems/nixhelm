@@ -1,8 +1,9 @@
 {
   repo = "https://1password.github.io/connect-helm-charts";
   chart = "connect";
-  latest = "2.4.0";
+  latest = "2.4.1";
   versions = {
+    "2.4.1" = "sha256-287eyb0EKFXIvzKbaHz1tXM0EKMwwTnjM8tCSsSBvww=";
     "2.4.0" = "sha256-EaejIHhmHiI96nUUK7qzZxpPd0VpyrPax/5XyCVF3YM=";
     "2.3.0" = "sha256-rqnA+SenPYib+pr9WNxUAgPRwgCyDgJDC1nWCZ+0Gd0=";
     "2.2.1" = "sha256-j26epp17geWTeCqg70uZGKB0xdN26gbuwfzTv3NS9wE=";
