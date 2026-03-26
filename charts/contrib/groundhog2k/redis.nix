@@ -1,8 +1,9 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "redis";
-  latest = "2.3.1";
+  latest = "2.3.2";
   versions = {
+    "2.3.2" = "sha256-bAl49nspKwDBNaGEyw4xXc6Q+ITSwyuIiJT8wwB3TDo=";
     "2.3.1" = "sha256-3TVcw5nXTmAove1M+l1PrCHfZBPh2xdIXh1C0BTlw6c=";
     "2.3.0" = "sha256-LlCSadZhCq1SOdCHnO1aGE5RyFqQeDQSxLk9HuWTONc=";
     "2.2.3" = "sha256-/hfBe8jMPbIdqjnqqrOrn8NpHTl7xZ0h3qr8OqopBf8=";
