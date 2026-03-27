@@ -1,8 +1,12 @@
 {
   repo = "https://grafana.github.io/helm-charts";
   chart = "k8s-monitoring";
-  latest = "3.8.4";
+  latest = "4.0.0-rc.2";
   versions = {
+    "4.0.0-rc.2" = "sha256-efrC5fHNzJfBjHy+gOhA2F/OarfwBaVhI1opWLZnaps=";
+    "4.0.0-rc.1" = "sha256-yKrrv6t70vsSLlVBwzU/5Fq6lIQy28r85GKitxFCsUs=";
+    "4.0.0" = "sha256-Tdvnq8QLvAmrJHQjtjA32OG78wNhZQkFt1K+EyzZcTE=";
+    "3.8.5" = "sha256-T+43RysMZWfA0vh3CxYs6qh6unqE3umX+W8k0hGS76w=";
     "3.8.4" = "sha256-LyL+qaT4RPKzOB9uefcTTA0BRccPEC5nJkn9owqILcU=";
     "3.8.3" = "sha256-dwzCkLk+ECBXkB1HUa4LDTRtUP9yfb80jWNRjbBATLY=";
     "3.8.2" = "sha256-BxcIE4eiPCp97Dzhvpww6DnCz3b5r1hMs3CwpvProl4=";
