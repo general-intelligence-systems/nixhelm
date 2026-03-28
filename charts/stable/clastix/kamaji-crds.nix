@@ -3,6 +3,6 @@
   chart = "kamaji-crds";
   latest = "0.0.0+latest";
   versions = {
-    "0.0.0+latest" = "sha256-vsuVan1N+Otiw3o4azokKFIhoM8BqeBPs3WGuEVOuyM=";
+    "0.0.0+latest" = "sha256-26XiVf7qbbgtAeiICuxVD/jlYXRr0A80AtWkV7X9jm8=";
   };
 }
