@@ -1,8 +1,9 @@
 {
   repo = "https://kiali.org/helm-charts";
   chart = "kiali-server";
-  latest = "2.23.0";
+  latest = "2.24.0";
   versions = {
+    "2.24.0" = "sha256-nMtuQzEN4pZNVzIQ1XWeuo6dt6lgI5GsZXGgkgmSvJI=";
     "2.23.0" = "sha256-Z3OgBEEHoUbQnlxUCBsfNl5QTeyfAU31ONRwzHnQ8+g=";
     "2.22.0" = "sha256-HMNAWO1QP5GQMlynzms/gXJMNXQP9WFIuE/n3wqJf2U=";
     "2.21.0" = "sha256-WFRPIkkjhoxd0CvIUSQ4FZpYiI0r2kO3O1MC9DJQM7k=";
