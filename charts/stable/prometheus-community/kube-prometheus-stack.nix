@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "kube-prometheus-stack";
-  latest = "82.15.1";
+  latest = "82.16.0";
   versions = {
+    "82.16.0" = "sha256-yXk4MCDE4FeFWAADT1UIdA8GqTtjA5O8lM3g9wpVTyQ=";
     "82.15.1" = "sha256-EeSw5Zqh516MYOYOQ5Ts+3IG5t1e5LP+OFP908lZLo0=";
     "82.15.0" = "sha256-mqY8W+V5F2ut55oCS/2ufmgVmGhIC2Qw9zQ0onHVe3A=";
     "82.14.1" = "sha256-qm47RfeXfkacA8HpmemNGBy9ICh+WfbWUybVTja7HhQ=";

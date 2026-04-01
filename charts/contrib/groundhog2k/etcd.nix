@@ -1,8 +1,9 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "etcd";
-  latest = "1.1.5";
+  latest = "1.1.6";
   versions = {
+    "1.1.6" = "sha256-FHVm/hb5DRanzgiaTiCa8PsCou974QYw+tXzMv8iwtw=";
     "1.1.5" = "sha256-9B/TFcwm7nx7zDukNqxDKB8R21lJB+to36wd67RVQII=";
     "1.1.4" = "sha256-FOwz4744AMG/hwe/0haGqK2liMyxJcfRpWwKnLtmp1A=";
     "1.1.3" = "sha256-9FguDUgqPTTxuQAU+7UXe8PQZ0e8LaREYlIGq4zyeGQ=";

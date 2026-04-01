@@ -1,8 +1,9 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "wordpress";
-  latest = "0.15.0";
+  latest = "0.15.1";
   versions = {
+    "0.15.1" = "sha256-Ldm7Zmkkmha9USGLDUdgqKbFiMI8GpcE/2iHQoVxA0w=";
     "0.15.0" = "sha256-PJTWchKem3Y4NmFvsewqCA1kdMmVjLFHo60DaqOsOg8=";
     "0.14.5" = "sha256-8TN5iDG35WZjAByDxin0NYpbLxIPZ0manDq8ffWK1cM=";
     "0.14.4" = "sha256-z8a6uMwWk4BisDvuATwYZYxWMbtbbQOhfa/CvNnEyiA=";

@@ -1,8 +1,9 @@
 {
   repo = "https://charts.sysdig.com";
   chart = "agent";
-  latest = "2.5.1";
+  latest = "2.6.0";
   versions = {
+    "2.6.0" = "sha256-XSCRy4YHj23oSVzf47F4iZ5YN39LWs4JbKa+JQlT0sU=";
     "2.5.1" = "sha256-Mcl9/CtxPoGBAJ6QWIc89zhVaPtiPwVMR5YHPhlSx48=";
     "2.5.0" = "sha256-oGnyxFOmj7QBiPwSrOdD/Wi09PFoIbbLWqhhbbIEFk4=";
     "2.4.2" = "sha256-8qA5E0Gkp9zjPJ/y5BEhOoczgWOCqWHelGS1HWKIpgI=";

@@ -1,8 +1,9 @@
 {
   repo = "https://helm.releases.hashicorp.com";
   chart = "consul";
-  latest = "1.9.5";
+  latest = "1.9.6";
   versions = {
+    "1.9.6" = "sha256-Fd/iMzhXfDykL+QMYy045x4ZQ+hp/eombNFfCUaC6WA=";
     "1.9.5" = "sha256-ZTeXJolUty7MblIa8Tjx/UTLRBR6j+v6c4ktIAa3EuM=";
     "1.9.3" = "sha256-TeQlTX+MA2tyJddlgpwMp/FjhTPV3gXI07KVrlEh8EU=";
     "1.9.2" = "sha256-YykSrHGtz0guh5lQ9G5W/RM1vdTMSTTx10YfMzfive4=";
@@ -10,6 +11,7 @@
     "1.9.0-rc2" = "sha256-2I9pR/aDC/OexFWqgcMijhTyD5t0Vt9t6ii0jLquiwY=";
     "1.9.0-rc1" = "sha256-NVD/3RJNHjoh5Jzsq7gAZvdr7xVbCidQ7/zUW/HjkAs=";
     "1.9.0" = "sha256-DDUkqUWHznPVcJZvp8bfpbRgCUpE+M8gbVyQ0ai56b0=";
+    "1.8.11" = "sha256-amMK2Cr18ZxlHdzYf0yMgqR+EXvqolq11I2zhDP2raQ=";
     "1.8.10" = "sha256-e/gUQC0mh5QMy3uz9z1/mBTTeXKWdf/ftcr0ZtCsTcI=";
     "1.8.8" = "sha256-L3AtHDVWbL8gp14i4t8a6IhECrnr9j20Te980IJAL/A=";
     "1.8.7" = "sha256-gDXsFckHWm0BWjQj8KPiMll7YMa77IYr1ea6JhRVzJw=";
@@ -17,6 +19,7 @@
     "1.8.3" = "sha256-YdX39xo/f4DLaNFqw1ecr/cxm8gMWDhBB8KQgCL6rGU=";
     "1.8.1" = "sha256-NgWLP+sl5kTui3WvxkKuDKBQ+dfeGlTS2dKP+2SwARo=";
     "1.8.0" = "sha256-uLxLbczkxP84DR/Xd3lOx9O9Tm8O31ofYfrQB+9vyzc=";
+    "1.7.13" = "sha256-rb0egMGZs8gs5mKhSDCiSYLhF+TOeeNOuurK5E6bdhI=";
     "1.7.12" = "sha256-gbehPsuvYL+vxOoz8QT9fMsuxexEnAzQRUxJU6UoLwQ=";
     "1.7.10" = "sha256-RRF8qpyWabZpTs9WiGoOyImIYQfW4QcgiGet8HaifQ4=";
     "1.7.9" = "sha256-Iqoi+4xCt40x7hgJ9Qyd2QtIvnv+9n9KyRjg1fYo8o4=";
