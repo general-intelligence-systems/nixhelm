@@ -3,7 +3,7 @@
   chart = "vault-config-operator";
   latest = "v0.8.39";
   versions = {
-    "v0.8.39" = "sha256-HcwdstGtMbC34WnIDDtvKRjfCcAKk79UFKqo9swBD5I=";
+    "v0.8.39" = "sha256-tPAmkAJpkTCuEgqvKjelx6b9YE+qJDY8HTTPifkpLYE=";
     "v0.8.38" = "sha256-/siEJSRyWlvM7vqPzxlCdeZ45A7q4j4LiEPLfdANIHA=";
     "v0.8.37" = "sha256-zTdeEPDG0NXtnavwq/iC+xa81ExCf6JKQluBB4UdDMg=";
     "v0.8.36" = "sha256-8QwXorQOtOo5CIWjlwkb4voxSXHEg5xgkxzrKsmcBOI=";

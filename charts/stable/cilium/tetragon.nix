@@ -1,8 +1,9 @@
 {
   repo = "https://helm.cilium.io";
   chart = "tetragon";
-  latest = "1.6.0-rc.1";
+  latest = "1.6.1";
   versions = {
+    "1.6.1" = "sha256-286KBQ1QvcW5YpHjv+eqrS4bxZo5fDljkl40djEZ8sM=";
     "1.6.0-rc.1" = "sha256-vKOd4wgvD61AcwBQU8rpOKxzJLYhEBM0/yUU4EGQ/tk=";
     "1.6.0" = "sha256-cPybJHbcnTcQtUpeqoZZDf3xkI7BHwBkm03kcztfJLw=";
     "1.5.0" = "sha256-2MAeclfn6yNbtpn/IbQum6E+IjWdh1mKLl2GbKLdYrc=";
