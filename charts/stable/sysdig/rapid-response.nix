@@ -1,8 +1,9 @@
 {
   repo = "https://charts.sysdig.com";
   chart = "rapid-response";
-  latest = "0.9.34";
+  latest = "0.10.0";
   versions = {
+    "0.10.0" = "sha256-aBB+9628sJHPpa+kUr0eVaMpMUrYFjoN23aFd9KSgMo=";
     "0.9.34" = "sha256-yW28b5dW3oWxnzmKoHmWZy/+uzbXmymOvvtBuKugFi0=";
     "0.9.33" = "sha256-v9+DpYjYa05mUwGpw9i4S8lxXvN4R8b/jilGuPISTEY=";
     "0.9.32" = "sha256-qR9AYQ7osEf7CdsHvRP9XMmN6COeg9FO3Whqz5OQqKQ=";

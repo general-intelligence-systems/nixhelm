@@ -1,8 +1,9 @@
 {
   repo = "https://percona.github.io/percona-helm-charts";
   chart = "pmm";
-  latest = "1.5.1";
+  latest = "1.6.0";
   versions = {
+    "1.6.0" = "sha256-geoKxkdtycq3aQq6ZlywhN+ZF+RfpMWwF/z3EeJ2+OA=";
     "1.5.1" = "sha256-gNIBjV7x7bnXiZxhD+S+/7WAlxlMpBZSYmMcFkHJ/gQ=";
     "1.4.14" = "sha256-AnE7ya2KjUqFrCeA9k/e1/9QtR8RGn5apBH+t3YDX4s=";
     "1.4.13" = "sha256-uZDjNSafsY1ng9YxqI4O8w93F9L1192LX2BDnSVzJJs=";

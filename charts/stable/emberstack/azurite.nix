@@ -1,8 +1,9 @@
 {
   repo = "https://emberstack.github.io/helm-charts";
   chart = "azurite";
-  latest = "1.0.19";
+  latest = "1.0.20";
   versions = {
+    "1.0.20" = "sha256-DevkIwJrHSeSPf3jg+RK1SF198jdUJMBptSc2ZxDL50=";
     "1.0.19" = "sha256-K7VYjykdZR+7PGvEaec1A68H7eooHJoQcC2ITu5KQSY=";
     "1.0.18" = "sha256-n6CH8mah2EumD2Q/W1OVxpBjlvYS6oWg0nVNQZR0X8A=";
     "1.0.17" = "sha256-KpAXs96n01j60aUv4z2Jqfun07eVmq8S/mNZZ6IEPa8=";

@@ -1,8 +1,9 @@
 {
   repo = "https://emberstack.github.io/helm-charts";
   chart = "argo-cd-extensions";
-  latest = "1.0.19";
+  latest = "1.0.20";
   versions = {
+    "1.0.20" = "sha256-7tsYkp6CO0fKwYSqxlguzWlRGvRn2yR+/eeJapM4sOw=";
     "1.0.19" = "sha256-bT13LUkIc0TV4CYtVYNad3WxWVwoDTFNWqvNe8sE47E=";
     "1.0.18" = "sha256-qP75PAoCUK3Bgp6H+A5p7lO1F5ZIqoWzgyxTaYfJwAY=";
     "1.0.17" = "sha256-bEjq092geLoN0I4Lu8ndbNmWmp2ywNFGxVQdVPtFoGA=";

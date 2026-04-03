@@ -1,8 +1,9 @@
 {
   repo = "https://emberstack.github.io/helm-charts";
   chart = "nginx-gateway-fabric-extensions";
-  latest = "1.0.19";
+  latest = "1.0.20";
   versions = {
+    "1.0.20" = "sha256-s0+Z4nsUefGWJ+5OBw+XYkFjdKHz/jol4o1KhlLRvZw=";
     "1.0.19" = "sha256-FTySTcA9+HVB4aB+sm1ZYEZsfU0P1i1TmvR9RTjQ/t4=";
     "1.0.18" = "sha256-U57nOlWOiAjZR5XbfilBsHl0dAkdnz7hQhiKC/mEH5E=";
     "1.0.17" = "sha256-pQex8vdAiJ1hYObGMEDgspwD4sA6TYh1nG3AS0+1LLQ=";

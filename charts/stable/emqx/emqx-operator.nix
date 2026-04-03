@@ -1,8 +1,9 @@
 {
   repo = "https://repos.emqx.io/charts";
   chart = "emqx-operator";
-  latest = "2.2.29-beta.2";
+  latest = "2.3.0-rc.1";
   versions = {
+    "2.3.0-rc.1" = "sha256-zQAE2zyQ4irSLoBYR2NfJskR5trD61Eg41Bc2Vkwt2Y=";
     "2.2.29-beta.2" = "sha256-iCRa8Tumr7M3RAIfba2qb3SE1sqWWnQwV68Lfw0vz5o=";
     "2.2.29-beta.1" = "sha256-LpdwNUY2UU5ilmShYUjmVCrDSRb3Y7xasRc/d3pmo6g=";
     "2.2.29" = "sha256-ion5enK16MTbYaR3mHSdoHXALB62I1LkGc7/w+7HU0E=";
