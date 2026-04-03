@@ -3,7 +3,10 @@
 
 livekit:
   - https://helm.livekit.io
-  
+
+loft:
+  - https://charts.loft.sh
+
 bugsink:
   - https://bugsink.github.io/helm-charts
 
