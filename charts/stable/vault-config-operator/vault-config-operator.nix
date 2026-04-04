@@ -1,8 +1,9 @@
 {
   repo = "https://redhat-cop.github.io/vault-config-operator";
   chart = "vault-config-operator";
-  latest = "v0.8.39";
+  latest = "v0.8.40";
   versions = {
+    "v0.8.40" = "sha256-/ZhJKbtZpoi4y8yRsAIn8NcbUJcV0wjm2HarLPBTj1w=";
     "v0.8.39" = "sha256-tPAmkAJpkTCuEgqvKjelx6b9YE+qJDY8HTTPifkpLYE=";
     "v0.8.38" = "sha256-/siEJSRyWlvM7vqPzxlCdeZ45A7q4j4LiEPLfdANIHA=";
     "v0.8.37" = "sha256-zTdeEPDG0NXtnavwq/iC+xa81ExCf6JKQluBB4UdDMg=";
