@@ -225,6 +225,9 @@ operaton:
 percona:
   - https://percona.github.io/percona-helm-charts
 
+portkey-ai:
+  - https://portkey-ai.github.io/helm
+
 project-akri:
   - https://project-akri.github.io/akri
 
