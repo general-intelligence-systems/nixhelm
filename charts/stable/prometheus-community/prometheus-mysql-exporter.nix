@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-mysql-exporter";
-  latest = "2.13.0";
+  latest = "2.13.1";
   versions = {
+    "2.13.1" = "sha256-K1ctMlGGVqNOJb16d66Hzg5rGMAsoQNSPeHjycTffrw=";
     "2.13.0" = "sha256-CON2KRidekFxIWJW3pHkeJYDpxEWquRkV6mV2/OapDM=";
     "2.12.0" = "sha256-7LfCVBxRxkS8114GD8F5fedceboKKAoZTQ2rT6CIeIs=";
     "2.11.1" = "sha256-l0/OKaI3kVJexrjNMkafuettQoVbL5AFFG4nupZoQ0k=";

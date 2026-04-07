@@ -1,8 +1,9 @@
 {
   repo = "https://traefik.github.io/charts";
   chart = "traefikee";
-  latest = "4.2.6";
+  latest = "4.2.7";
   versions = {
+    "4.2.7" = "sha256-Fm/5Jo1RUl/4XFXxoW9uJxrtslQPKAPrt0HOKLJ3Qi0=";
     "4.2.6" = "sha256-jmVSKAyaDrAra3/lMGobzD6QUxcFsW0Bu2YeRtJ2RS8=";
     "4.2.5" = "sha256-A6UjoAuE6Q0HYhTdXrcI+VGlU3fp0PlLndcOaZpMxIU=";
     "4.2.4" = "sha256-3+vXY8kwYpPXddqC+xG4//khNhLAIbmqYGxFfWTHUVE=";
