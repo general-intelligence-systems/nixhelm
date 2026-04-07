@@ -13,6 +13,8 @@
     "0.34.0-next.internal.0" = "sha256-y1wazS61v5amVo3Zwxm4Uijp/GtgN5fFFkqR1FCayqs=";
     "0.34.0-alpha.1" = "sha256-F/XxAeS/O2PauxWXXj4oy3c1lJzDys3dUy+3WKEVF/A=";
     "0.34.0-alpha.0" = "sha256-q0pB6hmoXJDmv4tiTxgXmGCcD/nZugpZqJ/KHR8jEYM=";
+    "0.33.2-next.internal.2" = "sha256-i6sWis/wKhMWtzjz49uBDlgeOG74C90yGXPHRXS0lpM=";
+    "0.33.2-next.internal.1" = "sha256-zi4UtytPfpo1geDJ8Tcd/yRnNThQfDgHohfyw2uxoZU=";
     "0.33.2-next.internal.0" = "sha256-KhrYk13b75/vmdW61m6O38L/MniUa9LbUMG50w3nSgQ=";
     "0.33.1-rc.1" = "sha256-5mRh3RpKFI5Nh5HxivuweBco8JHRyBd6k/rQVCkBD8U=";
     "0.33.1-rc.0" = "sha256-dJKKUWfXRV5Z8LV/PIPgcg74qAlL3UGXYJRIL0ukVPk=";
