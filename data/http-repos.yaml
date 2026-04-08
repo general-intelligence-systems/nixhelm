@@ -255,6 +255,9 @@ sealed-secrets:
 sentry-kubernetes:
   - https://sentry-kubernetes.github.io/charts
 
+signoz:
+  - https://charts.signoz.io
+
 sergeyshevch:
   - https://sergeyshevch.github.io/charts
 

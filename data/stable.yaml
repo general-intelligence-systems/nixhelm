@@ -74,6 +74,7 @@
 - seafile
 - sealed-secrets
 - sentry-kubernetes
+- signoz
 - sourcegraph
 - stakater
 - sysdig
