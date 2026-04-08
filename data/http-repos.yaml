@@ -231,6 +231,9 @@ operaton:
 percona:
   - https://percona.github.io/percona-helm-charts
 
+permission-manager:
+  - https://sighupio.github.io/permission-manager
+
 portkey-ai:
   - https://portkey-ai.github.io/helm
 
