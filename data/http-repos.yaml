@@ -137,6 +137,9 @@ hashicorp:
 hcloud:
   - https://charts.hetzner.cloud
 
+helicone:
+  - https://helicone.github.io/HELM
+
 immich:
   - https://immich-app.github.io/immich-charts
 
