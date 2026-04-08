@@ -78,6 +78,9 @@ codecentric:
 concourse:
   - https://concourse-charts.storage.googleapis.com
 
+crossplane:
+  - https://charts.crossplane.io/stable
+
 coredns:
   - https://coredns.github.io/helm
 
