@@ -1,8 +1,9 @@
 {
   repo = "https://media-servarr.shw.al/charts";
   chart = "cleanuparr";
-  latest = "0.13.0";
+  latest = "0.13.1";
   versions = {
+    "0.13.1" = "sha256-LzIYfBHdhYOE6VpHVEYetwAk6C9bLvKmmiz5/IiYVPA=";
     "0.13.0" = "sha256-ubqPQ/MZlFBDLOqr1WEb7z0fx+KMS7pLKbEInSwg4Uw=";
     "0.12.0" = "sha256-EjRJjelELS1wZEuFnIfbPrMaVrG1Fd3T8ZefHf1PXVk=";
     "0.11.0" = "sha256-9vC9dJQx5m1qZM4SNoZJ18BIYFTfSFRhOCK+9clHxuc=";
