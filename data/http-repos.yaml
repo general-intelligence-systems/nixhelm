@@ -114,12 +114,16 @@ firefly-iii:
 fluxcd-community:
   - https://fluxcd-community.github.io/helm-charts
 
+flowfuse:
+  - https://flowfuse.github.io/helm
+
 fossorial:
   - https://charts.fossorial.io
 
 general-intelligence-systems:
   - https://general-intelligence-systems.github.io/agent-sandbox-helm
   - https://general-intelligence-systems.github.io/code-server-helm
+  - https://general-intelligence-systems.github.io/jambonz-helm
   - https://general-intelligence-systems.github.io/kubero-helm
   - https://general-intelligence-systems.github.io/kubevirt-helm
   - https://general-intelligence-systems.github.io/guacamole-helm
