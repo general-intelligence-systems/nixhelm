@@ -92,6 +92,12 @@ librechat:
     librechat:
       regex: '^[0-9]+\.[0-9]+\.[0-9]+$'
 
+metacontroller:
+  registry: ghcr.io/metacontroller
+  charts:
+    metacontroller-helm:
+      regex: '^v?[0-9]+\.[0-9]+\.[0-9]+$'
+
 magikid:
   registry: ghcr.io/magikid/modern-conduwuit-helm
   charts:
