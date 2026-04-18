@@ -8,6 +8,7 @@
     "40.0.0-ea.1" = "sha256-yqzsFtuMz87dQcPW/azrsKokP7sMFbHi8pCiw6rId2U=";
     "39.1.0-ea.2" = "sha256-wE+wfHkVRCD5BEn+kBQb711AC3sA9+ECuVujy7J0Mi4=";
     "39.1.0-ea.1" = "sha256-GSDz4/aQS+YA9okY+QsUqZq9uBR2czyR1TtH+rirzNo=";
+    "39.0.8" = "sha256-M24VAFGdhyf0QJFbqB2pnuMi+ud6GWcf5mEw/B6LcAA=";
     "39.0.7" = "sha256-Vac4SuOmmvE+fdf4mDBKH5iQeR5nEndGNc06LfNNpMg=";
     "39.0.6" = "sha256-SB/dwz9+aCenv10qmzX7/zkl9kVlF1Bskz53wFg5CFM=";
     "39.0.5" = "sha256-LWl7boE85UG4Is7POi/2/LlzImDS+z56lzc4iqOb8vU=";
