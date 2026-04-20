@@ -1,8 +1,9 @@
 {
   repo = "https://charts.zitadel.com";
   chart = "zitadel";
-  latest = "9.33.2";
+  latest = "9.34.0";
   versions = {
+    "9.34.0" = "sha256-sQegdwt4rfpu4jZOe83GTXGJkKXE0QOhpjgZtJbvTOk=";
     "9.33.2" = "sha256-12z+/zH1WxMc7K5JrFuaAPBRssAZQXm1ED9XQEDJ3jM=";
     "9.33.0" = "sha256-4yqmevtjGagN2so0vaRqvhmc35/yCLbRtXY9RqIQ0vc=";
     "9.32.0" = "sha256-ufnV5ZJlfGhp1YArTHSfK4cnzbe7IKDmZa+DRathTd8=";
