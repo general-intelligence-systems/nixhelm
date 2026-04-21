@@ -1,8 +1,9 @@
 {
   repo = "https://charts.jetstack.io";
   chart = "trust-manager";
-  latest = "v0.22.0";
+  latest = "v0.22.1";
   versions = {
+    "v0.22.1" = "sha256-f6wGQLTFhCTKdYmpHf3C95o81JDAsrW41M/qJlTpEz8=";
     "v0.22.0" = "sha256-Kan+ZhWPcaGmGm6VXeLVqLaLjLW0kaigcsb3s+shHQo=";
     "v0.21.1" = "sha256-nHffCB2VarR9pymxMvyoKBAFeROjfGs/bLFQ1sjNQlE=";
     "v0.21.0" = "sha256-KdnSfMvIUnpPgtH/ADpSY1vG4pqu4eu17Cs+delTNO8=";

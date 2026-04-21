@@ -1,16 +1,19 @@
 {
   repo = "https://charts.crossplane.io/stable";
   chart = "crossplane";
-  latest = "2.2.0-rc.1";
+  latest = "2.2.1";
   versions = {
+    "2.2.1" = "sha256-VkCLsxEi+ChXZr2InQPRygiBaFwK/w+tEiY8oAfaNYU=";
     "2.2.0-rc.1" = "sha256-SorJYbMuW9/zipac1cUdXminOmz8kbiD0MUvtXbWS4I=";
     "2.2.0" = "sha256-64IZOSDdY9wV8hAfgoX67zAJQ/vECmsBCCpw7BLPvPI=";
+    "2.1.5" = "sha256-ZMIbsW883TYdoO/XPcH+MtwyUWs+IS4fN7KU2szMIk4=";
     "2.1.4" = "sha256-YXvt0E6IOnCIRG/UuOakIZ5CCFDaFtx7rU4xDRnLvjY=";
     "2.1.3" = "sha256-EFnMS4cWe6fhuDeo5r14dpG8n4TFopp+kdvQEiCGxoI=";
     "2.1.2" = "sha256-97q2ct7LIo2ZS/KiJ8HDaYd95UdPv5yDD/zlzY/fANo=";
     "2.1.1" = "sha256-YJtekBio0/wC2AmkxcDkc/c6BAs5D4hma5/Jv0f6D/8=";
     "2.1.0-rc.1" = "sha256-CDCJpVmny9YF3dBQjNEstXXQ/cYu2+PfUdCR3Onu4JY=";
     "2.1.0" = "sha256-uCDzir/+2GHFYbWYLvqIWiKzOj/njsKVtTV6X7bsAxQ=";
+    "2.0.8" = "sha256-zFp9hS0F5RUBERtoD/mZ+urZdOI3ul/Tfu18RX4GV5A=";
     "2.0.7" = "sha256-Wpy2GzUJnHIAT/XUpwW3vZ+zAM1fKzlS3IVHSejfwaM=";
     "2.0.6" = "sha256-lNJ/e3Nc3/0xemMyCpKez5epR6aGYkyMnDgp+tNvGpg=";
     "2.0.5" = "sha256-/Dhpnuu5qj78lovQC2AUsc1tqJzc6ehaBxCq3vr4uRE=";
@@ -19,6 +22,7 @@
     "2.0.1" = "sha256-Li8trRAuBXqrfepSAVH5+yjeg9Z9Sg/gL8yFkAJQZt4=";
     "2.0.0-rc.1" = "sha256-89g3KktxQPAS5BKRaDIkSbwtSrqXUYOpk9UPy81vpk8=";
     "2.0.0" = "sha256-2Jgd0L+6mBOJF4andbA2KERE62Qf72KWSVxQRMS6qAQ=";
+    "1.20.6" = "sha256-2itanaNrALjBi6jn0RRFGltsKPtHTKG6zSeq1tt7W/c=";
     "1.20.5" = "sha256-a8q/i2ok8QmneOoMvaIP+jK0b/cinekF5BuUeuuGNBE=";
     "1.20.4" = "sha256-o4IlARMDOu3Yl4Gp/ayz/7Iqw6YNe9IT89XfJhk3YVc=";
     "1.20.3" = "sha256-53IzbZZLf+SNdh1UaaCLE7MMPaRb4WJX93a267ddoxY=";

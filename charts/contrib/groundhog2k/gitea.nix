@@ -1,8 +1,9 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "gitea";
-  latest = "0.14.5";
+  latest = "0.15.0";
   versions = {
+    "0.15.0" = "sha256-w+hLAfZyjWebVCN2rqcsu+vtAuZO/prC3HvogWN86Rg=";
     "0.14.5" = "sha256-U5vo4K1Rzcs1tgoRNnwVHnq4R3HnZMbcGcCm7qv1sAo=";
     "0.14.4" = "sha256-tTHyTFxHV2zGvy2bdIlTyifgoyzEKRJ9XfXpNU3ZWqg=";
     "0.14.3" = "sha256-41aLRNIfXo/cs1Z7TyYz80+Nr2stvfM7TgXXIF/Ml1s=";
