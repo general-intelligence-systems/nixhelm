@@ -1,8 +1,9 @@
 {
   repo = "https://victoriametrics.github.io/helm-charts";
   chart = "victoria-metrics-operator-crds";
-  latest = "0.8.0";
+  latest = "0.9.0";
   versions = {
+    "0.9.0" = "sha256-xDG+ZTEf5JjdfTlVq2YFubTuOkdbk0JjtbjP3PON9OY=";
     "0.8.0" = "sha256-sAVTupnykFmySfdMN6LQW8cP1U26EWXbGSSpw7UyW6c=";
     "0.7.0" = "sha256-2SbdTXXYQCbM33KRFQeqqVsLyNqXlVNFHCTtjsZP56M=";
     "0.6.1" = "sha256-VC0uM8i3xFZAZQGcFK0b6Bbx0nut4v+yJQ+clxsU1gI=";

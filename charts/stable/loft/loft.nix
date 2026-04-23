@@ -147,6 +147,8 @@
     "4.5.0-alpha.1" = "sha256-/5pf+BCI6PhXF68fk89j/ay2bdtI2dNIidmXF29u00k=";
     "4.5.0-alpha.0" = "sha256-Kxx1jUmn9czJ9Zr9pmE9bqnw4iyzkjZHdeaeRz1U15Y=";
     "4.5.0" = "sha256-kOpdiFu2d9Pc7YluAf6gcrdDuUgtEI2DGO08tc6TovI=";
+    "4.4.4-rc.1" = "sha256-qi/QNVvIFfMl3VkZzj5f469aKMEnP25Pp1+Id9EAz0E=";
+    "4.4.4" = "sha256-lOpF2U9Zx3cUPf3cyvswORHu+5DLuRNgeEFz/M6Yv4Q=";
     "4.4.3-rc.2" = "sha256-k8Y0GxJJ3Ba9xxjuNRKfF+aH7KMAKrF4Z8qNkJUIIbE=";
     "4.4.3-rc.1" = "sha256-Zq6gDcbPjEdd1SbMLfcj4E2Ohs5eq1qLN64t6FPLxow=";
     "4.4.3" = "sha256-np1ILCSZxEyt6w3pXhG63F37x+LxW49BAxb/DMyeGtc=";
