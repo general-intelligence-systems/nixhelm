@@ -1,8 +1,9 @@
 {
   repo = "https://traefik.github.io/charts";
   chart = "traefik-crds";
-  latest = "1.16.0";
+  latest = "1.17.0";
   versions = {
+    "1.17.0" = "sha256-50GoPTn1AtfI79cRFKNqbtgbTBbLDkfrA0GC5omAzJY=";
     "1.16.0" = "sha256-sBg6xI4sd/keMBPptgAA+SL1s5UTqXJdLBqgb7k7vys=";
     "1.15.0" = "sha256-VGzsOIa7kt1RIxBbYeWeKexAFWCGTff1u3eSJiYNL4U=";
     "1.14.0" = "sha256-OXUMCjtxCdK8V0D+jQV2dYErRdoI8m/ZrTpgdan2hwY=";
