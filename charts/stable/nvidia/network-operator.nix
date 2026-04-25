@@ -1,8 +1,9 @@
 {
   repo = "https://helm.ngc.nvidia.com/nvidia";
   chart = "network-operator";
-  latest = "26.1.0";
+  latest = "26.1.1";
   versions = {
+    "26.1.1" = "sha256-3D576u8ufFMAImIs/fYFlWIwlwnHwJikApkFE9fNCOg=";
     "26.1.0" = "sha256-EwYRktAWxCkqMdbrR9wCkMRJxl9ClW4XPWzHhN3mdeI=";
     "25.10.0" = "sha256-klaIwLfvu/Kjigch1BYd15zt7d0f0+avguaLVW8eGwg=";
     "25.7.0" = "sha256-POsCN8+u0NrH/omgcn7MF8uGGCapB7jFytDnO4sDjbs=";

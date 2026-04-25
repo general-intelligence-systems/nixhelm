@@ -1,8 +1,9 @@
 {
   repo = "https://helm.ngc.nvidia.com/nvidia";
   chart = "dps";
-  latest = "0.7.11";
+  latest = "0.8.0";
   versions = {
+    "0.8.0" = "sha256-wnVYRqKwqt3uy3jiXTpPOpzxFTsi9sMyXR+jLQm1gko=";
     "0.7.11" = "sha256-eFvNCL8fKgUlQh2DEBsYpy0LGlHgXQieYM12UiXLzTE=";
     "0.7.10" = "sha256-aIRGi5oojHd+P2nimZwb+IBZsVCHncTdHGQdtUrArIo=";
     "0.7.9" = "sha256-Dqakw04qDwEB7YizDCBt70sLkkTOZ2zOv7M6abnG8ic=";
