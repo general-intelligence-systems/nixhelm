@@ -1,8 +1,13 @@
 {
   repo = "https://charts.authelia.com";
   chart = "authelia";
-  latest = "0.10.58";
+  latest = "0.11.4";
   versions = {
+    "0.11.4" = "sha256-OM0L85FZHy0iyXRMkIspEITRE+puPBSfOEwqz6y/z3E=";
+    "0.11.3" = "sha256-3AwNWeCXUnb5rImDwOkx2ghS7+I9WH06xA891FfU5w4=";
+    "0.11.2" = "sha256-Pbd8JPJu16QsUsfhvPZO2xGBXB3/0+RXjlsIMIY6Pbg=";
+    "0.11.0" = "sha256-l7l8v0/97xFR1MN4ZgJoxSmZUq2DDe3lsCyqRK61hOs=";
+    "0.10.59" = "sha256-lZ9bYtB1zXNVqbgkvqZY4a2dJ6f8iQpZKGh/5w9jmWI=";
     "0.10.58" = "sha256-cHpokYU5swWrcpSjyYDzoasCmLG9y4OfgL2VGvttdn4=";
     "0.10.57" = "sha256-bcKiXPuRfYuccBzrMcke9nTbLz+L3HLUf6lo/bRvEqM=";
     "0.10.56" = "sha256-CVam6mubYnFOBjOeUz2IAvav59AWMbJM9pB1ezvit+I=";
