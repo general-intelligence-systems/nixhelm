@@ -1,8 +1,9 @@
 {
   repo = "https://project-akri.github.io/akri";
   chart = "akri-dev";
-  latest = "0.13.23";
+  latest = "0.13.24";
   versions = {
+    "0.13.24" = "sha256-tbkqLLYYRyRcOJzwTipttq4SB7Hw/P+y/h9l/GqHwFU=";
     "0.13.23" = "sha256-b1AXWjiethnYE7RO4nZCj4VAcMt3yiOL8qzwohHT/kI=";
     "0.13.22" = "sha256-ce5/TKCkvzBk5WE9x7nkm9EER0C/ErmibreCSapEFM4=";
     "0.13.21" = "sha256-dRZH2LGPEX8Eh/nrJgaKzV2efCgFJQKEAwP7hcJ87rc=";

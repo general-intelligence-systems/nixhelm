@@ -11,6 +11,7 @@
     "25.3.3" = "sha256-nKRsdtrRYq5DSXN8f95Mih0YoPYqVAZDc5plsiCIw0Y=";
     "25.3.2" = "sha256-d8Ibp0q7RQUCudt7vzHZewQp4z9yEImLVs32rHRxtbg=";
     "25.3.1" = "sha256-TxD81DPBbjKr1vriKUfFdXKO3ctHzV8GF2UMPG2g8H8=";
+    "25.2.5" = "sha256-L5wYP62UiJu+JOKFg+EG4/JEkrw2FXwLixkcnM6m15E=";
     "25.2.4" = "sha256-lZL9KcnQkG/gDujloqqYHpdUpEcIRoIN+UoFS0O/yHc=";
     "25.2.3" = "sha256-ZU4lqaqe36ps6Xm2JgRAi521y3aA+QY8mbZS7yKwmdY=";
     "25.2.2" = "sha256-NMteoraQW6dIAApPEqY4jirp1sN0VwPaxEYCB8MbfD0=";
