@@ -1,8 +1,9 @@
 {
   repo = "https://grafana.github.io/helm-charts";
   chart = "k6-operator";
-  latest = "4.4.0";
+  latest = "4.4.1";
   versions = {
+    "4.4.1" = "sha256-tGMx5d1f9pacLONjQ8ZmIg/ZzXviRt2RT3ho0ckPq3Y=";
     "4.4.0" = "sha256-gibsPjyLc7wcnf1ARkfkCu2L8bStjetZiAcHPYZVWks=";
     "4.3.2" = "sha256-WPzqTypvAZV1sArxRk8nezORYRz53xbv9lslXQtt8J8=";
     "4.3.1" = "sha256-VPUe7KWDn+uyEBruaJNxsw32ttGkPeZAVBHMJ9+vDOA=";

@@ -3,7 +3,7 @@
   chart = "multus";
   latest = "1.2.1";
   versions = {
-    "1.2.1" = "sha256-D+rhjw+EiOT5r8wCN/ruZDw+h/pWK8lDGKEypqbTogM=";
+    "1.2.1" = "sha256-3iy/R9Vga7RZdeVf6yIyYeEvZNkiOftGs7a+EVmEB1k=";
     "1.2.0" = "sha256-tGhnwVIs2HDyQE4AC9QYM7kDn7dPC7ZQQAfyGeAS/B8=";
     "1.1.3" = "sha256-+dHJ34AAv7ymzmtAAcs07DGkPwqSOFVGJ5oFCythQvA=";
     "1.1.2" = "sha256-3u9NOhnkAHmp4eXxV33XENlrNaC0tNQ4qOBhAkqverE=";
