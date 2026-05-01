@@ -1,8 +1,9 @@
 {
   repo = "https://kubernetes-sigs.github.io/external-dns";
   chart = "external-dns";
-  latest = "1.20.0";
+  latest = "1.21.1";
   versions = {
+    "1.21.1" = "sha256-XdAzpLhyv2QYYGlXBe5GADHQvGlfEUv4km/uZzaBThk=";
     "1.20.0" = "sha256-NAcT2nUySy9SfAgp7JI0fVZ6lt0zQv27sXTYhWq1bXU=";
     "1.19.0" = "sha256-i9V2rPfJB0zfbKIWYqHpI7eG0FdqPmzz910lKGCgr24=";
     "1.18.0" = "sha256-ZjoglNfKFYr0P9Sg21yTkXcjZ7FQhRgOXzX56UQ4wGU=";

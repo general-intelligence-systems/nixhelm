@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-mongodb-exporter";
-  latest = "3.19.0";
+  latest = "3.20.0";
   versions = {
+    "3.20.0" = "sha256-Jg2oPa0puubSMsGbQYOywzIs/3ANbO0tDJm7nc/XLrY=";
     "3.19.0" = "sha256-/QwM2H8kzUjfGDXOza63FwqqZLOXj1T0KjdPhvfBNq8=";
     "3.18.0" = "sha256-3VFKiam6k9zsRUY/8iWjpL/kB2521U5yLfKF8J0564Q=";
     "3.17.0" = "sha256-D604uvTtBH+FHZDKl3q5Uyc/hq0l+hka6srkeFKJJ5s=";
