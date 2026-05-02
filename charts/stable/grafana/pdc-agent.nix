@@ -1,8 +1,9 @@
 {
   repo = "https://grafana.github.io/helm-charts";
   chart = "pdc-agent";
-  latest = "0.1.0";
+  latest = "0.2.0";
   versions = {
+    "0.2.0" = "sha256-IwOl81so4+Wf07cJ8csotnliWQh+Un8ckCEepY17gEU=";
     "0.1.0" = "sha256-2OnhbyD2Lv/lUH7gy9M3n4NaZf9oI1zhqGCQsWNjBBY=";
     "0.0.5" = "sha256-p8ZMP2wJmSG89bJ8wlOYB88P8SET5YLfayaDIE9o3Z0=";
     "0.0.4" = "sha256-14P4K/Ih/ceG6A5bNzd7Fj/c1ZJuumUqRaJaEqL8hDI=";
