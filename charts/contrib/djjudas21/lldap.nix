@@ -1,8 +1,9 @@
 {
   repo = "https://djjudas21.github.io/charts";
   chart = "lldap";
-  latest = "0.6.3";
+  latest = "0.6.4";
   versions = {
+    "0.6.4" = "sha256-QbXqNU29XDdBSHCMCSriPeqD3z6Ldt1CoBhBwlVX1qg=";
     "0.6.3" = "sha256-wsHL0RyCBo5XizAyvH0XvM3cJhQbwbqfexnyxx03ARg=";
     "0.6.2" = "sha256-jIIAfnY51UlMmY1ChqNtbYvoIS/G8zYIr2pQqPHlpfg=";
     "0.6.1" = "sha256-mGFUM6/Y3QxJqJnomCo0XQbEtonF7db6IPv9AxJo+v0=";

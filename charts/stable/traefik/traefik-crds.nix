@@ -6,6 +6,7 @@
     "1.17.0" = "sha256-50GoPTn1AtfI79cRFKNqbtgbTBbLDkfrA0GC5omAzJY=";
     "1.16.0" = "sha256-sBg6xI4sd/keMBPptgAA+SL1s5UTqXJdLBqgb7k7vys=";
     "1.15.0" = "sha256-VGzsOIa7kt1RIxBbYeWeKexAFWCGTff1u3eSJiYNL4U=";
+    "1.14.1" = "sha256-ETMR63FyE605bhKogEDIBWt/kGRR/JVjGX6lSC6Ngi8=";
     "1.14.0" = "sha256-OXUMCjtxCdK8V0D+jQV2dYErRdoI8m/ZrTpgdan2hwY=";
     "1.13.1" = "sha256-kHiGqCNy+47WVL2WSHmaar/nMiqy9et1v0SWvKKwUw4=";
     "1.13.0" = "sha256-pFDi8Rmd8b+Mkf0JBaNNYLdVWvVzccybmqY/6WJ5eAM=";
