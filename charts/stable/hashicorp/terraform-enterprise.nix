@@ -3,8 +3,8 @@
   chart = "terraform-enterprise";
   latest = "1.6.8";
   versions = {
-    "1.6.8" = "sha256-WrKfk3cW0wyQxYp+604AKJ8Zkg3QLm0Vf6uTsMsuEVY=";
-    "1.6.7" = "sha256-3GM0qnj1jSzWBxAXxO/OMcYXxUJYeYatwt8Vw9o9qJs=";
+    "1.6.8" = "sha256-tQ6f3T350wRtwqgB0PzPQrNh4K2PltbS6Db84M41Eaw=";
+    "1.6.7" = "sha256-IAO6aqJfnz7Y0mmUALbAvsJbmmIpQV4YXdPstCHJfVM=";
     "1.6.6" = "sha256-265ZrUUM4zIC4K4M+EgyqPgd7XnKE5iUnXnAlgeMNRY=";
     "1.6.5" = "sha256-p98x0Umy7R5MqRVtKmvGZJFhW0Jwtb6Hq3Eqx3czjPA=";
     "1.6.4" = "sha256-fu5D7k7M+iAuigKw5aSn2Ah/sR9MY6ofMvx54CE/t8A=";

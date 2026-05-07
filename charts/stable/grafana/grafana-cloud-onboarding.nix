@@ -1,8 +1,9 @@
 {
   repo = "https://grafana.github.io/helm-charts";
   chart = "grafana-cloud-onboarding";
-  latest = "0.4.6";
+  latest = "0.4.7";
   versions = {
+    "0.4.7" = "sha256-RL0Ll7f/U5/k/2Sa/EeNwlb7DX+mTMjfveNb+DElLmg=";
     "0.4.6" = "sha256-ujXHmcuBJiWXxZXR7DlVXh33YYG+EuO1gBM246ZrMsU=";
     "0.4.5" = "sha256-YVaxxoTOHY852kvvmo2PN7HAlG8gHWFf42l2QHgyyKY=";
     "0.4.4" = "sha256-j6Od0UlHfQl5h25hqFyLGPKxY7zoG/VWvFRVdEfrzpc=";

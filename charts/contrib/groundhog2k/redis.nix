@@ -1,15 +1,18 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "redis";
-  latest = "2.3.2";
+  latest = "2.3.3";
   versions = {
+    "2.3.3" = "sha256-CKEH2Ndov4rp6384MmSOQSd4pJDgbkMCc3UsgRharJQ=";
     "2.3.2" = "sha256-bAl49nspKwDBNaGEyw4xXc6Q+ITSwyuIiJT8wwB3TDo=";
     "2.3.1" = "sha256-3TVcw5nXTmAove1M+l1PrCHfZBPh2xdIXh1C0BTlw6c=";
     "2.3.0" = "sha256-LlCSadZhCq1SOdCHnO1aGE5RyFqQeDQSxLk9HuWTONc=";
+    "2.2.4" = "sha256-JLS8GsSVY3nm4FFG298aL36QuvLSRfI70YE4bj54SjU=";
     "2.2.3" = "sha256-/hfBe8jMPbIdqjnqqrOrn8NpHTl7xZ0h3qr8OqopBf8=";
     "2.2.2" = "sha256-+BFdLR8GYlvMhizl3cFPZ8EU5sEu7MCI4FSGGOQhfdw=";
     "2.2.1" = "sha256-4nfCRUk9tOeqnYhx3rTtoq0rq4LF3lb1FxmX3SXtOpA=";
     "2.2.0" = "sha256-DuKIeGu8ttuUNO2LX6kRjEKbe8xZ//xlt8t+wPaavzs=";
+    "2.1.11" = "sha256-YOe2RBe5IQ5ju7gdhMgbdBiPWvc/QISm+u/xZo0XQ08=";
     "2.1.10" = "sha256-xwsx2OzpGrsLkQOdFYjxWE/zo8gWHr5tagnh+UFQ0Ko=";
     "2.1.9" = "sha256-0LiK60ZTEW4MF5XxEJNnL23ZMHWOmASEdXmcW8NV1U8=";
     "2.1.8" = "sha256-QeUNfbV9aTejEC+nx5pqokCNeFDXAUXlUpwfK0uMi0U=";
@@ -29,6 +32,7 @@
     "2.0.2" = "sha256-EH8uZH+sEjLhSSAMmuZyylVau9LWgYnfcHbVbsz41uo=";
     "2.0.1" = "sha256-jxyeUNku42DOwazZN3w08fqnbC7kkbldbYxBBDz8DHI=";
     "2.0.0" = "sha256-a96Y02aBcfG8adfu7EDbmiBES9dJ4Fb5gIFxu6Gn2jo=";
+    "1.3.11" = "sha256-QRI3/DWJGe+km7x+Usd35Wm+uj+8zJU5x4CJcpWSsFQ=";
     "1.3.10" = "sha256-2WgBVRhLMPZkKEsRCoV9+eWL2XSBdYHVoAJvdntp4eQ=";
     "1.3.9" = "sha256-KrErnCKFRurtIqX481Cym+k2NVIbv5iv/gJ3gITAApc=";
     "1.3.8" = "sha256-u4xQVMLj4rqvYr8PJHOICRviKJl8P/XSQP4YXjk+COs=";
@@ -40,6 +44,7 @@
     "1.3.2" = "sha256-pOn3AQLwcf+8VZPZO6uwGKqjfMpNb0KG7PituV9OCD0=";
     "1.3.1" = "sha256-NrVr7OyX4H64qm7XVB0PxApg42M6MF0tYyjSNrOjPPU=";
     "1.3.0" = "sha256-3KWQ0yL8w6t28IDnYMP7PHWAwTf3384H69FdKtJZyhQ=";
+    "1.2.10" = "sha256-dpTKkxLIeDuiA3H81z1kMdSnD5n3jpOsv+9p2/pa4WI=";
     "1.2.9" = "sha256-Xa/QQQ71IgX0un2eMoV+b8a8WEai4YgW9+lT3uhQDpU=";
     "1.2.8" = "sha256-XNA+Y+omh0hxeJaSkapwgSaRdyeQfVJvgC/6mNxN5zw=";
     "1.2.7" = "sha256-zfOa6MHvakfCNR59N6bi1Yl1fBB/b2ucl7wqj0npCRw=";
@@ -51,6 +56,7 @@
     "1.2.1" = "sha256-a9+J+XVwV+MQbqSMmI9wqbnX4aj4qEumEYob7ySDGvI=";
     "1.2.0" = "sha256-6o/vOQLVqNEyeissSWg+Q+BUFPOYJJJUFMGqVJUQDO0=";
     "1.1.0" = "sha256-6gkE8LBCzoLPWBtvLY3KgAlr4tGu4uh7zCI09m63yM0=";
+    "1.0.7" = "sha256-TcmnTT3BwmmUkTIolvJo8p8g6AX6xpe7T3/QkWiozKQ=";
     "1.0.6" = "sha256-uhLZN/B6pOIzc8McM2+DlXE66IuX/wFL+lK23Lndwg0=";
     "1.0.5" = "sha256-a7ci6KuKjRrxgR6FJ5tmFra9IL/k4oOlfg4Jc4HjLwg=";
     "1.0.4" = "sha256-O1dRmbO/sm3bkAAlkoEWcnMjgls9Lavcmxlss9EMnRk=";
