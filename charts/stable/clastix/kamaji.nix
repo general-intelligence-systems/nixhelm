@@ -44,6 +44,6 @@
     "0.3.0" = "sha256-KeQglMvW34Hf2nS3rub1cbf+3NltZ+TGm9OMNiZHfAs=";
     "0.2.0" = "sha256-h1dvpj7RSzIDAcnpyZ0UhXMWJQcjJLmU49Miq5Oebgs=";
     "0.1.0" = "sha256-RO66MxI5Z3jIIwxao635f1Ye8SnfqNQ4PI3OL2/QHys=";
-    "0.0.0+latest" = "sha256-JdQBP+9FjbkKRXBLOzFu71FQ0hEJweRyD00NW+LPe+s=";
+    "0.0.0+latest" = "sha256-f+3zHeqqgM9/TQ/+n6KBwA1/AyGwIn2W22eZgxQbDR8=";
   };
 }
