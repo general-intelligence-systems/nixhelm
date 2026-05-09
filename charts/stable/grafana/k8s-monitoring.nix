@@ -1,8 +1,9 @@
 {
   repo = "https://grafana.github.io/helm-charts";
   chart = "k8s-monitoring";
-  latest = "4.1.0";
+  latest = "4.1.1";
   versions = {
+    "4.1.1" = "sha256-PBfKMue7y/8MWtu70RiTd9BBTJippvQNLJJY3wvy7vM=";
     "4.1.0" = "sha256-dS8qDUIbrfJEABVZG2nuQsXDrGMpe6vBgFA0fqkajdI=";
     "4.0.5" = "sha256-YzObiWlzdr9mQMhM7XcR4Q8bjkZPaydFOTXOlZt9OXA=";
     "4.0.4" = "sha256-RmAG/lhlf9UNX4G4YOEU1tAg8aaYcNGlwv9hCGvvd2g=";
@@ -121,6 +122,7 @@
     "2.0.0-rc.2" = "sha256-6JKIv5w9XFuXgERxnknX9JpEbkeg/D+jCAQMynCF7J4=";
     "2.0.0-rc.1" = "sha256-+Bcc7oYIF8iTdV3reax4Fdw2D4ANh1x4oxA5cUhPo6U=";
     "2.0.0" = "sha256-G/6f74uqifFuP3uzh1FoSpKmQvcO9XTAxsRoHtiDkTE=";
+    "1.6.52" = "sha256-4e3EmnIsA5/K5TVq2pbI+6fQkUyvsIvGS93AbXsbYN0=";
     "1.6.51" = "sha256-za3yYACkZ/q3aXna/s2YR2qEJH0ViBsZfepn3vDQVeo=";
     "1.6.50" = "sha256-hoSAwfzbaes2IA8f7FX1BtamLa3NfZcNvq2k9yZj6gs=";
     "1.6.49" = "sha256-4HQjTMdkhIlY0RiOsfF25nvgBWib59NJ3AyrTUWv19g=";
