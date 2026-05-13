@@ -1,8 +1,10 @@
 {
   repo = "https://helm.camunda.io";
   chart = "camunda-platform";
-  latest = "14.1.0";
+  latest = "15.0.0-alpha1";
   versions = {
+    "15.0.0-alpha1" = "sha256-feX16Q0M0gpclYZHtbFZaXHUZ2XcPRvJQ18hxytRBrM=";
+    "14.2.0" = "sha256-CC67Lurz3fV8Ixf/isz2c3KqUTmGHSt1CFNuxfcXDgk=";
     "14.1.0" = "sha256-N3hsW0DgaoMwY9l2GCfNTsOcXEq3NaXupZp3xNa/l9g=";
     "14.0.1" = "sha256-BC7EMPy1y49UAm+jlzfOZEjrDo5gdMghBEDE6iSf+i0=";
     "14.0.0-alpha5" = "sha256-yyaPl3XHU1+1qZTgKLYn9iFIxdVkKOcLMNHTVEiksVg=";
