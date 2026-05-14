@@ -1,8 +1,9 @@
 {
   repo = "https://charts.loft.sh";
   chart = "vcluster-platform";
-  latest = "4.10.0-next.3";
+  latest = "4.10.0-next.4";
   versions = {
+    "4.10.0-next.4" = "sha256-r2bVOYRaP5f/0yjajqqYI+WrvIQNcgMbtEp6ZtVvokw=";
     "4.10.0-next.3" = "sha256-aNSOKX4aqBJ1eedhTUJG9zEBgdobXQkoWwYyNy6xxFE=";
     "4.10.0-next.2" = "sha256-pmZhGESzeUkZsU6VgQfSbuTds1RkM8KRfI+opIMrNaI=";
     "4.10.0-next.1" = "sha256-TjfQ0PMRq3zSZHuVjCxZlrItsX3QJTfAX+vUhQWK49E=";
