@@ -4,6 +4,9 @@
   latest = "v1.2.2";
   versions = {
     "v1.2.2" = "sha256-L+qLYuitU/DmOHlQsjJrLRiZC5k1wey+A2WZFBl2DaU=";
+    "8.1.2" = "sha256-DzwZzj5kNYv/EAvlNGVqCLM2lXqb2Em3JDTDw4Z9MIw=";
+    "8.1.1" = "sha256-gv6f/5N/60OtLYAROqTjjpAD2eXZxwjH+DUbCd1JBVQ=";
+    "8.1.0" = "sha256-Nm6Tnev4QYBs1J5tUVMmRSrB5hCNSVBbslHbEZIjVGw=";
     "8.0.0" = "sha256-aP3jdTIstcWDAppYUhOYjnqeTDqyfyrd4ffQkM+y+JA=";
     "7.0.0" = "sha256-QUtYBMfAtX8LLb4FTli61RdiUYwmCIn54RJffTh6Rks=";
     "6.18.0" = "sha256-2wITbuBrdFsUbvZLRSjCBCQOtpY3FLJE3pAxNMvMg7c=";
