@@ -1,8 +1,9 @@
 {
   repo = "https://immich-app.github.io/immich-charts";
   chart = "immich";
-  latest = "0.11.1";
+  latest = "0.12.0";
   versions = {
+    "0.12.0" = "sha256-ci+4BJs5VBLy8hVaYD2Ear2hD5Y9WgYYUUFhoYDaEUg=";
     "0.11.1" = "sha256-TiMy4nPuNnF2tb3Y+wwXofYEYqigWswuSo6po6LmnXY=";
     "0.11.0" = "sha256-cI0J/dJCc/N+mYmdpeXDIuncoxKr1YV4uVY9g8VhQQA=";
     "0.10.3" = "sha256-E9lqIjUe1WVEV8IDrMAbBTJMKj8AzpigJ7fNDCYYo8Y=";
