@@ -1,8 +1,9 @@
 {
   repo = "https://victoriametrics.github.io/helm-charts";
   chart = "victoria-metrics-anomaly";
-  latest = "1.12.11";
+  latest = "1.12.12";
   versions = {
+    "1.12.12" = "sha256-ZiDSB3j0/b9R6BYpkwEmx9z2ZBwXmmC3tjHcjLbq6SU=";
     "1.12.11" = "sha256-AZOZRrVTIdVvo8TBfPmrqOBersYnKrTpSgjAc/yBz6c=";
     "1.12.10" = "sha256-kdQFRiFw7Jcw9ZkOgpbMR5V5sOn12/3PSI9KbncKx4Y=";
     "1.12.9" = "sha256-3qDKAs7qSWIf1X/oFM8FX+4Hr4Ipkjgt0FALcZ7+xBM=";
