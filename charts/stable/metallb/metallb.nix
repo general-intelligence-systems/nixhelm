@@ -1,8 +1,9 @@
 {
   repo = "https://metallb.github.io/metallb";
   chart = "metallb";
-  latest = "0.15.3";
+  latest = "0.16.0";
   versions = {
+    "0.16.0" = "sha256-EIrWNamrjC0HIHpWEDWNNnH48NXPdEti/s8Ky1Q2sFI=";
     "0.15.3" = "sha256-J9t2HFrSUl/RMMkv4vLUUA+IcOQC/v48nLjTTYpxpww=";
     "0.15.2" = "sha256-Tw/DE82XgZoceP/wo4nf4cn5i8SQ8z9SExdHXfHXuHM=";
     "0.15.1" = "sha256-CeCJGLtD0kVOIpdCCffePmOr0zcs3p6hirWI0WHlsCw=";

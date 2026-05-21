@@ -1,8 +1,9 @@
 {
   repo = "https://helm.ngc.nvidia.com/nvidia";
   chart = "k8s-nim-operator";
-  latest = "3.1.0";
+  latest = "3.1.1";
   versions = {
+    "3.1.1" = "sha256-am9+tl/FrXmxaxArd4serjijFv1RFYGGlvBLKShzj5c=";
     "3.1.0" = "sha256-LTM652oX1ofNeYdFTRlDeLhwnq7+EaZ1sB+S7lu5mkc=";
     "3.0.2" = "sha256-d3SARYcazbM6UG8gv7mms9iEqS2fyeJSNuPt+jxjzqI=";
     "3.0.1" = "sha256-lzfTKF6okDFrMC7ei1jxu0l1V+jtRSZJ/tgb2snw0P0=";
