@@ -24,6 +24,7 @@
     "6.1.0-weekly.368" = "sha256-uoEgpzga65gdnPkMbyVhmQo5u21nijHXNakbBwFMxGw=";
     "6.1.0-weekly.367" = "sha256-cfr4Ft7zpEVSTI+eeQerP6gQ12XiBI2f4feOeaJQf0w=";
     "6.1.0-weekly.366" = "sha256-gIp0fsTujXM0VhCOoidwo8NcBbijUYEBkR8nbH9+XXg=";
+    "6.1.0-test.0" = "sha256-/1BzsAl+70vMCbJ8T+Am7fnRLTdq2lwy1w1XeSB3OY4=";
     "6.0.6" = "sha256-tSo51U7DukjLdKzE8f64IbDTzlOgzH1W/U4Bu4mor3U=";
     "6.0.5" = "sha256-NxuR0oX7pdPVaxq6WV1ogh1D5nQDePt1tMAUK019tjg=";
     "6.0.4" = "sha256-Xa29hnhv69ZtxHban/ySyxTiNwoATzdaxew3ZmNxOHE=";

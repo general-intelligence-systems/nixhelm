@@ -1,8 +1,9 @@
 {
   repo = "https://bitnami-labs.github.io/sealed-secrets";
   chart = "sealed-secrets";
-  latest = "2.18.5";
+  latest = "2.18.6";
   versions = {
+    "2.18.6" = "sha256-SvjLKxULg0YPFSQuNnBhWct39rqDT3mnvRcssvXevHI=";
     "2.18.5" = "sha256-L8H/DOIs5ACXYEt1zbYA9IqSEUeRoLVUJ78sJzkfFb8=";
     "2.18.4" = "sha256-kfCQ0XC8rRFOIU4Y3F2jqRNpUhXL+FZjxqcA5YiYW50=";
     "2.18.3" = "sha256-eGylyiRKTdE0zeSiBCF4UGetZCLHyyo5XIzB6jkLq18=";

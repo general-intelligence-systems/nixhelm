@@ -1,8 +1,9 @@
 {
   repo = "https://djjudas21.github.io/charts";
   chart = "smtp-relay";
-  latest = "0.7.0";
+  latest = "0.8.0";
   versions = {
+    "0.8.0" = "sha256-wf7yKZQXMU3uXLD+qhYOKiCCqucgrNGWPG1b+kp2jho=";
     "0.7.0" = "sha256-Wrs4pW0tkWl2Sn7zSZVhZN+KBGB+/l8Wg2w1adKLM/E=";
     "0.6.2" = "sha256-5nGUyV0be+O6O/avJ5c6z4hHJ47077SALvdlroozDCk=";
     "0.6.1" = "sha256-XjYvlvFexk78Q3/qz8LrrByJwW9tlHzPnoHqOTRS/3s=";
