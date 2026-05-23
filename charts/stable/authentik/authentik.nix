@@ -1,8 +1,9 @@
 {
   repo = "https://charts.goauthentik.io";
   chart = "authentik";
-  latest = "2026.2.3";
+  latest = "2026.5.0";
   versions = {
+    "2026.5.0" = "sha256-ObMHCyNB7Sp6vdH1xs2s9B2USyw7kOSBaVf/jeieSaQ=";
     "2026.2.3" = "sha256-B+p+a5CaknQoybwaT3LPHXyHOHp+U1RuTw8a23L1+xE=";
     "2026.2.2" = "sha256-zgoaiXnO2M410oRVnJpg4KCN81psLSjVqUpV6CYowOU=";
     "2026.2.1" = "sha256-mkf6IOvDEkaT0laQbgQYr6pDVWLfWquB8TtTrLM+diE=";

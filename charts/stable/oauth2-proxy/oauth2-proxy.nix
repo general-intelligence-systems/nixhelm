@@ -1,8 +1,10 @@
 {
   repo = "https://oauth2-proxy.github.io/manifests";
   chart = "oauth2-proxy";
-  latest = "10.4.3";
+  latest = "10.6.0";
   versions = {
+    "10.6.0" = "sha256-LH9K8VqPd3joaIDH2AWiJO1VJhvTTTqvydlhnCSwW7Q=";
+    "10.5.0" = "sha256-d351zuXtEG8t9H3IWmVT6u+NtgTIEtG+w32Jm4yv6Vo=";
     "10.4.3" = "sha256-GQBSgqVOtUQQ+sWgdelQpwA7zGL13zedHdDHufEFHBo=";
     "10.4.2" = "sha256-dPGg/QY1egdUrvqOX/JntQokGEfVlh/avYuykUMWg2I=";
     "10.4.1" = "sha256-AxK2XoZ5ztIESmOHKjevkPhqAMypXjIo8PGuoiXdxhg=";

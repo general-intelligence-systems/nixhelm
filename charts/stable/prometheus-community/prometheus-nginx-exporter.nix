@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-nginx-exporter";
-  latest = "1.22.1";
+  latest = "1.22.2";
   versions = {
+    "1.22.2" = "sha256-w0VYt0FZz/yg9XvxhOgIw7mw4k6xJhF1W10qsdM0PII=";
     "1.22.1" = "sha256-OfhR3KZe+z5jPmNOPSTM9rpSYzovbIPqUV8tPPsbXPU=";
     "1.22.0" = "sha256-hCyBEoXrhsGL8CGeBIRzhD3gBVU70BwRl8YC1LKpvn4=";
     "1.21.4" = "sha256-23CD3F4ILC8js/rMIfu6dHAhOA+ptjQwsOfKpMb3vss=";
