@@ -19,7 +19,6 @@
     "25.1.3" = "sha256-w1J5+ctK62NGO/iQ/vQiILChOE7+nujMRXVy3+Dw5eQ=";
     "25.1.2" = "sha256-C951PLCOWlJNo/gLPhiDBerP14/EAp7YIXp2BKRELBA=";
     "25.1.1-beta3" = "sha256-OJvwXNuB55kEgmAAqYmuzYvViC8b+Npog/5wrv01DR8=";
-    "25.1.1-beta1" = "sha256-8w9UcTOKyIIMdID0ZTavmCNfH9jo6M1yoS5tpYxajKc=";
     "25.1.1" = "sha256-XPMbFxfAByYsm5zqnsV9lmDVrg91w6WfHIBcMBfJt6o=";
     "5.10.7" = "sha256-c4GVnxP6oJA5OYOblTJnXgL7+zKJUVcqTojlZ0o3is4=";
     "5.10.6" = "sha256-IUClvT+lTcKEgrTgdelS7dyNyPJkD491yxO/KahEqeI=";
