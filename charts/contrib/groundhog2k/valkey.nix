@@ -1,14 +1,17 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "valkey";
-  latest = "2.2.5";
+  latest = "2.3.0";
   versions = {
+    "2.3.0" = "sha256-PsFPr9f1yakcVKhWa9aWqPgLT8GHCXvF3Y2sXSlfNdI=";
+    "2.2.6" = "sha256-bpPXWWCqZ2nzkrsFi4IAF+HHMhow4iTII0sXLQq1E3s=";
     "2.2.5" = "sha256-ZaauCd1gKoOwR7CW6Sfgyy+ilNRArSelyLGGT5ABDV4=";
     "2.2.4" = "sha256-PUQofjkjQPMRhBkwyS6LU593rIPKcp7EF5LYhiVAezI=";
     "2.2.3" = "sha256-0lPUR5u24+Zrs3XMF8HY57QxgoSfjZ+468e+1LSgvlk=";
     "2.2.2" = "sha256-IvBuTIcnebcdKNyDUFHrzaEjvkl5wHF1d/jytk5ulE8=";
     "2.2.1" = "sha256-7+9HgFWLMpvfXUdGvR/NRbD6lhEFKCfmgAb54MT7UqA=";
     "2.2.0" = "sha256-frNc1JK5IM7sgq7AhrO7dECjQny1RU1oZSkZJ64P6UM=";
+    "2.1.9" = "sha256-HZJCE9nJU37F5ZIvPm5NnEjIAbakCEDLND+teSAS5f4=";
     "2.1.8" = "sha256-Lwj8oyH3AEyKpi9vPxezGT1fc+TRj2+dJ3NcPdROHE4=";
     "2.1.7" = "sha256-48v+kDjIT+oyKudf/hL2WtSFfXOvo16VZN5FTnJqGFQ=";
     "2.1.6" = "sha256-JwmQKgyoaAozatyAjBFY3yak/HQR6kLhgK0O1i3d7AE=";
@@ -18,11 +21,13 @@
     "2.1.2" = "sha256-/QUSBCB3bpF09ZGgBLTCaG7Uj8jpj0s0/836zrcZzBE=";
     "2.1.1" = "sha256-nV/aaFskD/W714NKDtZ5xwb1zFivPpTQgkKr/Wd6i9M=";
     "2.1.0" = "sha256-mXoUGdnH17tn9FxzIjDdWIfri8/sXvhh3RHfihRe6R4=";
+    "2.0.5" = "sha256-vYWGITdEJNj0O/GpKuHNED1ryY78qrgLKsbKi2jN0GE=";
     "2.0.4" = "sha256-JSVzNiwGeBeTR9HgXkElpJ3yTM3Ab2/9Z5t1ltJyP84=";
     "2.0.3" = "sha256-ITsSOIZXb1XlajFlSdcjMO5rYyR8VeqEsBE6jAhSvxw=";
     "2.0.2" = "sha256-rIwEov6iX1RSWTS7RiSkxwFl6uV1LAXJWE6JHvKE7fY=";
     "2.0.1" = "sha256-YSU+Z1TfVICumbmdahfWWdQnCAKKTv3efAtRYT92G38=";
     "2.0.0" = "sha256-dQvccrHdCKg/BzDJAhouw5C0IWAUIL3jzI3ISC8MHic=";
+    "1.0.8" = "sha256-QBSF4T3cl6skfTN22VUiF1H3AT6t+GTAOFOh3uUBNc0=";
     "1.0.7" = "sha256-jVChRjQFELhmht1wtBUl3vdu9oSStaIqu83v6ctbO2U=";
     "1.0.6" = "sha256-45GX7ba1Hul+S5tuoAJpxp7q+wPsc4OKRwtMHMrCwwI=";
     "1.0.5" = "sha256-FwQ+Gi54UH945cDcewU4U+sUbU51cKcNJl7kEA/N600=";
