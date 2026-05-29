@@ -1,12 +1,14 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "postgres";
-  latest = "1.6.3";
+  latest = "1.6.4";
   versions = {
+    "1.6.4" = "sha256-BANZHhdoz/pNAVAL8CnN3AzabLlE/x8kGYHBZwqX5gs=";
     "1.6.3" = "sha256-xUY66Vn1lzlsPeVk95DPvK0Eb9MhHaRsl63sBkXpskY=";
     "1.6.2" = "sha256-ApKMKskSMldhdy/dSmRdCG8s6XdjrYOf7VLH6YAgwS0=";
     "1.6.1" = "sha256-gl/1xnjZL7zLWTVtjKwLSAaSp6mqUiWUOJQ2Yw6IEs8=";
     "1.6.0" = "sha256-G1ZdPw8Q8mRJpufBSc5vZLLPCLqmFKXTIsKKBdFIDbI=";
+    "1.5.14" = "sha256-5qz2UUYXgDBtVaVLQCjRL9XY7XJT0SipOIdX8IWTCwo=";
     "1.5.13" = "sha256-vQdNTUo3+/AbWJ+dKy7CnekrA3io8i96yf8OLarg9fo=";
     "1.5.12" = "sha256-NQ4xFISGzFI/OyJRct4CrX86HsQJpxqS8BfUTC9xB9M=";
     "1.5.11" = "sha256-0u8o5J8hGmmfEPNuys+plt3wUkwvHpVWGJ54BSzWXqU=";
@@ -21,6 +23,7 @@
     "1.5.2" = "sha256-OdeDZBC38KLjQQPeNeL0sToeodhz+y/vwMLHhYe5L68=";
     "1.5.1" = "sha256-Rc3kyYHal5xTDcv8Cu4AYJu5rXBhYetm0DTKt0C2m6g=";
     "1.5.0" = "sha256-pRjNkYeG+qCXyG5C8YhckQBtAy/CRvzzE3vvJHQ2BqM=";
+    "1.4.12" = "sha256-1UyAXbZ7e4q51hfBiVfCRtbJ2/r95u0oSMPWds7axgw=";
     "1.4.11" = "sha256-3Z3UK/M8gsVfoZT6hfp4UASrkT1j9qtLvGYmWAS3WpM=";
     "1.4.10" = "sha256-PLUjGkdoF8qG7jXO3J4gCwM+/RAd4N13lQ+PLnRjoN4=";
     "1.4.9" = "sha256-r0wSPZs55CSiIqUQMjFjka++k1OIw9iV1fStyUW2bcY=";
@@ -33,6 +36,7 @@
     "1.4.2" = "sha256-mgw1X5AahB2GerZV8GvkJ0Q159zHhuCM4rSHdmuaVU0=";
     "1.4.1" = "sha256-xpxqfypFL+1oLDxAiQJvvolMd+4Yf6e6kgFlfpyuU+I=";
     "1.4.0" = "sha256-Nb/D+mlDIWmP9+moIpIWR+ZltSq6vW5YckfwVG+m10E=";
+    "1.3.11" = "sha256-JR1Du7p2w4zMV0SFfU2uEOzQGnG3J3C/ylxWvowK14Y=";
     "1.3.10" = "sha256-8Q4qci5817PmWGZKMBw2i2vChnBgrQk4xF949VNaBps=";
     "1.3.9" = "sha256-F26PjfrB4N3dHM+Q1orsxhILrBNgx9cnn6GPZ21z70w=";
     "1.3.8" = "sha256-CYHnjgYPswBP9Kj8YIXfn7HCSS5iHB0bptaduRkngUs=";
@@ -44,6 +48,7 @@
     "1.3.2" = "sha256-ajN6QUk5r+3MESW3F3vgEhDTlsNQjgvGvdYU4INXeTA=";
     "1.3.1" = "sha256-/NMtQ6B95XPnf8hyCNt0/owZXggnjYGmwdphXaPmhI8=";
     "1.3.0" = "sha256-2bfLDMqLx2lgSP7mdSG9MvcsRtXTRdNgJxix1XO6eCI=";
+    "1.2.11" = "sha256-Wpev6wCPmJJLZLgZBGz19TV4iwlhFAsU+46tkLlxxYk=";
     "1.2.10" = "sha256-Cp63iGUiM20zD1hUKumy6ufbjcUNiiewty/sQfOVrf0=";
     "1.2.9" = "sha256-B7pjAZlR0mpdWlRR9wi5O+C51EsKvPzg0tBkvWTcc+4=";
     "1.2.8" = "sha256-jKMLZLPjWazfUJH0iLkwHwFloPJnQ+VhIfUkVzB4sMc=";

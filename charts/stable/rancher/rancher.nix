@@ -1,8 +1,9 @@
 {
   repo = "https://releases.rancher.com/server-charts/stable";
   chart = "rancher";
-  latest = "2.14.1";
+  latest = "2.14.2";
   versions = {
+    "2.14.2" = "sha256-P/MZNi4XRja/i3GdzCVByxmIz0kQnqUMxyB+GN4rO0o=";
     "2.14.1" = "sha256-nbRZ2ZSLq1aguFlOPxIN/Ej4Dyy5+WJu0wUBpLNdm14=";
     "2.13.3" = "sha256-6fLKUiAZaI/dH8ePwQt8IMspX+4lFju8Y2nnv7inQvc=";
     "2.13.2" = "sha256-x9LG0mQJX+JfkTf3VQ+9h1m0PYmtj3Hbbtyr50qrmlc=";
