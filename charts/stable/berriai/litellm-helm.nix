@@ -8,6 +8,7 @@
     "1.85.2" = "sha256-fYf/qeiYLFgVUwOavxfZI0qiBGIA/Kp37gde65Cl3FI=";
     "1.85.1" = "sha256-QJCRFbLI+wsn6URlSfGNgQX9BX4qfTABVZW9fTBl3Jo=";
     "1.85.0" = "sha256-TE7WA+S+kCCU2LRXk3RkI+ENcUNXMXGK64uXIREoicU=";
+    "1.84.4" = "sha256-ZNi9L1tZb5U5l7dL+fQ/Q8dmcY2pElPCNpyOVev/L30=";
     "1.84.3" = "sha256-anXcEeZ/mc3RaU4RLFED4XnP1/ZpaQQX31fcOQFGb84=";
     "1.84.1" = "sha256-KB68jxafnyKYXqJfd8rq6QbaNMgjOcGFWF7ZCUZo++s=";
     "1.84.0" = "sha256-bHmSXt88ItaL1MjS783VsE6N04iMT9dhedR5r9BRku0=";

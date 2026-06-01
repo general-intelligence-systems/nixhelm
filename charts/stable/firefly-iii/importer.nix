@@ -1,8 +1,9 @@
 {
   repo = "https://firefly-iii.github.io/kubernetes";
   chart = "importer";
-  latest = "1.5.2";
+  latest = "1.6.0";
   versions = {
+    "1.6.0" = "sha256-WFtPAW666bSUAevFtEo6kjIu4Ei4M8nkCJW/I1KZeoI=";
     "1.5.2" = "sha256-FOoAj/inzWfyoYZmXI+59cHjVRlXyXodrd91J7fMBsw=";
     "1.5.1" = "sha256-YRzCR7GXz11AxC0gNReESz0PC9oRgi+9vNrcZbhSi/Q=";
     "1.5.0" = "sha256-y01uOB7xPEqFvn3Omy0Hjeko39mOGbp8MM3kmT8pgJU=";
