@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-nats-exporter";
-  latest = "2.23.0";
+  latest = "2.23.1";
   versions = {
+    "2.23.1" = "sha256-B45+6PItonEOQAtU4GHpgGpj+KSxYi3TabriNhsLeE8=";
     "2.23.0" = "sha256-GLeai3fry/aBVgwVrpGamZnasTvWl4ibY9iScEgd/o8=";
     "2.22.1" = "sha256-Cxue5R+woLR2rKbi6KAe3bwKfcWT+36GhtDcv4U2sx8=";
     "2.21.1" = "sha256-5CJoZ3w5ie2smQc0KUWqH3P7rC0ABUkBziUTiEUkMXE=";

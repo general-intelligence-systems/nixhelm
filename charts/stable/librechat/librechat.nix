@@ -1,8 +1,10 @@
 {
   repo = "oci://ghcr.io/danny-avila/librechat-chart";
   chart = "librechat";
-  latest = "2.0.3";
+  latest = "2.0.5";
   versions = {
+    "2.0.5" = "sha256-djNts99vGjz9KgaqGhNo4F6odvDumWTOauMeVo2rgZE=";
+    "2.0.4" = "sha256-/dN9XAQuRoNAQ89a24G7cgsKPGYlscBkF8gtAh9S7Lc=";
     "2.0.3" = "sha256-nZosjy4Bg+vxSMJHDiydj1BZH+2Ve58INH32IWLJt5A=";
     "2.0.2" = "sha256-1+4CSbSEjMz1VBWHw+qlQNa8fROJT+BjjGEiwIWM1dw=";
     "2.0.1" = "sha256-mR3eCHOj6qm0SVdVVY+87Sq1w0Oxv06N7g8ULl7BzPI=";

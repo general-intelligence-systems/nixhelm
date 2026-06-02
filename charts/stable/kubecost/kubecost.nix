@@ -7,6 +7,7 @@
     "3.2.0-rc.2" = "sha256-i9TlLbNAQLlaQtm0kWM2QKs3Ge0N9oJHVNHcltmjPyA=";
     "3.2.0-rc.1" = "sha256-7zpBmxTdsuu4hXgKRFYlp/dyQ8Ewemk9F+SuQRxZcHU=";
     "3.2.0-rc.0" = "sha256-dczYjOEE9jcGF1i6KRwRElLKTqAIiuwyndTTCsCnrao=";
+    "3.2.0" = "sha256-g+LmSJ212Vrt9EOF5mquQ16w9+Jr39j8wwxX0klWasY=";
     "3.1.8-rc.0" = "sha256-XE9/kRApvKuj7lSQOigkfbgHLf761QC5bxSNbxHpyys=";
     "3.1.8" = "sha256-0VHDLtqEmzNoC2qnZW+JavpZzDfKHvKPxW/4q1X/n38=";
     "3.1.7-rc.1" = "sha256-egRsvGaz5WP/9yUkAlrADnOhWMQmysI3IYYmaaMNffU=";

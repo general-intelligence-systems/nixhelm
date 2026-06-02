@@ -1,9 +1,8 @@
 {
   repo = "https://stakater.github.io/stakater-charts";
   chart = "forecastle";
-  latest = "v2.0.0";
+  latest = "v1.0.160";
   versions = {
-    "v2.0.0" = "sha256-xUijFz3/BQ+ElWOPXtPPAYnVkVaxEY/p4DZYfKkPikI=";
     "v1.0.160" = "sha256-Ho1CyYU+HhdeLSwn6FCdu4FjOoTF7GiADLiidcNgdZc=";
     "v1.0.159" = "sha256-NYsU7eaoJjlRGi4D/O27RLDQiG5a9sSuOlGBsdWKQ+g=";
     "v1.0.158" = "sha256-zUH2p+8rsLromXYvjXPrLjIJv7TG91mU54vrF8UDjkc=";
@@ -145,6 +144,7 @@
     "v1.0.19" = "sha256-0SnSIJ5lyuK5zEc2Q9NUAh1z/wKX9HF4M8Hq6pVhVKk=";
     "v1.0.18" = "sha256-58/rF2GEJRqw1AAGZHrIB5G8n9HFO99wgWeQPpJ/sJU=";
     "v1.0.17" = "sha256-xxNOu3O7zzjjf7uR1eEPMJDIAM/PQAI6rg1FKDmlNdM=";
+    "2.0.0" = "sha256-sJIdfrhmZl62jcrrfegGCOLijsSqvI3wr5uFp7RpuH8=";
     "1.5.0" = "sha256-3o2HKxHBlDpfJLpm1Tp8WeF64xG4B2tL9BFvFVPacks=";
     "1.4.0" = "sha256-Zcx5BBlNNw6DecJbbBGH5XE1XYMcQa3GEyLNFSCe5wY=";
     "1.3.0" = "sha256-48IrBjL7qHVt4uCGQQqUJebLDDsYYuLjJnnFchR+pkU=";

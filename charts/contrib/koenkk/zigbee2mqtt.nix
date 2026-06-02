@@ -1,8 +1,9 @@
 {
   repo = "https://koenkk.github.io/zigbee2mqtt-chart";
   chart = "zigbee2mqtt";
-  latest = "2.10.1";
+  latest = "2.11.0";
   versions = {
+    "2.11.0" = "sha256-3gso4Vn1zoVCp50whX4Pn/sOk18zI9XYMgaSy7xZ/2Q=";
     "2.10.1" = "sha256-ny4+hxGUBxl5S3ymHOX1A/Un355/ic8ZQfBWB0QrPHM=";
     "2.10.0" = "sha256-nhtLE+fQav/FDbpTWiiQqGFSgBdc9hQTkROcBiw2MJw=";
     "2.9.2" = "sha256-kZVfaoBu0NWedbe8KU6n48BFMXa+njxnyOZnLsWKKDw=";
