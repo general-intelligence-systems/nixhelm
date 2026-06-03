@@ -1,8 +1,9 @@
 {
   repo = "https://firefly-iii.github.io/kubernetes";
   chart = "firefly-iii-stack";
-  latest = "0.9.5";
+  latest = "0.9.6";
   versions = {
+    "0.9.6" = "sha256-bZIZ24quS35pOb+HqUi9XClT5FsTH9beFiVNFITX17U=";
     "0.9.5" = "sha256-q7r4Azu3lMx/US49ITVVA56PVX0R4sQ5XwjtrD+GuzA=";
     "0.9.4" = "sha256-B1cTTUZcoPWEbh9qOgHeLaAr0+cPFlDeHurv0Nanxcc=";
     "0.9.3" = "sha256-URgzZlNff4dXj6R4J04Dtiah9gA66+oLMdhAqEURsUY=";
