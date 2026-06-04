@@ -11,6 +11,8 @@
     "4.10.0-next.3" = "sha256-uE+bcHTnfjpnGE8uvdm46TJYyLRLnaGL15MiV89Z6r0=";
     "4.10.0-next.2" = "sha256-10yrF8oNziGcU8tyiT1UqMIO67L05nl6GWdTlHYad0M=";
     "4.10.0-next.1" = "sha256-2uZZXInX5Yt9c1AkPrVazcj/fDz9rlMXO+HFbY4BVD4=";
+    "4.10.0-alpha.15" = "sha256-+agdNapYcgGPu+JPxvt06tbDt2NzztODexnxTCStUDI=";
+    "4.10.0-alpha.14" = "sha256-0A+UwNW3hxlh5qUdjJU3OR6GZi1O8r7r2Rt5t8U2TPE=";
     "4.10.0-alpha.13" = "sha256-7t9UUBaBUOfKDg8lqJVxw62MtUGC2LIuenVQ9Tsji4w=";
     "4.10.0-alpha.12" = "sha256-ckrTz+D6JOGtYIo4mIanNsvCNIur0tTEAZX1ustzjEk=";
     "4.10.0-alpha.11" = "sha256-Md+wc2hOlD1ey1l6wIFZE3emM/G9xowIrrLBLjnIW08=";

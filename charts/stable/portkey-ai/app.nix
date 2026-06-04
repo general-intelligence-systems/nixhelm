@@ -1,8 +1,9 @@
 {
   repo = "https://portkey-ai.github.io/helm";
   chart = "app";
-  latest = "1.7.4";
+  latest = "1.7.5";
   versions = {
+    "1.7.5" = "sha256-8tgCfF7RX++vvnLKVDbyHN2Mv2d9/zaxk+Up5d4f/DI=";
     "1.7.4" = "sha256-oZi3bvf4NPXsNUjDlQCsUTKeuHXcP/KOBRUO5yMTqcs=";
     "1.7.3" = "sha256-99ABB9fOZ6MlDXHG1uWrj50hlw1kXXn+foAwJemxiF8=";
     "1.7.2" = "sha256-I/nRcc/eZ1hQIFKMgAiGiitzuXFStuI5HRHDISSUjxM=";

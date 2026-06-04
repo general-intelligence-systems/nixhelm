@@ -9,6 +9,8 @@
     "4.10.0-next.3" = "sha256-aNSOKX4aqBJ1eedhTUJG9zEBgdobXQkoWwYyNy6xxFE=";
     "4.10.0-next.2" = "sha256-pmZhGESzeUkZsU6VgQfSbuTds1RkM8KRfI+opIMrNaI=";
     "4.10.0-next.1" = "sha256-TjfQ0PMRq3zSZHuVjCxZlrItsX3QJTfAX+vUhQWK49E=";
+    "4.10.0-alpha.15" = "sha256-6RYMnMOhKf/0Pc2eVxQ/C8/t8z9BrgIWnkGwVa5ZjiQ=";
+    "4.10.0-alpha.14" = "sha256-lflNpvDF8//eT7t5eNa/RD87EOTlwy/+Iitb4O69W2s=";
     "4.10.0-alpha.13" = "sha256-897/N6Cs6fz8PNuXEbtQSqSydMy3PUcMIuI6olrixQ0=";
     "4.10.0-alpha.12" = "sha256-QzwtjgVZYAAGncWR0FkCHpo2nFqwGNJMzjq4LCehEwc=";
     "4.10.0-alpha.11" = "sha256-CudaHNJMFDwyOQ0VZFfWJUfAvuXPDTVX3eUtAIpSEvk=";

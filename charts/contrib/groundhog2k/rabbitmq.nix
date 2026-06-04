@@ -1,8 +1,9 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "rabbitmq";
-  latest = "2.3.1";
+  latest = "2.3.2";
   versions = {
+    "2.3.2" = "sha256-Rqe3eYjiZdH2KyNdl1/bEal2+Jdg5X0caUtyrBQtpXU=";
     "2.3.1" = "sha256-T9J1wrq6IYUEY6m1hqQEQuJKxSqmaT0c2E7CU2rE8N8=";
     "2.3.0" = "sha256-PCEpb1ehTvbkwfa2uEgzPh4BdUMmdLbPJFZ5ZZZGGpc=";
     "2.2.8" = "sha256-YaSLbNpse/8dfELYa23F4tHqfkE55DmbvAhtw7qRNdI=";

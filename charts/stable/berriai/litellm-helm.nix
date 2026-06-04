@@ -4,6 +4,7 @@
   latest = "1.87.0";
   versions = {
     "1.87.0" = "sha256-tewcVI45gpBMNlVoRjQYipotZDoP1UKe7DzlPU7FT64=";
+    "1.86.3" = "sha256-lUzUU7u0agBu02iu2pzba7zTpICvwudoZeXVuj8qACo=";
     "1.86.2" = "sha256-2lkuVddP/4S2ryp8f1vufXatPQICRpHtUY3YeMY8R6k=";
     "1.86.1" = "sha256-VJWImFiKUd2Tdl3v2OM+EMoZpMAao51BylGoX6GHvbw=";
     "1.85.3" = "sha256-iE+GI5qs8UbaiAzULVNFL/bwtu1imthlmRtcLNLPXvQ=";

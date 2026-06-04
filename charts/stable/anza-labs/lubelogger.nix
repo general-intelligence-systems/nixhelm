@@ -1,8 +1,9 @@
 {
   repo = "https://anza-labs.github.io/charts";
   chart = "lubelogger";
-  latest = "1.4.6";
+  latest = "1.4.7";
   versions = {
+    "1.4.7" = "sha256-BYlAOfAtlaap2D8NhuVgCs63qnQSs2hJKGKeW6rh/YA=";
     "1.4.6" = "sha256-kapnRVAaTUiKdAQZ8gU6cMxohrbuU9GAU/peToF2jIA=";
     "1.4.5" = "sha256-p14jz5pfSPZn95J/U1fjiVEI5FFU+epr9HOOAufFXzI=";
     "1.4.4" = "sha256-ZYtJ4y6xqV2r947nAXgbwSTxsc6J1h5JKUhyQHeH52o=";
