@@ -1,8 +1,9 @@
 {
   repo = "https://charts.signoz.io";
   chart = "signoz";
-  latest = "0.126.1";
+  latest = "0.127.0";
   versions = {
+    "0.127.0" = "sha256-pxVeKCVjWSbrdvOty2QSkirh6d7gLV1en6zXZQSWDxs=";
     "0.126.1" = "sha256-6YFPzVYEHE4HC/TdjwjeEe6+vaRiRjzB9NgOtOTjLqg=";
     "0.126.0" = "sha256-QwPMg40jFOKcR9/XtBwvTgobXT+7la/QhEhMJNaEVCQ=";
     "0.125.0" = "sha256-cL0+xOQ8gsZO6kvknncOBvgWIdoV659nrtuyojmDn30=";

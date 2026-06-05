@@ -6,11 +6,13 @@
     "v3.4.7-rc.4" = "sha256-1udjEZCcXvKn7KXksIuTlGE43BRZlETSnK8NEJvjVV4=";
     "v3.4.7-rc.1" = "sha256-tMPWULU7jOcpAMYGGPLXei2z4M9fEqIkQF7JUeHgwns=";
     "4.11.0-next.1" = "sha256-MG4hpn+3wXYacPGTIufIC+KTFGLH7BLXnQdAfc26A7o=";
+    "4.10.0-rc.1" = "sha256-3r+DEcuRZcYhWdgH43q0SlKpl2+N5pmRjpM7w5utt34=";
     "4.10.0-next.7" = "sha256-Vb5ZXNcY9hkWLwH6k64AqppOFPwkw0OeJbQDnWJyi6s=";
     "4.10.0-next.4" = "sha256-5bM45cd0bmjPjR8MDLP29qiAhDzvuGR1NWj04bMtkY0=";
     "4.10.0-next.3" = "sha256-uE+bcHTnfjpnGE8uvdm46TJYyLRLnaGL15MiV89Z6r0=";
     "4.10.0-next.2" = "sha256-10yrF8oNziGcU8tyiT1UqMIO67L05nl6GWdTlHYad0M=";
     "4.10.0-next.1" = "sha256-2uZZXInX5Yt9c1AkPrVazcj/fDz9rlMXO+HFbY4BVD4=";
+    "4.10.0-alpha.16" = "sha256-YSNcYqiAlKhm+7QryNlIAC5yXbXvA381ew+ejVHiNVA=";
     "4.10.0-alpha.15" = "sha256-+agdNapYcgGPu+JPxvt06tbDt2NzztODexnxTCStUDI=";
     "4.10.0-alpha.14" = "sha256-0A+UwNW3hxlh5qUdjJU3OR6GZi1O8r7r2Rt5t8U2TPE=";
     "4.10.0-alpha.13" = "sha256-7t9UUBaBUOfKDg8lqJVxw62MtUGC2LIuenVQ9Tsji4w=";
@@ -27,6 +29,8 @@
     "4.10.0-alpha.2" = "sha256-n5OdVTOWoZ02LwycZtw6+arNvzzhgr6vMBKpt3S4Cz0=";
     "4.10.0-alpha.1" = "sha256-Tc3ZnB3hO5ykIufFn6AmQ6i5iRiMiqndfgyH/9Hiodc=";
     "4.10.0-alpha.0" = "sha256-73oPbAMQWuN9ReghOebygYhdowWIwLXF7pvT9Tobzac=";
+    "4.9.2-rc.2" = "sha256-5mt06XO54hiz7ryIty3avXabhXvJ2noC66PJFfbQhWg=";
+    "4.9.2-rc.1" = "sha256-llbg5YL7BtLoNvDt49/3wJHD+ICiomrRuNh5Gld6RI0=";
     "4.9.1-rc.3" = "sha256-ITRBntxh1qa9wKOE4GsT11e36/wyhdzPFYRHBEyfoAs=";
     "4.9.1-rc.2" = "sha256-t/z8LDUv/rNZ9LhE4ea6VfAFIKztpXo5Zs2m1Sa+G40=";
     "4.9.1-rc.1" = "sha256-OBLjkg7E4RILXEvfP7W9yzLBFDEbWgoB6OlFpfyn4so=";
