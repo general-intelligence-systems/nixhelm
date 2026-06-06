@@ -1,8 +1,9 @@
 {
   repo = "https://charts.sysdig.com";
   chart = "registry-scanner";
-  latest = "1.10.5";
+  latest = "1.10.6";
   versions = {
+    "1.10.6" = "sha256-ugUjasOeUFxGDeIIzF8rSXq7rQyXzLlstMzqb1wSfig=";
     "1.10.5" = "sha256-pZoLuCJFd/24kksyIRtaPNqlKeERRwo+EpH8Mv96dCo=";
     "1.10.4" = "sha256-hURk69mXP126ljWq7IEaHDezpnF6QrKRkyGTo/l+HZo=";
     "1.10.3" = "sha256-O5eD43ZNPLozo6sFoq9DcoLz+MVg8V97KIxPBjjlxAE=";
