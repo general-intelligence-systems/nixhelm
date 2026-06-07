@@ -27,6 +27,7 @@
     "2.0.1" = "sha256-Li8trRAuBXqrfepSAVH5+yjeg9Z9Sg/gL8yFkAJQZt4=";
     "2.0.0-rc.1" = "sha256-89g3KktxQPAS5BKRaDIkSbwtSrqXUYOpk9UPy81vpk8=";
     "2.0.0" = "sha256-2Jgd0L+6mBOJF4andbA2KERE62Qf72KWSVxQRMS6qAQ=";
+    "1.20.9" = "sha256-yP14zDlsGw3hM36MdWPIIIeu10wg3ql+EFsraLVVeiQ=";
     "1.20.8" = "sha256-1f/Kf6cq1NdtlOKlRL4ngx7wq94XYo/X9u2wG44WVmE=";
     "1.20.7" = "sha256-2hYmvIfPV54WeKF6HjhD41WFfKpFYd37hZwbS7vJrU4=";
     "1.20.6" = "sha256-2itanaNrALjBi6jn0RRFGltsKPtHTKG6zSeq1tt7W/c=";

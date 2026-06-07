@@ -1,8 +1,9 @@
 {
   repo = "https://mariadb-operator.github.io/mariadb-operator";
   chart = "mariadb-operator";
-  latest = "26.3.0";
+  latest = "26.6.0";
   versions = {
+    "26.6.0" = "sha256-c2QZa1IVvzxfxyQd/NU93h6ZW1EAQv3ogR6JnRwJEpI=";
     "26.3.0" = "sha256-yoNMSCyCEcZOn/qkdI4AssOI30qHdEmMwlfyDMCLUOs=";
     "25.10.4" = "sha256-8jlwG1jrPQua5Joy5seCrtF6YCGyV/hCKdPcJitcm7Q=";
     "25.10.3" = "sha256-coJdvqvEesHKy2f5x5OX9AlayaqX7CCQXnc88dQ7MWg=";
