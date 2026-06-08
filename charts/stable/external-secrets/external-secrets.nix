@@ -1,8 +1,9 @@
 {
   repo = "https://charts.external-secrets.io";
   chart = "external-secrets";
-  latest = "2.5.0";
+  latest = "2.6.0";
   versions = {
+    "2.6.0" = "sha256-82WcAIWkHhvlwBbPGGuAqsJi7ySakbG3cLlB8YKW7z8=";
     "2.5.0" = "sha256-f4y1DNI2zA+EdrMzEZy1B6O+zciW/berFjKeUhkRAY8=";
     "2.4.1" = "sha256-1DLbXdSTXMgDL2+8HD8ztLqqCNsr523kHmzz6mUf5XQ=";
     "2.4.0" = "sha256-dod9E8ZLVIxVeSlbzWOzElU8a+u02kli2J9nFwCmwP8=";
