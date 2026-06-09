@@ -11,6 +11,7 @@
     "2.2.2" = "sha256-IvBuTIcnebcdKNyDUFHrzaEjvkl5wHF1d/jytk5ulE8=";
     "2.2.1" = "sha256-7+9HgFWLMpvfXUdGvR/NRbD6lhEFKCfmgAb54MT7UqA=";
     "2.2.0" = "sha256-frNc1JK5IM7sgq7AhrO7dECjQny1RU1oZSkZJ64P6UM=";
+    "2.1.10" = "sha256-YCXzLsPqJBX5Pk+F1eOCqzYLZt/F5zSTIie5FdMitxA=";
     "2.1.9" = "sha256-HZJCE9nJU37F5ZIvPm5NnEjIAbakCEDLND+teSAS5f4=";
     "2.1.8" = "sha256-Lwj8oyH3AEyKpi9vPxezGT1fc+TRj2+dJ3NcPdROHE4=";
     "2.1.7" = "sha256-48v+kDjIT+oyKudf/hL2WtSFfXOvo16VZN5FTnJqGFQ=";
