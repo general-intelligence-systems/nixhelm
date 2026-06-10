@@ -1,8 +1,9 @@
 {
   repo = "https://ananace.gitlab.io/charts";
   chart = "lemmy";
-  latest = "0.6.13";
+  latest = "0.6.14";
   versions = {
+    "0.6.14" = "sha256-";
     "0.6.13" = "sha256-";
     "0.6.12" = "sha256-";
     "0.6.11" = "sha256-";

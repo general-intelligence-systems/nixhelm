@@ -1,8 +1,9 @@
 {
   repo = "oci://docker.litellm.ai/berriai";
   chart = "litellm-helm";
-  latest = "1.88.0";
+  latest = "1.88.1";
   versions = {
+    "1.88.1" = "sha256-iBB3JVuU2a2avpt1EsDqxPKZBSATgzTbpzP0TK7JRy0=";
     "1.88.0" = "sha256-wdA45zu+6no95hLrFuXJRB65/lbe/cPxPuhEESKwyyU=";
     "1.87.1" = "sha256-a4zWYJpzrIhCAvrRXElNvKUD1fr+3ONSVBT8z9i9Img=";
     "1.87.0" = "sha256-tewcVI45gpBMNlVoRjQYipotZDoP1UKe7DzlPU7FT64=";
@@ -15,6 +16,7 @@
     "1.85.2" = "sha256-fYf/qeiYLFgVUwOavxfZI0qiBGIA/Kp37gde65Cl3FI=";
     "1.85.1" = "sha256-QJCRFbLI+wsn6URlSfGNgQX9BX4qfTABVZW9fTBl3Jo=";
     "1.85.0" = "sha256-TE7WA+S+kCCU2LRXk3RkI+ENcUNXMXGK64uXIREoicU=";
+    "1.84.6" = "sha256-UUrxvoDMLy9epG4RYKcr4xM5RKIndFEqSlMYe7Heohc=";
     "1.84.5" = "sha256-uJXHW/4QhuCj7TTBdapcaV+g9FzFBircpgp1nsKedhc=";
     "1.84.4" = "sha256-ZNi9L1tZb5U5l7dL+fQ/Q8dmcY2pElPCNpyOVev/L30=";
     "1.84.3" = "sha256-anXcEeZ/mc3RaU4RLFED4XnP1/ZpaQQX31fcOQFGb84=";
