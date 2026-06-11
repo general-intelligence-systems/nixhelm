@@ -180,6 +180,9 @@
     "v0.4.0-0a52e53" = "sha256-P2gSrEHdOQzxgd0gIaS4krYcXFKMmkaynBy4eVLiry0=";
     "v0.4" = "sha256-D19c8nnCAUfVlLSDaYYu+IhmE7FfOSVK9EHdAwGMFUA=";
     "v0.3.1" = "sha256-N8JH137NQyCP2H6OBMRN49T/z+5VjTi9396TktsuS4I=";
+    "5.0.0-0.dev.git.7418.h3101c5c4" = "sha256-fCcpTGZ2mPm8tAgHF8MzfrKYo3jaFjNy/3KgVrqrO98=";
+    "5.0.0-0.dev.git.7416.hf298791f" = "sha256-4zICm7rGyagTB7tTnx+jzC1+e/x4ejus312DWQjWV4s=";
+    "5.0.0-0.dev.git.7413.hdb5da3f6" = "sha256-qnEV46IS7VGt07jNKRY1NbrtfcU4FqaTCMpcp8j3gMY=";
     "5.0.0-0.dev.git.7409.h7c58d46d" = "sha256-nu5H++xx5t0ihUOnoJagRKswR9o5KKXsdKVRSL3mIMg=";
     "5.0.0-0.dev.git.7407.h2e642bf4" = "sha256-TBDwKpD/PgSp8WZ3OC0Yd5wKXDQSi+AW5eDoj9cEvUU=";
     "5.0.0-0.dev.git.7403.h463310c5" = "sha256-6JWhosYXale+NHIZfAFZV7SHsl7B1E4b1XrEltNeX6E=";
@@ -224,6 +227,7 @@
     "5.0.0-0.dev.git.7301.h9bb5fb62" = "sha256-PdZuBGzZDfdcA+2R8/p8wTnD997n67u1wjRoEJO5eYk=";
     "5.0.0-0.dev.git.7299.hda209a6a" = "sha256-iW1R/8s+ZUk+Dx5bf3vZAUKYApg99C8/PXypBQpyRek=";
     "5.0.0-0.dev.git.7297.h030c49ec" = "sha256-Yz9/M6lYiIgDV8Ov116o5wp67EEa1D7iSQ/qAgMWAHI=";
+    "4.4.0" = "sha256-meQpyoIFvyFGjq7ZeNp7QluU6tlm2xh1IR3DEMbr8ig=";
     "4.3.5" = "sha256-TQdIG0A2cM/c8RWGNBAYuDBGmSqVpewgSq3YjTl6/1k=";
     "4.3.4" = "sha256-P+Pi0tx6cAF70V8pI5eVPWNY3h4tJ03FEE3GLid+UlM=";
     "4.3.3-0.dev.git.7292.h99b23599" = "sha256-zkCbxJLvATa13vuien80aN9HVV6k1h9W64odq16Gl6c=";
