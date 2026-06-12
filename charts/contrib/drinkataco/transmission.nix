@@ -1,8 +1,9 @@
 {
   repo = "https://media-servarr.shw.al/charts";
   chart = "transmission";
-  latest = "0.13.0";
+  latest = "0.13.1";
   versions = {
+    "0.13.1" = "sha256-vjivScnBgHSreh1+uinABAkzXpuyj9DGiD2fuD8BiTc=";
     "0.13.0" = "sha256-8onPJ2fDDWbU8lnFxkBc4002Wqqs8UcZCNxhWvpOcVo=";
     "0.12.1" = "sha256-FswaQR0LCgyNFFSxtqMS0gQuQ8m+7z+gQJufJl4SBwA=";
     "0.12.0" = "sha256-dqDebjX0FGPPS1iYzLyuMTaks88Es7Swpl9mpLl83W0=";

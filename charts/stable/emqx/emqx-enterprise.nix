@@ -1,8 +1,9 @@
 {
   repo = "https://repos.emqx.io/charts";
   chart = "emqx-enterprise";
-  latest = "6.2.0";
+  latest = "6.2.1";
   versions = {
+    "6.2.1" = "sha256-lBvanTPt0kXZW7/bo1UuqMzGp/+F6hrcdDHsf83g2aA=";
     "6.2.0" = "sha256-ipN0J0nkAjRgoF6SfEwBONk9otSJAlbJOS/ETtioVLA=";
     "6.1.2" = "sha256-kBcPCm9IOCv642faO1wDN86A7GP4BP5liERV10wsEyg=";
     "6.1.1" = "sha256-JJOOciz9veChU2NQAQF/GDkyKD7nnnD38R8TGX6Clfk=";
