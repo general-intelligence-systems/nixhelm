@@ -1,8 +1,9 @@
 {
   repo = "https://sentry-kubernetes.github.io/charts";
   chart = "sentry";
-  latest = "32.1.0";
+  latest = "32.2.0";
   versions = {
+    "32.2.0" = "sha256-e8QR4awqa1AvEDFWliimRMfozjnPy0obXtW9Q5bfjJw=";
     "32.1.0" = "sha256-SI5QnMD9mT3NseAd6rDUi3f5IFZ3G9rA8sACb4bcxWM=";
     "32.0.0" = "sha256-OjbR8Ugjy0k3+zEH7jsAs0UbucL1a1yFo9bgSwF9FjM=";
     "31.7.1" = "sha256-N0u00dHCvne0qWPQSDgErdmbYiXJy4FahZL9h7suCrY=";
