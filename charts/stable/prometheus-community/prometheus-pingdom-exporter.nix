@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-pingdom-exporter";
-  latest = "3.4.2";
+  latest = "3.4.3";
   versions = {
+    "3.4.3" = "sha256-A4fmZX9xRfpxWtKkCp0eRUt84NM45boI9AA24LvbMvI=";
     "3.4.2" = "sha256-00IYa15L61nzOCoMIu+XONwmJEPlYFNfXIKvgsOuT9k=";
     "3.4.1" = "sha256-NTL7tCLC03sEbGRRwHlF0gDBXQg6eNZoHeBMzi1Kz/4=";
     "3.4.0" = "sha256-+9qYAHp7BOMbELJSmogQ0ZYcLIoZEOlNBzo9rn1qu2s=";
