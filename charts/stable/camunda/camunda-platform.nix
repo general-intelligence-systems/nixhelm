@@ -17,6 +17,7 @@
     "14.0.0-alpha2" = "sha256-BOxJsVDG0luxuiXX3f5pmpqdus6ZOWlDHrFLHFlrkAA=";
     "14.0.0-alpha1" = "sha256-4QaeJTgkMzDXDvGRsOXOaEdCdIaQDXAPF36NNNu0jDk=";
     "14.0.0" = "sha256-gCSbu1Tfy/jF8dmoecJadUJQBOxJ9/DAPTSezk5Xjw8=";
+    "13.11.0" = "sha256-2z2kseLc+WAhqs5YlaEl+7vN4vgStex6GhtpAbyDUtU=";
     "13.10.2" = "sha256-8ri9Hvk/1CYT6ct+HyTLWSoDOq2OD+AlJNz/hhAPgDs=";
     "13.10.1" = "sha256-j+gr5CDef8zV9QXtatpaHAnCtdrfYjZLNKRh1FZOa9U=";
     "13.10.0" = "sha256-XYPa2TG4tJfvvvS7KvA2JCLgCFGfoag4S2Hv3SrBvPM=";
