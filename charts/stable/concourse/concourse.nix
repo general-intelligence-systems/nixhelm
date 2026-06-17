@@ -1,8 +1,9 @@
 {
   repo = "https://concourse-charts.storage.googleapis.com";
   chart = "concourse";
-  latest = "20.2.4";
+  latest = "20.2.5";
   versions = {
+    "20.2.5" = "sha256-DaRT7FZxAWapZetGr+mA/w20ew8YCynCshvNInEedRY=";
     "20.2.4" = "sha256-0LqwogX6V6FXs+Q5F2HCcWNXdiqcEiTHBgJ6I/rLci4=";
     "20.2.3" = "sha256-w4FWqkquK3ZComTL3t8/AypVwGJj6Bg6yVu0zr62suA=";
     "20.2.2" = "sha256-hCiLCCl3NhYVA2OPc7I8cpq5n+YtOLAC+h30KocnRGc=";
