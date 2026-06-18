@@ -1,8 +1,9 @@
 {
   repo = "https://anza-labs.github.io/charts";
   chart = "pocket-id";
-  latest = "2.1.3";
+  latest = "2.2.0";
   versions = {
+    "2.2.0" = "sha256-9rJpL6ezaSYTECl4L2OVExw3A5EPC1pYqnuq+NA7Uio=";
     "2.1.3" = "sha256-lKSz5QXgrE/28ZTFAqmvzHuu6V5/kq6I0Fs4uwjQ3w8=";
     "2.1.2" = "sha256-InEO0K17zuHm2JkYqdqmCQrfnTp9JspqTfa1/vdjEgE=";
     "2.1.1" = "sha256-cqw5FpZoYQnXj0E2pK1ooWRND6vzaIEBp2k2plv6Hf4=";

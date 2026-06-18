@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-conntrack-stats-exporter";
-  latest = "0.5.36";
+  latest = "0.5.37";
   versions = {
+    "0.5.37" = "sha256-BEwhCZ/9C+sX6aW6kzcZNuJQFjG/TDux9NG0xTmpOw8=";
     "0.5.36" = "sha256-2CQck0AVGNNOOjGrOx96kjIL4rKMUay9gZQRBP70/T4=";
     "0.5.35" = "sha256-oFiDi+xq1+0k+F+IE2yAx3nfYhkj1GfUBvp1VvLJQjA=";
     "0.5.34" = "sha256-iGR1Am7Th45SoifzqWQf0WZUBwCF+XpuxzwPArRNH+Y=";
