@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-operator-crds";
-  latest = "29.0.0";
+  latest = "30.0.0";
   versions = {
+    "30.0.0" = "sha256-uboy+cu6WNm7+bv62EMUJVzh7hhxkN5S7ViXQWiwzuY=";
     "29.0.0" = "sha256-JbMs1vRIPg6+nr0IuM0cBz/3NM64LoS6z7ddVSzi+v0=";
     "28.0.1" = "sha256-vAEeJMHgU5VcEbBkjPc6QgS/D4iD2UJ9fFD0VT39ASk=";
     "28.0.0" = "sha256-//nPLMrqzCaIWKZsFhg6JB1TCQUMfS9oIU4l1Z708ZY=";

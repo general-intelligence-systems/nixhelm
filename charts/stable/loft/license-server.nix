@@ -1,8 +1,9 @@
 {
   repo = "https://charts.loft.sh";
   chart = "license-server";
-  latest = "0.4.1";
+  latest = "0.5.0";
   versions = {
+    "0.5.0" = "sha256-N64Me/rM66G7ilAzWZuHvpt6Rb3EbWigYC512YYOOsc=";
     "0.4.1" = "sha256-Bd6+8oExIOde35AX99j2PQeJY6BSv8M/gge7EWqbdTg=";
     "0.4.0" = "sha256-MiaWiMIiLk/P/IaoTnTU3IO0hVpUsdD2xhfknZ9O0OE=";
     "0.3.5" = "sha256-Ojpx/SKQvD58MXgDejwyW1fZ2x6Vuyz7YsyVQmc+2jI=";

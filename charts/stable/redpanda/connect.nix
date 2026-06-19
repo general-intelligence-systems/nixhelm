@@ -1,8 +1,9 @@
 {
   repo = "https://charts.redpanda.com";
   chart = "connect";
-  latest = "3.2.14";
+  latest = "3.2.15";
   versions = {
+    "3.2.15" = "sha256-56y6Jono6CXHI9ty0oEdfq49S1ZA4hrm5gbhmBa+5ic=";
     "3.2.14" = "sha256-KpBIHwS6YEZThVPYHMc0tbFd3+wyorkqu1SStoV7Obg=";
     "3.2.13" = "sha256-z9eAA/Ag8or5vF+9G8hYAW6IGZgaumZNwAT0NxYHiwg=";
     "3.2.12" = "sha256-8P+bMxRvfiyR3EXE/7rOg9hCQ5u1s+OeytvQj6cyVIY=";

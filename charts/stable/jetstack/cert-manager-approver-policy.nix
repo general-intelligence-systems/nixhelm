@@ -1,8 +1,9 @@
 {
   repo = "https://charts.jetstack.io";
   chart = "cert-manager-approver-policy";
-  latest = "v0.25.1";
+  latest = "v0.26.0";
   versions = {
+    "v0.26.0" = "sha256-yqx7aDzSu48rPxYyASXLkraHI0VuuZIJ6mDO5+Ka4/I=";
     "v0.25.1" = "sha256-R9dRChqRIPxPJqAmWZuWxDFqDRvVq1PNUXimng+NRIg=";
     "v0.25.0-alpha.2" = "sha256-oSiaWkdufeCRdLZVaFEcW2fcEmU8TenGxGe+kO3fqvw=";
     "v0.25.0-alpha.1" = "sha256-DHk4ji/8rsnR6kP7OFHPri/yJEYnqHczmUGW2qdzB/E=";

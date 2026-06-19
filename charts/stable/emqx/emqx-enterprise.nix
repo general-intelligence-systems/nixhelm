@@ -8,6 +8,7 @@
     "6.1.2" = "sha256-kBcPCm9IOCv642faO1wDN86A7GP4BP5liERV10wsEyg=";
     "6.1.1" = "sha256-JJOOciz9veChU2NQAQF/GDkyKD7nnnD38R8TGX6Clfk=";
     "6.1.0" = "sha256-pt+s+0Qb4c5FEijA3NyAMbbd/WK/6ndMyVwjkLzF2RE=";
+    "6.0.3" = "sha256-XEfAYySZqaSUj5XK2wvgHFe8RZ56aoKP+BHbe0jCQOQ=";
     "6.0.2" = "sha256-UhEEn6u0U3uBpOHYWgP41QURz78F835yQOpoGplMet4=";
     "6.0.1" = "sha256-yVShfQZMIXhA8T8Tl15zn/daryCqN2aKsLBrALnPT/E=";
     "6.0.0" = "sha256-7QUaeKjckOp9EKUQbmuoS3VHzZwOD4FCVh0mvBq1KNw=";
