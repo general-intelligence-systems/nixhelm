@@ -1,8 +1,10 @@
 {
   repo = "https://helm.noste.dev";
   chart = "garage-ui";
-  latest = "0.6.1";
+  latest = "0.8.4";
   versions = {
+    "0.8.4" = "sha256-Df+UGWc11IdELVGO/U7fDgdwiYgjCfu1CqKy6z3pqD8=";
+    "0.8.3" = "sha256-cEwqTdzA9Af57/vPIJcmpcpR8ks7XYS91x05WoLCoTU=";
     "0.6.1" = "sha256-QM8ZiUiGvd1oCyY7sVKzKsdgEvircpPeZJJTD2+VjAg=";
     "0.6.0" = "sha256-Pwsvuly9kDIbw0uy7P/926iVS3ptLO/kU4H7zkvR8vM=";
     "0.5.1" = "sha256-R3hIaiKIjb0jdUa748ZdIV+8nsyXxYGTqYh3Z0t79hQ=";

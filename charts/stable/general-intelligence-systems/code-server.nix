@@ -1,8 +1,9 @@
 {
   repo = "https://general-intelligence-systems.github.io/code-server-helm";
   chart = "code-server";
-  latest = "3.38.0";
+  latest = "3.39.0";
   versions = {
+    "3.39.0" = "sha256-BOEYDN0j+9wYTaSnQrXZds1eug7YYRdJljtZc1GpC08=";
     "3.38.0" = "sha256-ep1NgAK+Vb2lWPuKc++Gi1YgPpuSa0DRJg3ifnvVD40=";
     "3.37.0" = "sha256-4riL5Dc05Rw3g9Lz/P7jZiQtyRuP4A4N1z34SU/MTTk=";
     "3.36.0" = "sha256-L68IS2crNhX2l9n0pmcAgbaOL6raO/lAcC50oAyixjo=";
