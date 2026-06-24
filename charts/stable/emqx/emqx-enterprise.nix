@@ -20,6 +20,7 @@
     "5.9.2" = "sha256-VBNLbG35nrkUIva1gxwutp+sRAhp6h6XvtIIzsJitfg=";
     "5.9.1" = "sha256-j5tGIPHbkxQI2WFdYaSjXWJqJqa55XU3UztKiiqUD80=";
     "5.9.0" = "sha256-nQ4kkfVsiNJ3suRKbs8ePFRNazXbAEo3JpXFzrgo75M=";
+    "5.8.11" = "sha256-ILth5h2QM7aTMqqQuKoM4HP41LvPWWVjS3QlgeUXKys=";
     "5.8.10" = "sha256-soh24Ihgk/U10CQaaUUcizoj5ppabU6+9KcQi8O7a9Y=";
     "5.8.9" = "sha256-rU5CXpCYa/L6xBvyc+4RcyDPzAntcvMEnri28wlgwI8=";
     "5.8.8" = "sha256-uevefR3HzhFaHGoJCh9zTOBIm0uwXMR3uh5TovumsOU=";

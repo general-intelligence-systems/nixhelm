@@ -1,8 +1,9 @@
 {
   repo = "https://grafana.github.io/helm-charts";
   chart = "k8s-manifest-tail";
-  latest = "0.1.4";
+  latest = "0.1.5";
   versions = {
+    "0.1.5" = "sha256-AYohTGiTbQ6ID9QAmQjcdOFRzzHdxukiyZmr/VU4XRE=";
     "0.1.4" = "sha256-n6nPEorTzRJlwQFXMHOAkl9UfXDeUxPy8Fmee2HisGo=";
     "0.1.3" = "sha256-G7USBNoaQJ91Pmmd6WhloSpKLVb+BlJ0wZQfoyL8DxE=";
     "0.1.2" = "sha256-jE1FuDvuOB356mME3JJUxCLxUGsMSu2pVRKEyv7LOyQ=";
