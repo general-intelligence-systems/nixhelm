@@ -1,8 +1,9 @@
 {
   repo = "https://charts.jetstack.io";
   chart = "version-checker";
-  latest = "v0.10.0";
+  latest = "v0.11.0";
   versions = {
+    "v0.11.0" = "sha256-AJ3UzSPxUTaKN0dldrQ1Ibf4Bih6U3NgS6wN84kQs3o=";
     "v0.10.0" = "sha256-5/Ri6wX0kpIU1zkqD1n3LHWQj+KkN11kJWWG4u9BQmY=";
     "v0.9.3" = "sha256-u+F6LxumYD9sZJ0AAJ5ZQYG4u2CGQ8U4ZNApQ3Y4ipI=";
     "v0.9.2" = "sha256-18TFu4OvOZkMt9cDEYA45MeO9xJi6emzouLm0IpLkvs=";

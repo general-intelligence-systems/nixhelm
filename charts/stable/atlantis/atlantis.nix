@@ -1,8 +1,9 @@
 {
   repo = "https://runatlantis.github.io/helm-charts";
   chart = "atlantis";
-  latest = "6.7.0";
+  latest = "6.7.1";
   versions = {
+    "6.7.1" = "sha256-qlLHM99Ain6eGvt9/d9ziSeTKR5PlP2xD0kZ/KNMBCs=";
     "6.7.0" = "sha256-F+nemBWvAfhRWJ+9sxhGGawrqufpJ3PBXrQf5lHtwHU=";
     "6.6.0" = "sha256-dlA3WviNWqwQIo+PKR+akt7hQEZTPGNEPjhGDiO1Z3Q=";
     "6.5.1" = "sha256-xSarijcL3rD66oAiDH6GvqWsSV203Afb9ogXATC2GiU=";
