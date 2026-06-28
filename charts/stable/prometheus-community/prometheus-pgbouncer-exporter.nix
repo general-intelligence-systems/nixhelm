@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-pgbouncer-exporter";
-  latest = "0.10.0";
+  latest = "0.10.1";
   versions = {
+    "0.10.1" = "sha256-2V17Qw26m3aoGVsjjEY5nCb0gjTY3Npu1g0Aycqdcqw=";
     "0.10.0" = "sha256-vqxW0+y2mC0FTnSsM7/M21oz3N0R8O9vKXm1cy6IR/Y=";
     "0.9.1" = "sha256-v55bXn1kNuj7wN9sILB9gWD0IMxFpmkrDYXpoGWfLoA=";
     "0.9.0" = "sha256-tvU3nmcUAHJauAZdn7rEjiQe6gCcLwF2GJQQokTqZgM=";
