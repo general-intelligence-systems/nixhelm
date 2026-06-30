@@ -1,8 +1,9 @@
 {
   repo = "https://grafana.github.io/helm-charts";
   chart = "cloudcost-exporter";
-  latest = "1.1.7";
+  latest = "1.1.8";
   versions = {
+    "1.1.8" = "sha256-axMFwStNyN5PtTZUKwD2r7a1tV/cqjrP0GtocPCuNDw=";
     "1.1.7" = "sha256-h8fALjytPvkf23lKf3x2vpgmr5ekZ5aO1If8VyVWpm8=";
     "1.1.6" = "sha256-IswMgFTmXo1zTsE5OcNiD/UxrGakllA7AOFxTTcC9UU=";
     "1.1.5" = "sha256-m3JPorE3sVEmSEQD7Dzo+sMsw48jI7oseyN3gYzCU0Y=";
