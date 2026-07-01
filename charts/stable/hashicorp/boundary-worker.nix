@@ -4,5 +4,6 @@
   latest = "0.1.0-beta";
   versions = {
     "0.1.0-beta" = "sha256-XT2MAhhcsQo4vmTL6DcwtjO1KaHS0++GKRNAy/IUrDs=";
+    "0.1.0" = "sha256-aUqaIkppSVV2Q+gvfAOg0LQXyR0em3d41GBIKxDtidQ=";
   };
 }
