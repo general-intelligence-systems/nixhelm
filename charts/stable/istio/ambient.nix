@@ -22,6 +22,7 @@
     "1.29.0-beta.0" = "sha256-3cdpK/Yf16VI1lfzpHW3TXJITYVrXF5zxbPcC3DIBms=";
     "1.29.0-alpha.0" = "sha256-gmLUvHIFjBmJpBVnYAViAxgSdRajBJ5ukUqX2h/RKwQ=";
     "1.29.0" = "sha256-quKTc5DTNUJseAUSAl81dNTPEciFaL6L45TDxfqc0Og=";
+    "1.28.10" = "sha256-gQgILYoe0HQjEaW1YUwOENZd4L+gGdw17u+eEROxT+c=";
     "1.28.9" = "sha256-CrQEryXiJp7OhMX8wUVMigx/S6ND0/jZxFIZ72NXEDY=";
     "1.28.8" = "sha256-YYnEFyOqVnN018TQqasi2kP5bBi5r3uGXfqV6yAbtOA=";
     "1.28.7" = "sha256-4HqfHoplkSR1uAB6yWlG4ACw8NBNfUBWvdS1BbljHSA=";
