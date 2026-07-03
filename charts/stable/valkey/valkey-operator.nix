@@ -1,8 +1,10 @@
 {
   repo = "https://valkey.io/valkey-helm";
   chart = "valkey-operator";
-  latest = "0.2.7";
+  latest = "0.3.0";
   versions = {
+    "0.3.0" = "sha256-O73jFkrG/MDFKUO84I+R8ys8Y9tKJ9DFI10e1QmRGSo=";
+    "0.2.8" = "sha256-Hdr/puYJ3voAnBNpCy5QOcw65VX9K4r/2oijztik4jo=";
     "0.2.7" = "sha256-j0TMgTJuZIJIuKRR51rc/4sN+U25LnTUMjs7qpYA0Jw=";
     "0.2.6" = "sha256-UAKpexxoZlabQLiCWYETEtPddeuSgiPQMTh2pcTnTE4=";
     "0.2.5" = "sha256-y0OPNPzTzDnt4bVM27C6DLrjy3flhF1AQXDE+XR5vE8=";
