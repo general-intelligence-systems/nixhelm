@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-postgres-exporter";
-  latest = "8.0.0";
+  latest = "8.1.0";
   versions = {
+    "8.1.0" = "sha256-/TTIJpNFYwxRbAWc5dF6zVUTfsbQC99UMbjVOw4jjtg=";
     "8.0.0" = "sha256-eFngxPYmmCQVMNWSjML+BICvJL7PZc9Hg97lofgfIW0=";
     "7.5.2" = "sha256-2N1jpWo23Y6yo+KIKkH0Oo5YgetBj9Yjsu1ngiiSFDw=";
     "7.5.1" = "sha256-1JKEma8CzD1/9uK5yaADXCjD9VuCX6gZ26zhwyOEjJ8=";
