@@ -1,8 +1,9 @@
 {
   repo = "https://charts.sysdig.com";
   chart = "common";
-  latest = "1.5.0";
+  latest = "1.5.1";
   versions = {
+    "1.5.1" = "sha256-1yi2S9zWeUI/1alrnDdMZO/8Tx45cF10mOb1n1au8HI=";
     "1.5.0" = "sha256-hTuFJV8lRjP0+Z5S5tSi4hAahbX0V7LXgilu/vp/Xbo=";
     "1.4.0" = "sha256-0Zr1aPpyxvaCEKFcJeVc+fFDR54fCNzLgsuZ0UGw7xI=";
     "1.3.1" = "sha256-IDdCG6BWBxUdeScvRlkr1zFqzqTBfRG2boKe4s2JO7A=";

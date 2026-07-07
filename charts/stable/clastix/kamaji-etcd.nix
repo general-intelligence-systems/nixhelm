@@ -1,8 +1,9 @@
 {
   repo = "https://clastix.github.io/charts";
   chart = "kamaji-etcd";
-  latest = "0.15.0";
+  latest = "0.16.0";
   versions = {
+    "0.16.0" = "sha256-G6fDc6yrNwcckj3yK7ZGNmEhhDXMJgUR8hMygxm/CUg=";
     "0.15.0" = "sha256-uOiNX1NcDTKLRqP/tbVD0AVuk3DLUD5aEemY0fVV8gk=";
     "0.14.0" = "sha256-K9V4CgRnBlEhPtM1qZirE++LnoMyly4yLUTPfc1NF8I=";
     "0.13.0" = "sha256-CfMHFYsPuWuARF+b1dmmIFw1ulDITcMj3ocNW9xMkNc=";
