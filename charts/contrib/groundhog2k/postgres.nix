@@ -1,8 +1,10 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "postgres";
-  latest = "1.6.4";
+  latest = "1.6.6";
   versions = {
+    "1.6.6" = "sha256-UDL8e4AGQ1WyugCnRq5CCHeiv9EuC+2XQXvWw729tUU=";
+    "1.6.5" = "sha256-1EsqrRCa0+CmC5pgCJ2uClYA7MK6Q8ZVIUuyRlhnPlU=";
     "1.6.4" = "sha256-BANZHhdoz/pNAVAL8CnN3AzabLlE/x8kGYHBZwqX5gs=";
     "1.6.3" = "sha256-xUY66Vn1lzlsPeVk95DPvK0Eb9MhHaRsl63sBkXpskY=";
     "1.6.2" = "sha256-ApKMKskSMldhdy/dSmRdCG8s6XdjrYOf7VLH6YAgwS0=";
