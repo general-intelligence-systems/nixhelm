@@ -1,8 +1,10 @@
 {
   repo = "https://charts.sysdig.com";
   chart = "sysdig-deploy";
-  latest = "1.115.1";
+  latest = "1.115.3";
   versions = {
+    "1.115.3" = "sha256-6iu8iXgJ0jvZ6gO7LyblpBNSnytU0Otuw35y3HyFj70=";
+    "1.115.2" = "sha256-VgeKtocUf3dEgZTF09VWMAvKfino01ZDQAJQAIgm2E0=";
     "1.115.1" = "sha256-3t7V04Hju5XW+5Vp+Osbsfh33DtI4LyDnWEipJG0Pr0=";
     "1.115.0" = "sha256-1wW14Q3P/1rNt88xmUjvu0ZFaLgThdqSYCyRaa3sgTs=";
     "1.114.0" = "sha256-vlM5X5N7Ro+7ZoizY340uGmi2reZIfEcZPsrcKbwpJ8=";

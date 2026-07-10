@@ -1,8 +1,9 @@
 {
   repo = "https://helm.camunda.io";
   chart = "camunda-platform";
-  latest = "15.0.0-alpha2";
+  latest = "15.0.0-alpha3";
   versions = {
+    "15.0.0-alpha3" = "sha256-uMXYsXy0X6K0qf4xsKGIpP0JQ+DVoQyE1a8Oe+mAswE=";
     "15.0.0-alpha2" = "sha256-uBHzTzeHH7IeH81UMoI5XUtnQve69mCatvPHGlAdLNc=";
     "15.0.0-alpha1" = "sha256-feX16Q0M0gpclYZHtbFZaXHUZ2XcPRvJQ18hxytRBrM=";
     "14.6.1" = "sha256-SLWSCyrxzMd3G2ZqkwA+V7VJfRp4SGsiF7ZAW461h8g=";
@@ -63,6 +64,7 @@
     "13.0.0-alpha3" = "sha256-W+cv9Rq8LzWDteMgioSF1H3UscaIUPCXTpJz9+Jzsp0=";
     "13.0.0-alpha2" = "sha256-7sZLAaQoUmhyd1juPcgKrHUXhpwzVoYlVJL1lW5vuUs=";
     "13.0.0" = "sha256-yjNtXVa7I8nKJ25AqlNrhEtMiSUbVfp2k0QQehAbvjo=";
+    "12.13.1" = "sha256-ypN4xq69OJSm56xpFRDJv0UDZ55IBJpfzgmNRmTjjd8=";
     "12.13.0" = "sha256-NheCiKjmLfXkMNl6equ+lo2GWEEcgcz5G4IEWgoPi5s=";
     "12.12.1" = "sha256-Qm4fpKqqcpFQ/B4jjvwrFvkAfRielljQJNoIl8E1pog=";
     "12.12.0" = "sha256-FOyEHYaXgnFLNEJNNsCS21h1+K6X+o0+d/Rf4VK8a9g=";
