@@ -1,8 +1,9 @@
 {
   repo = "https://djjudas21.github.io/charts";
   chart = "jellyfin";
-  latest = "4.0.7";
+  latest = "4.0.8";
   versions = {
+    "4.0.8" = "sha256-KyqSPeqqyVFAGJWff9pNQQ36ZYdvVWcEnjahpDWWj2E=";
     "4.0.7" = "sha256-Fxz6m5tCimx1TfY5UfLdIcZ+y5yw9VuRqCPz29zOBfQ=";
     "4.0.6" = "sha256-boRG7yWXXBHyidfhPYjbhVF3WhvQfBY4qbPGOGA3HH0=";
     "4.0.5" = "sha256-BwWp+xajsFbD1jNkBESfyR5OYuEBTlJd1s9wCtnlb4c=";
