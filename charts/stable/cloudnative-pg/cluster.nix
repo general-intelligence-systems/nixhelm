@@ -1,8 +1,9 @@
 {
   repo = "https://cloudnative-pg.github.io/charts";
   chart = "cluster";
-  latest = "0.7.0";
+  latest = "0.8.0";
   versions = {
+    "0.8.0" = "sha256-/fSdh2ztt2wOQJt/iRpTbU9Nyi6JcBJ/LVuyItDAA9c=";
     "0.7.0" = "sha256-AEl53dz134xeNYn6bMV05MTkxr/6wSOFSZCM8hucK18=";
     "0.6.1" = "sha256-UCfTKd7bbEDDz/tx8U1T2XgWur6AJ06y9sJE+xbI0Yw=";
     "0.6.0" = "sha256-81qS5ehwyoJG5itHyjb4lGnSiruYQqvshAjEtnKKf9g=";

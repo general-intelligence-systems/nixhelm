@@ -3,7 +3,7 @@
   chart = "akri-dev";
   latest = "0.13.26";
   versions = {
-    "0.13.26" = "sha256-F/5clNqEZCbddbrtfQPcdfVmFWwEotiZpzDtlTNBEOg=";
+    "0.13.26" = "sha256-S/FR/U6jdFZdaXvMT2px6WRKCXuW/y29VlL6oUtITTY=";
     "0.13.25" = "sha256-z76mjacDTx1PYXvk2oEL/hw/U132jM5GmtcWd9S6zEQ=";
     "0.13.24" = "sha256-tbkqLLYYRyRcOJzwTipttq4SB7Hw/P+y/h9l/GqHwFU=";
     "0.13.23" = "sha256-b1AXWjiethnYE7RO4nZCj4VAcMt3yiOL8qzwohHT/kI=";
