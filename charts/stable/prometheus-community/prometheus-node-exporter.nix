@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-node-exporter";
-  latest = "4.56.0";
+  latest = "4.56.1";
   versions = {
+    "4.56.1" = "sha256-cPqykeAKNMWP2UO7B1/swuLnP6ldsby7583+AIeVNUo=";
     "4.56.0" = "sha256-6Lczi7VFYuZY67ENUJhMlj+Lw9RgYH1Mw153h5oIUtA=";
     "4.55.1" = "sha256-Sr5Yn3+b8HWFJp/iaPPkdKzFVC/zrv/tpgd6q0oinKU=";
     "4.55.0" = "sha256-ZO9Z3d+mK4sXMECe4+h0liThv9p9XNTgAYvdR3hrE2o=";

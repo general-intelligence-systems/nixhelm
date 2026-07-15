@@ -1,8 +1,10 @@
 {
   repo = "https://supabase-community.github.io/supabase-kubernetes";
   chart = "supabase";
-  latest = "0.6.3";
+  latest = "0.7.1";
   versions = {
+    "0.7.1" = "sha256-Rhv8fZ+SnPCFWa4zqhYPP596udl/oRdfY5yMcjFcjXI=";
+    "0.7.0" = "sha256-UzW/JJ4fIyohxkq06aa1Si6mPbkeTXBWTEaDNWWJfPc=";
     "0.6.3" = "sha256-zcZxtKdtK1H/sVbgbAKUYQq9wU1nGyPr9OPLMtDPb+E=";
     "0.6.2" = "sha256-MzaL7zcP/DvIjIoYhhPn1ExJCqUVr6bKSr+dMINyY/4=";
     "0.6.1" = "sha256-wNrtR3Z7bKKcdaCl8H+DWv0RwZl1ETrmDFKOJbyahm8=";
