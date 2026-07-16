@@ -1,8 +1,10 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "mysql";
-  latest = "3.1.1";
+  latest = "3.1.3";
   versions = {
+    "3.1.3" = "sha256-lNpeWu6QH4MJ/5ETx1qPb9Tf6AEzRJcjP4yGYqrLFdw=";
+    "3.1.2" = "sha256-mDgBfTYakAvtDfC0BcOqRmEgn0qKnNQahiyu5m+P6Fo=";
     "3.1.1" = "sha256-JHtxdHPm9IGRT7dvG8MGMLclWJAkE0vQImg6ri2braA=";
     "3.1.0" = "sha256-dHnlKv5GURUgR++7XUPql/xIXvDyVc0KliLiL11Mm5M=";
     "3.0.11" = "sha256-g23FZ5OCI/UuUMWpkqtn7Yq7RDePyJmYOsvT7grSW3Y=";
