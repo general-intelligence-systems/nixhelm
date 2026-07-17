@@ -5,9 +5,12 @@
   versions = {
     "v3.4.7-rc.4" = "sha256-1udjEZCcXvKn7KXksIuTlGE43BRZlETSnK8NEJvjVV4=";
     "v3.4.7-rc.1" = "sha256-tMPWULU7jOcpAMYGGPLXei2z4M9fEqIkQF7JUeHgwns=";
+    "4.11.0-rc.4" = "sha256-zVQNw6ysq4c6uANAgFP2cjCmt3Ml48alJuC7xPVgGvc=";
     "4.11.0-rc.3" = "sha256-Yi/qehSPZOTVzMte7qzoIRajit385VRa+qubx6WulLU=";
     "4.11.0-rc.2" = "sha256-5BNkauhbHQNMNCGSPjJAZPCvETw0oR9vZ/kno8PqdZ0=";
     "4.11.0-rc.1" = "sha256-DzgSBfKmu/g/C4g4/NitidBCEPLH/zV34F2KtGEaJ4o=";
+    "4.11.0-next.internal.8" = "sha256-SFajMSSuSlvIvzrcnqrSHQ9Vu3l4qLmvEVjVvx8AGfg=";
+    "4.11.0-next.internal.7" = "sha256-atxtLqoRfrZMJSmjVIlkKNkUpnRoasBObmb66hplmnA=";
     "4.11.0-next.internal.6" = "sha256-KCsdLEi2ZWu/BoFFbgsIQtVI+pQDK6Hm9zQMwaHmHTI=";
     "4.11.0-next.internal.5" = "sha256-8Ti6q0nbA65umoplPW//CWFc4BqGlCDOccGjk6LVrDc=";
     "4.11.0-next.internal.4" = "sha256-GOH2kYheCkf/HidT+s40D76ls70/896W9yUaOo1Tmqc=";
@@ -20,6 +23,7 @@
     "4.11.0-alpha.2" = "sha256-HuYgrCn4dQXesljRtzMe6J6EdG047aF637OTT+5DFRM=";
     "4.11.0-alpha.1" = "sha256-5vJ4LpeFeNq76zR5hO6WMY0tvPGhXi6Dugs3ajTxrH8=";
     "4.11.0-alpha.0" = "sha256-2P01HYcEYNEYLXpLsOzZFIZJ4WNcX4UyolOCealmLz4=";
+    "4.10.6-rc.1" = "sha256-8MEC3dvBZzVtKl7DcoZOhFQW2Prs/GyCcK8UY7Qf0x0=";
     "4.10.5" = "sha256-wr6h21TOPj/hFcNjeKhP/SUBfIemY5dtbdzZwuMSF7M=";
     "4.10.4-rc.1" = "sha256-1r9fHRcrUvp3QmKWXIw5jh8uwPAyaRUAqJpIWOZ/oTs=";
     "4.10.4" = "sha256-YoNbaCgY4sWhMzV/dZwEjeR7l4ED+roufrTNYKaY6lg=";

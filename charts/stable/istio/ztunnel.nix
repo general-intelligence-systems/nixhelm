@@ -1,8 +1,9 @@
 {
   repo = "https://istio-release.storage.googleapis.com/charts";
   chart = "ztunnel";
-  latest = "1.30.2";
+  latest = "1.30.3";
   versions = {
+    "1.30.3" = "sha256-PCjhICWhUOf6WXSDwH453JfW5crsJ4mo46I19RVVM1M=";
     "1.30.2" = "sha256-DCnoXm32JAQS8bVBgE+MdQKZ/6zSsfCJPKhwgR93hl8=";
     "1.30.1" = "sha256-kS8Ht97CfC2o9ITgdOYY+vj4EDg+xsZ91anHJG3PK8k=";
     "1.30.0-rc.0" = "sha256-IdUE5nHyZ4WirfTo2nhAe2gypzOWrelEVGtoluyV6kA=";
@@ -10,6 +11,7 @@
     "1.30.0-alpha.2" = "sha256-ea0CqCzo72SpPEn/XPya4//JQ18V81c2iacVWaPaBLQ=";
     "1.30.0-alpha.1" = "sha256-iJ/e/IIfD+4ZNbHtJL4EYZITBs2wUFM46UJ17zb8hGs=";
     "1.30.0" = "sha256-QaWR40LU5M/+Kbl5WITkGC/FWzAetnRmrSszbFdUV9I=";
+    "1.29.6" = "sha256-I2ECCvskxSXrYoizLzz/CNcsijiAXDjtovLKLMpe50I=";
     "1.29.5" = "sha256-o5ZBAFCa6yQ83FgSTTjJKZIfMRKtR4fgMOyanMyS1b4=";
     "1.29.4" = "sha256-Edo51K9/r0LYvEw7hmHrIjBFNv8nlPbacgjKdi58ThU=";
     "1.29.3" = "sha256-MsjnIoDHJQeb5qMNhhFUcQYeN6+eiAVMQaHJwPuVkTE=";

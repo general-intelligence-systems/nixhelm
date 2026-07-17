@@ -1,8 +1,9 @@
 {
   repo = "https://istio-release.storage.googleapis.com/charts";
   chart = "gateway";
-  latest = "1.30.2";
+  latest = "1.30.3";
   versions = {
+    "1.30.3" = "sha256-rNnE6kfxNpIahTsHFw5QUlnRcg5EYwwaFUlz+pC+8dw=";
     "1.30.2" = "sha256-QpfySkvUF2y4wdAzjF2ovcrgaQZ657cghtUrNu4zGhY=";
     "1.30.1" = "sha256-PHwT0SIfLh+mhZe684WHTT/CIZ6Au0q2ExkWCviU1JA=";
     "1.30.0-rc.0" = "sha256-L+gFFPHYf4uo21jzFFza8Dhb5WKsYYzcUjD0RwSPCcM=";
@@ -10,6 +11,7 @@
     "1.30.0-alpha.2" = "sha256-JjkBph64Khwtp4Qd4Zi8waU5J6zl5V7CY6VfPb7t5RU=";
     "1.30.0-alpha.1" = "sha256-qxDczwASl67UD63+3+EkMEpMk8wkBcBxAew3nxnHsoc=";
     "1.30.0" = "sha256-OZp0Yj0yQRxE+MdPY0DZANGyUbxgjPBRFjDLg2PtkyM=";
+    "1.29.6" = "sha256-jX/dinaE6S1uZuBHBZErY+IgteyB/mUl/gZ+Nal1s/8=";
     "1.29.5" = "sha256-al0YmaEphm1v3/2QfFP2SCqw5EYdw4FNqDavXg/2zMM=";
     "1.29.4" = "sha256-zCOpynx+9YrSgLKdx7eM7k1v70ockkI53AtMi562D5E=";
     "1.29.3" = "sha256-hBOtJyUHsa3s5t94bQ+FwGxA0Npgg2iIfVBmH3zkXp4=";

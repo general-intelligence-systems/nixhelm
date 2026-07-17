@@ -1,8 +1,9 @@
 {
   repo = "https://charts.loft.sh";
   chart = "vnode-runtime";
-  latest = "0.3.3-alpha.3";
+  latest = "0.3.3-alpha.4";
   versions = {
+    "0.3.3-alpha.4" = "sha256-mu/iGRPoUzus6BIGCnQ/zl89/yzWUbYtGoTau9K44EM=";
     "0.3.3-alpha.3" = "sha256-Ad0SAW6wOKWyVzQWUc2DTl1x0mackcr08Z+wIhdTF58=";
     "0.3.3-alpha.2" = "sha256-GyK1DXyxYNH/OU1N30MdpgnN1zt54Vxrdg3LusmyKlw=";
     "0.3.3-alpha.1" = "sha256-+2o9YugC9k5CxMpTcn1XEK0853d+yFiU5nEua+tXMSY=";

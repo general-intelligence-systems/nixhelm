@@ -1,8 +1,9 @@
 {
   repo = "https://victoriametrics.github.io/helm-charts";
   chart = "victoria-logs-agent";
-  latest = "0.2.8";
+  latest = "0.2.9";
   versions = {
+    "0.2.9" = "sha256-dxB9kw7SGxLH0ZYsNZirWSngryCuxsJoaZbGv1zW8Zk=";
     "0.2.8" = "sha256-BmDvbr4gXA+58+krryTrTnVcxjwfSBUyiAl45fIux+M=";
     "0.2.7" = "sha256-Sjn9q1TjHVDY7Tt/8paTUlhcLAmZGvJxp/EvM8qCt2Q=";
     "0.2.6" = "sha256-ILjEXSb0WRYCtdFZGgMS5vya2uqcinzr3Tjxm1Kf+1g=";
