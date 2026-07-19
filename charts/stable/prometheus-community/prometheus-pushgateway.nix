@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-pushgateway";
-  latest = "3.6.1";
+  latest = "3.7.0";
   versions = {
+    "3.7.0" = "sha256-3rgVsnR7KaFLjRnO8V3fqA1XHxHHoamP2zCX0oSK7Zk=";
     "3.6.1" = "sha256-31TZe/vUIgdseBjUvxSNWQQO2nKRM8d8muskp4UWm9E=";
     "3.6.0" = "sha256-S8aZ7xyHKl+DfbZzV1VRniYtHRzPAqdlt3eS4diCvec=";
     "3.5.0" = "sha256-iP+76+z/zCyQm7CRQnLFpbQEsjKWeVQknhbmDM07MhE=";
