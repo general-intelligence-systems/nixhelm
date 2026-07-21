@@ -3,7 +3,7 @@
   chart = "radarr";
   latest = "1.7.0";
   versions = {
-    "1.7.0" = "sha256-TccX4zYpvOEQVrRxCfkbzRt5PTciNiGQ+ANorZmw23w=";
+    "1.7.0" = "sha256-tC3L3oDt6UsQnjRvmVuWYX4gQ1+ZhusMKiTECykVjXg=";
     "1.6.0" = "sha256-btKYfRt4/e7vPxzw9l0RXV5a8KZ4ZLnZY3jEwZ8EvhQ=";
     "1.5.0" = "sha256-PuA7TnSQ8fo18wg+rtxRJ9JTnWKsuBA68GcDnk+mZAU=";
     "1.4.0" = "sha256-y95t+W03Awx2s1VIprmleYSaaxsyJN0v5tAB1+57ALw=";

@@ -3,7 +3,7 @@
   chart = "readarr";
   latest = "0.15.0";
   versions = {
-    "0.15.0" = "sha256-zN+6dp2FUJYfsOk65fEhpnW/QyiheEn+XOeRvy60/MI=";
+    "0.15.0" = "sha256-by3iRHTcPwa/XVIMJkGgvJ3G9KsgujluOXvcMvlGi5U=";
     "0.14.0" = "sha256-2foRhmVcGe4kntwD1LCictI/28FWoaV3oassXTBNQGQ=";
     "0.13.0" = "sha256-v4TW7xBvp7fTAi3K2GVuMBHd8KTUXJRNedzZJBXiQMA=";
     "0.12.0" = "sha256-x0OxKYClr1qdexpLYBjKbsG16Di7FgDslUvOa2bYxMs=";

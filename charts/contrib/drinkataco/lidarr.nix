@@ -3,7 +3,7 @@
   chart = "lidarr";
   latest = "1.5.0";
   versions = {
-    "1.5.0" = "sha256-m+mKH90C2uNKHGm/e/MXpNCY1e9RVoAKrzPTGGMx7+w=";
+    "1.5.0" = "sha256-A7KD4si/JFrFkOSg6/e16E1QP07Cm3ynoEbUyvBNHAE=";
     "1.4.0" = "sha256-Z/pbeSI7nDwlVgUIfH6qq0d1Pr8hyHOwFwAC/Mk1LBA=";
     "1.3.0" = "sha256-4Nor/EqYjlDTZe2ePlQznZXMDZDrO8Yg7EX91qpVMrs=";
     "1.2.0" = "sha256-b2FeIuAxn9KyctyHOLi9ukFiE0JlW0sv9873hdZq6Gw=";

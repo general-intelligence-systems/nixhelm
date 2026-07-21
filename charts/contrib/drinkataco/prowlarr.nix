@@ -3,7 +3,7 @@
   chart = "prowlarr";
   latest = "0.25.0";
   versions = {
-    "0.25.0" = "sha256-9KnK7GULeb9kYG0XPVyBWGO0rS1XIlN2qflbor5bBo8=";
+    "0.25.0" = "sha256-UMHAE+Y7ifxwSZXd1j4/sTiMy5Wwj9tF5jVM6dLaMhg=";
     "0.24.0" = "sha256-OusBmRG5XNZTB6xNQeyG8kQhBzOeap2oAPTSWu1O+s4=";
     "0.23.0" = "sha256-RouunyVj+ABXza1O0MyA+WF/4/Xm0bWzhfZkxaFn1N8=";
     "0.22.1" = "sha256-u3zj17ctsb4GJR/V9BLEGNANtbxvuXG3XHWXxwAZU/w=";

@@ -3,7 +3,7 @@
   chart = "transmission";
   latest = "0.15.0";
   versions = {
-    "0.15.0" = "sha256-mPzwG3d8qZn/X8JQNjIgBZ3FeOa3RCYDnrWG71OATBA=";
+    "0.15.0" = "sha256-R/+Ini2M6RfoDHW/M0PnDFQLQ22ir+ZtYEiv4C08ga0=";
     "0.14.0" = "sha256-Gg/ql/OcmfKwwLsyh4bPaHxExj/FYUCbNxQ1YoyCXO4=";
     "0.13.2" = "sha256-xBfqA//neKhBd2eY/ZR1ov+BmL2IZSw0TwKbswilqfU=";
     "0.13.1" = "sha256-vjivScnBgHSreh1+uinABAkzXpuyj9DGiD2fuD8BiTc=";

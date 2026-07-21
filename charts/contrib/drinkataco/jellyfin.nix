@@ -3,7 +3,7 @@
   chart = "jellyfin";
   latest = "0.14.0";
   versions = {
-    "0.14.0" = "sha256-Y0M8rdserYuW+PxYcYuPfPZlcKvYoOSESn228rbUoEc=";
+    "0.14.0" = "sha256-64w4a/yfgw3rpeFV1Z7icxCGtficA3YlUo5Q0gECyMw=";
     "0.13.0" = "sha256-Jq1Vsh5/qsMDAvHYU4CsXU2YacOy+5qMvELRQ96on5E=";
     "0.12.4" = "sha256-sA2p1abxuZJ2fose97UdgXXNomxv5Z+bBMwkri+avPg=";
     "0.12.3" = "sha256-NRhsjX8ne0zviGQIiTZsVxYMxD4WpvX2cuApsdDoc+U=";

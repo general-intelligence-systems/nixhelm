@@ -3,7 +3,7 @@
   chart = "cleanuparr";
   latest = "0.15.0";
   versions = {
-    "0.15.0" = "sha256-c0/0aZ/lslxzEct8oddlHPftAi3y2dlKgSl8jBh1pGg=";
+    "0.15.0" = "sha256-/Lgg8fOPYrrIbIfMt/yuCs/HNDd43Ujx1NgcG/SK8LM=";
     "0.14.0" = "sha256-rFSs5u2VKsZ1yQafLjqPubJnfm+b6pkvFcIfasCsR80=";
     "0.13.5" = "sha256-NGhqVqPsR2dNYwDdXN8izP8Uh3hli0w9Cd6w5SUmSiM=";
     "0.13.4" = "sha256-5f+xcqN4RibIYsDq3NvpZJsI+TZQisxst8qzle3y4Wc=";

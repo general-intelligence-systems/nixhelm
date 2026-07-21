@@ -3,7 +3,7 @@
   chart = "bazarr";
   latest = "0.15.0";
   versions = {
-    "0.15.0" = "sha256-HwC9KmU5F/Ioud0skqdxVE/1kgFXbLSUiy//fd+mVT4=";
+    "0.15.0" = "sha256-/J9svtgxOIGVVoPQ9u4dKB1L6zg1MG9QqMdwb0ev+no=";
     "0.14.0" = "sha256-4iinZi8w48jZiZsVotClSGvAOWhrxXISeaC5MbyGwGo=";
     "0.13.0" = "sha256-qGKy9lTFpiz5pOJx+znpxBtJgjVEN5o/13F4wG8C82s=";
     "0.12.0" = "sha256-6VEscFIEikCxub5/Qa1S7Tkj7ZU3ej+wp/MxqRG6mJI=";

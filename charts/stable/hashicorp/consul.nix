@@ -1,8 +1,9 @@
 {
   repo = "https://helm.releases.hashicorp.com";
   chart = "consul";
-  latest = "2.0.2";
+  latest = "2.0.2-oss";
   versions = {
+    "2.0.2-oss" = "sha256-7ty9SOHUD9BKaNjAPRhTLDc1L8GHAG8dWFLrhMbabGo=";
     "2.0.2" = "sha256-NiFqrZtuF/EszMUeQv/OT1e7JlEr5+jOXNChG/uC+5g=";
     "2.0.1" = "sha256-BVTCFDxOijnBHO7veEGjfciBacjpmBwUoGdddPCOFd0=";
     "2.0.0-rc2" = "sha256-ExNK/NfSvLFpUl/KGNaqzMXz2rw8kyMisd/qoclUJ28=";
