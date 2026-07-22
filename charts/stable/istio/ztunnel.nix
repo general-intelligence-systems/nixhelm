@@ -1,8 +1,9 @@
 {
   repo = "https://istio-release.storage.googleapis.com/charts";
   chart = "ztunnel";
-  latest = "1.30.3";
+  latest = "1.31.0-alpha.0";
   versions = {
+    "1.31.0-alpha.0" = "sha256-OQG/tacLpnyMn5gFGLPUp3plJFMgXZ2Ws4P0ajFWEdM=";
     "1.30.3" = "sha256-PCjhICWhUOf6WXSDwH453JfW5crsJ4mo46I19RVVM1M=";
     "1.30.2" = "sha256-DCnoXm32JAQS8bVBgE+MdQKZ/6zSsfCJPKhwgR93hl8=";
     "1.30.1" = "sha256-kS8Ht97CfC2o9ITgdOYY+vj4EDg+xsZ91anHJG3PK8k=";

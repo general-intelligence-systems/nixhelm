@@ -1,8 +1,9 @@
 {
   repo = "https://grafana.github.io/helm-charts";
   chart = "pyroscope";
-  latest = "2.1.1";
+  latest = "2.1.2";
   versions = {
+    "2.1.2" = "sha256-wKqT384qk58FXgfNC/0L3Bbam6cW3IlyhMKhvah91vA=";
     "2.1.1" = "sha256-QQN+rYEwUeSN14lCmJQibkNNoT0t57Lj1Lpz3ZPQu3k=";
     "2.1.0" = "sha256-pAtkMzlYBnP9QZTx8tZAmQ9YWWScAzNWi2xuu4Fu0Pw=";
     "2.0.3" = "sha256-M4WQJyvxGh8/9CtQcpu4NSmk1FEA2jD61RZOPs5ay8w=";

@@ -1,8 +1,9 @@
 {
   repo = "https://ananace.gitlab.io/charts";
   chart = "funkwhale";
-  latest = "3.0.3";
+  latest = "3.0.4";
   versions = {
+    "3.0.4" = "sha256-";
     "3.0.3" = "sha256-";
     "3.0.2" = "sha256-";
     "3.0.1" = "sha256-";

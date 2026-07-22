@@ -1,8 +1,9 @@
 {
   repo = "https://ananace.gitlab.io/charts";
   chart = "element-web";
-  latest = "1.4.40";
+  latest = "1.4.41";
   versions = {
+    "1.4.41" = "sha256-";
     "1.4.40" = "sha256-";
     "1.4.39" = "sha256-";
     "1.4.38" = "sha256-";

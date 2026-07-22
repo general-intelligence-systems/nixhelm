@@ -1,8 +1,9 @@
 {
   repo = "https://charts.loft.sh";
   chart = "vcluster-platform";
-  latest = "4.11.0-rc.7";
+  latest = "4.12.0-alpha.1";
   versions = {
+    "4.12.0-alpha.1" = "sha256-7QCLQW8BWZKqIjhY/IWjvDpjTk9d0zv50+WIFQ6ri6o=";
     "4.11.0-rc.7" = "sha256-K4YG6YkGnh65iQsMheKbX8IO9eHS8RKq7LlFQSMBO34=";
     "4.11.0-rc.6" = "sha256-Wr5Fw4obJWctii2uN77MqgR4+lT+8CidBdp02X5bkR8=";
     "4.11.0-rc.5" = "sha256-TIQH8/i2k0Db66b6xcRjSGfUvjjW03km9xJ+1Xiyrk4=";
@@ -10,6 +11,7 @@
     "4.11.0-rc.3" = "sha256-gHm9MDvrCn/Ks9uLKwgBull06dAXPG8daKz0umG5wos=";
     "4.11.0-rc.2" = "sha256-x3E+xtHdcZiHefM8gAiq35aJBCW/abST5Mn5xFXYX30=";
     "4.11.0-rc.1" = "sha256-4/26RiJY2V3A4AT1zbrLXJUEU4Swqp4vPFDgwmzqAGg=";
+    "4.11.0-next.internal.12" = "sha256-FR7aRYitW2EJPFbxMvjsLrNlOn+roO5rYxb/9TZTkvg=";
     "4.11.0-next.internal.11" = "sha256-PG2XpmZwPJm05G/xDrNrWXJ6qzy2Q4pC+Qs8zlJxbRA=";
     "4.11.0-next.internal.10" = "sha256-D4R8OWpNMcfY2rmtm6YA8B0MYJ1vqfeBOtJb6w2+YZ8=";
     "4.11.0-next.internal.9" = "sha256-t8WD+QbRa2nJyJ97a2R7CxQGbfiz/ocJDDZUKXbL83I=";
