@@ -1,8 +1,9 @@
 {
   repo = "https://media-servarr.shw.al/charts";
   chart = "lidarr";
-  latest = "1.5.0";
+  latest = "1.5.1";
   versions = {
+    "1.5.1" = "sha256-zdhdxeA1aFdHvIZmGGIJIvP+qKTFHYQAiln065S8tyc=";
     "1.5.0" = "sha256-A7KD4si/JFrFkOSg6/e16E1QP07Cm3ynoEbUyvBNHAE=";
     "1.4.0" = "sha256-Z/pbeSI7nDwlVgUIfH6qq0d1Pr8hyHOwFwAC/Mk1LBA=";
     "1.3.0" = "sha256-4Nor/EqYjlDTZe2ePlQznZXMDZDrO8Yg7EX91qpVMrs=";

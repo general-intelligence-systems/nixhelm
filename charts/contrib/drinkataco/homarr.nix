@@ -1,8 +1,9 @@
 {
   repo = "https://media-servarr.shw.al/charts";
   chart = "homarr";
-  latest = "0.46.0";
+  latest = "0.46.1";
   versions = {
+    "0.46.1" = "sha256-31mjcl1FneEWUTuvtspkUp1W4QvLERmqniKMF4SWvok=";
     "0.46.0" = "sha256-mm4NAP4qFoqsbW/gKUTXOSl54Z+fEiBZN/2Cux73Ipw=";
     "0.45.0" = "sha256-2dvK3rqFNP96iKEurcnGlTx6/l9K7pB8ISIv9kSQGBs=";
     "0.44.0" = "sha256-2oUks+mb+Dc1U6co3NSDXM22tZTZ4J8KxcaY/DlctZU=";

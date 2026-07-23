@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus";
-  latest = "29.18.0";
+  latest = "29.19.0";
   versions = {
+    "29.19.0" = "sha256-R1nfEw0KJaH5qV4G3wO8D2nKLFamyBvHeax2Xh3vHlg=";
     "29.18.0" = "sha256-JPXwVt1csA6Y/7kFycJ3noEBU/G1pjBr8swsWk8CoLk=";
     "29.17.0" = "sha256-eD1QD36iTT1oKYgrbPBaY0M2gPx1c0855iI8Mzzybj8=";
     "29.16.0" = "sha256-6yCXOb+aeEcWhavKwnXwjrctDZD3wfzxrsItAqldCpc=";
