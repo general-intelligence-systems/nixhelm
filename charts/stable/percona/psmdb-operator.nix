@@ -1,8 +1,9 @@
 {
   repo = "https://percona.github.io/percona-helm-charts";
   chart = "psmdb-operator";
-  latest = "1.22.0";
+  latest = "1.23.0";
   versions = {
+    "1.23.0" = "sha256-Gzx04QDoChfXMzutoEARbI38qcc0BUjD89aSXXV0uB4=";
     "1.22.0" = "sha256-jd5JcQCApYQ35Zyi8zzrGanF1TbvZy7SAmSbGc+20Y8=";
     "1.21.3" = "sha256-QInRrg9PjJCxcvzeTgbV7Vzz35jB+hgZw+eufRNRgnc=";
     "1.21.2" = "sha256-KLD6mrEyJOMZBHaEdJ1ocg/vB7NMC8j4wAFe0wQu7mM=";

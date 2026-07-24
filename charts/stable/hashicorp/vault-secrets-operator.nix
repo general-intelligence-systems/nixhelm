@@ -1,8 +1,9 @@
 {
   repo = "https://helm.releases.hashicorp.com";
   chart = "vault-secrets-operator";
-  latest = "1.4.1";
+  latest = "1.5.0";
   versions = {
+    "1.5.0" = "sha256-T4ImFdk0b9T4uWuIUsxEyDBCovFRFRXiYx7C/R2gPYA=";
     "1.4.1" = "sha256-voUuNp0zJMeDwjXKLHLFJnz1Lc/qZq64Sod6w/1ELew=";
     "1.4.0" = "sha256-VeVwkEw56d8Tl7d1KknoPTgA/V1oBULVAiLfc3e4pYc=";
     "1.3.0" = "sha256-aEGGH5KZ+paDic5OSNV59ijz+MAkfAh640JvZu+kXMU=";

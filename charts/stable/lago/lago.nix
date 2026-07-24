@@ -1,8 +1,9 @@
 {
   repo = "oci://ghcr.io/getlago/helm-charts";
   chart = "lago";
-  latest = "0.6.0";
+  latest = "0.7.0";
   versions = {
+    "0.7.0" = "sha256-wnM5FzKkW+S/iQDXQYXzoSNjK9ETBqzOBElo2X1OhQc=";
     "0.6.0" = "sha256-PHpf8M7+27+DGaI/YL1H6Pa8dxJ3SYVtZD7Z5omHZo8=";
     "0.5.19" = "sha256-e15cPIjAcu8sRrrGW75Oh2MIpgxkWssznaGkd5aGd1w=";
     "0.5.18" = "sha256-rK9PykJEKQuweMOIP833pZ9t80FQ/umLJu+qpfCf5/s=";
