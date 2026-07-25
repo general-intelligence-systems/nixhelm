@@ -5,6 +5,7 @@
   versions = {
     "26.4.1" = "sha256-et96cfAZePm/bUShrhyysdEvNBnU78EMccdEzCWuFyA=";
     "26.4.0" = "sha256-91525HoBTMzxqDyuhfJ6r4fZ84gBAiTPYb5lsNCXQtU=";
+    "26.1.2" = "sha256-f+4Jk3KZMM47U22YEmxUqsdZ/tNfkRP4p6kBVLAR4OM=";
     "26.1.1" = "sha256-3D576u8ufFMAImIs/fYFlWIwlwnHwJikApkFE9fNCOg=";
     "26.1.0" = "sha256-EwYRktAWxCkqMdbrR9wCkMRJxl9ClW4XPWzHhN3mdeI=";
     "25.10.0" = "sha256-klaIwLfvu/Kjigch1BYd15zt7d0f0+avguaLVW8eGwg=";
