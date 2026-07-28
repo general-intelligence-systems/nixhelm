@@ -1,8 +1,9 @@
 {
   repo = "https://cyclikal94.github.io/matrix-helm-charts";
   chart = "mautrix-telegram";
-  latest = "1.0.0";
+  latest = "1.0.1";
   versions = {
+    "1.0.1" = "sha256-HQWJTRLWn33DzSsp21vsjbTfcLVUpal02hg1bB7g6mU=";
     "1.0.0" = "sha256-oPtzwKCtbY1ia/w0cHGyZ3n1jTwIgQg/ugBJ5iSDHq0=";
     "0.9.3" = "sha256-iWrUpUr6lfAyyieCKmirQzDzAWB4htILxgou0WMJ2VM=";
     "0.9.2" = "sha256-qG8/mhSvyYWIVymd7AWm2kRsIVdiK10yvEjYCr31KPQ=";

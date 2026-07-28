@@ -1,8 +1,9 @@
 {
   repo = "https://cyclikal94.github.io/matrix-helm-charts";
   chart = "matrix-appservice-irc";
-  latest = "1.0.0";
+  latest = "1.0.1";
   versions = {
+    "1.0.1" = "sha256-/pXjnUvDS+8Cm6TLfo7PhMo+TY6q75670RbeKT9B+H4=";
     "1.0.0" = "sha256-w+tXEYAltIAb949PtXsdrWPhZ9pPklNKvpf62UdvqPA=";
     "0.9.14" = "sha256-FUGOBq5HTLP8GTFsQVB/fh82WjSmFcu6A/dEqCR9348=";
     "0.9.13" = "sha256-+aZDtTma5KODGUH75BqTKqPQz7HFPsnPTYXI59Ijqjw=";

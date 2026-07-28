@@ -1,8 +1,9 @@
 {
   repo = "https://cyclikal94.github.io/matrix-helm-charts";
   chart = "ntfy";
-  latest = "1.0.0";
+  latest = "1.0.1";
   versions = {
+    "1.0.1" = "sha256-yraLDu/dAP+iLPM84tB8nyPlk1TmIzeLu26wYzu7Wns=";
     "1.0.0" = "sha256-OHoYx+ohbB/lYXh8kyepdLNQ/zheZnGbIT4w2vSQhn8=";
     "0.9.7" = "sha256-OtK2f663h37h5wYqBCpZ3eycu1RPjs1ib+EY92eyJ4I=";
     "0.9.6" = "sha256-QN5ukW7wzIdGRnhs2e1MglMk+++koKndxkTrhnVCye0=";
