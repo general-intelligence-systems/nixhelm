@@ -1,8 +1,9 @@
 {
   repo = "https://helm.releases.hashicorp.com";
   chart = "hcp-terraform-operator";
-  latest = "2.11.5";
+  latest = "2.12.0";
   versions = {
+    "2.12.0" = "sha256-knHqx4TkHd1VSxIALOa46T4Z6mN1Xg9AB717Q1G4s4M=";
     "2.11.5" = "sha256-AB1jpCk1lObEcEyc9E2JsAKcFrg+wxBQgJfRAp53lFk=";
     "2.11.4" = "sha256-gO/0pK1iGBR/YkLS6xMKDSNfNST8LCM+kGiwJcuHcOQ=";
     "2.11.3" = "sha256-W/eKkqy9W/2ppq8w1Kanb/Jpx3Etux7DBncabnP1nnM=";

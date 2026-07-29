@@ -1,8 +1,11 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "mongodb";
-  latest = "0.7.12";
+  latest = "0.8.0";
   versions = {
+    "0.8.0" = "sha256-7yb9GpQhX3pVBLfI2kGZQmrXZUFO9iSKkqG83NqspOA=";
+    "0.7.14" = "sha256-g4p4DuQstduU4KOtXVPRt/x2814SFtaXgQubKPuiE+M=";
+    "0.7.13" = "sha256-GPaqiKUXvS/zSmFVj3l8Ar+xjDubErHif2c5S6ys36A=";
     "0.7.12" = "sha256-LFZ01+TYe6hdwAIYQvo2963TpMIrWMKXJJjgGfNoZAE=";
     "0.7.11" = "sha256-E6NFxLinijYiCWog4TD3VUpXReTRMBKvKNyOgeuS/FI=";
     "0.7.10" = "sha256-lzOJAOcrSD4SAoYCvBKsJpeYE7byjb7h46w9RfhgdZw=";

@@ -1,8 +1,9 @@
 {
   repo = "https://charts.sysdig.com";
   chart = "admission-controller";
-  latest = "0.17.0";
+  latest = "0.18.0";
   versions = {
+    "0.18.0" = "sha256-Zgm51mOheY7nFSO76gPy8iCVViSoegp9Pw0BKdndEqM=";
     "0.17.0" = "sha256-bJyMtIAAgCj9VAHKpTAV3i2jksAud1YQhzE10Yz3o6A=";
     "0.16.12" = "sha256-ZCFb5u1lOWc1kUCRqCSJIRfVlsEe6toYdX9+h+WmwTE=";
     "0.16.11" = "sha256-y/D82Ej0HX2HPLyhOEmDjAQcy02n6ctKktV9Oy4NENM=";

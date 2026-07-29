@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-snmp-exporter";
-  latest = "9.16.1";
+  latest = "9.17.0";
   versions = {
+    "9.17.0" = "sha256-gKNwCf9a2Oz0p6UYh/5Vfdx7I3Gk2t+3u2QYNGghFeE=";
     "9.16.1" = "sha256-uH/ergxAyuCARCLxWLCI6u1VqMzPfk9fEPzGrM6w/cY=";
     "9.16.0" = "sha256-xcY8rHbqeVQwGYNH0eOYAVxuAxaxm4IaHDdD6X82m88=";
     "9.15.0" = "sha256-I3brURzMLDGemP96+uefd3q0y5HaMUMSS1kUpnajjq8=";
