@@ -1,8 +1,9 @@
 {
   repo = "https://coredns.github.io/helm";
   chart = "coredns";
-  latest = "1.46.2";
+  latest = "1.47.0";
   versions = {
+    "1.47.0" = "sha256-7tsQdKS3MAqKrvaNu0N5SgqYNjfRvoxX5spG3EUxQH0=";
     "1.46.2" = "sha256-TBIhfga1v4zd9iUN9VhSgy+9Xg5MiVIP0QqW0MSGeys=";
     "1.46.1" = "sha256-A3BZrZxHE35AJtHD6lVf+jxbM73upEvAYKVDKoIZnEw=";
     "1.46.0" = "sha256-Ewy7LspihQjmwCF97PGtWaN8b37SrYPRbMfYn3ZQGAY=";

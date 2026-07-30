@@ -1,8 +1,9 @@
 {
   repo = "https://anza-labs.github.io/charts";
   chart = "pyoci";
-  latest = "1.1.3";
+  latest = "1.1.4";
   versions = {
+    "1.1.4" = "sha256-m6q09USAl5L2wi106VpCyVMWr35Two28t3rKnj4dzj4=";
     "1.1.3" = "sha256-l3IOmRcpUv8FmSYitt4uuikQe+p8gfm0TyeQ4mNdtS8=";
     "1.1.2" = "sha256-yNGtvpOYrBQJCIZipJJKO+R+cJvWHXrPqPNl1ZFil78=";
     "1.1.1" = "sha256-ujQhM6hioX8Y7VOw6eo50LkONo+JdAFDSNysJnrScnQ=";
