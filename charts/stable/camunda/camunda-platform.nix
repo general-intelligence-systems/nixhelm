@@ -6,6 +6,7 @@
     "15.0.0-alpha3" = "sha256-uMXYsXy0X6K0qf4xsKGIpP0JQ+DVoQyE1a8Oe+mAswE=";
     "15.0.0-alpha2" = "sha256-uBHzTzeHH7IeH81UMoI5XUtnQve69mCatvPHGlAdLNc=";
     "15.0.0-alpha1" = "sha256-feX16Q0M0gpclYZHtbFZaXHUZ2XcPRvJQ18hxytRBrM=";
+    "14.8.0" = "sha256-aZORbH9x0m+EyW4nSE/cz8upUrFCabAZ2aFIYjI/hDs=";
     "14.7.0" = "sha256-jBGSQJ6Sbg1SRYaOpODCsWAuvnoh8QtebaMgUvGGDj4=";
     "14.6.1" = "sha256-SLWSCyrxzMd3G2ZqkwA+V7VJfRp4SGsiF7ZAW461h8g=";
     "14.6.0" = "sha256-TTU3SWzssmYZwoxSq+3idroBubmS7j/RN+9qetgzQlg=";
