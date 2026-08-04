@@ -1,8 +1,9 @@
 {
   repo = "https://victoriametrics.github.io/helm-charts";
   chart = "victoria-metrics-operator";
-  latest = "0.67.1";
+  latest = "0.67.2";
   versions = {
+    "0.67.2" = "sha256-sHEKvsc2IY9n3w3rhUQE+8gS3UJ9WXp7bVfSCU2a8yY=";
     "0.67.1" = "sha256-3xIFQXsEhO1ele9wGzp+EtndEBOL+xf9QYokIBxNdMI=";
     "0.67.0" = "sha256-JES6UmTxNRBRvac1TiU7aIo2+hv/tKTYTOMWIgaKvYc=";
     "0.66.3" = "sha256-tCOVAEG8LEvrPbmlEjboG25nc5XAhEDsG0zSQJV7rqo=";
