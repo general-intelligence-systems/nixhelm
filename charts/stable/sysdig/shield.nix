@@ -1,8 +1,9 @@
 {
   repo = "https://charts.sysdig.com";
   chart = "shield";
-  latest = "1.49.0";
+  latest = "1.49.1";
   versions = {
+    "1.49.1" = "sha256-opcrVVNZ+yETRxvCdqbWZmj8sIWfVJrqvEbXdjHxx7I=";
     "1.49.0" = "sha256-0SGsKQYHNKhnPOHwAe0k2446bnGtktteoN4mwZj4wIA=";
     "1.48.0" = "sha256-bOYeQIFlsuklauQftO8LIuttOx+9SYxVQIqRgU0weQE=";
     "1.47.0" = "sha256-fq5TzR8+QC+QIzwlHMipLHnai8nwWv3u3i8Tftr+m8I=";

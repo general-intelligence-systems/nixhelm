@@ -1,8 +1,9 @@
 {
   repo = "https://argoproj.github.io/argo-helm";
   chart = "argo-cd";
-  latest = "10.2.2";
+  latest = "10.2.3";
   versions = {
+    "10.2.3" = "sha256-aWKEf2bk92EB1JjCm05b2lEx46yhFXA272bU4qhBccY=";
     "10.2.2" = "sha256-TuCqfgFpfyMMbpRv1XV/YVAyh9ua8tLWu5dYdP9jk7Q=";
     "10.2.1" = "sha256-J+kw42bSLJmQAgCK1ex5Yb2gBBCoQochDQ//vugVCIU=";
     "10.2.0" = "sha256-49tRkj0LK1e+sxMGMogOs8he7GsaSDeO8MwJakr4KVk=";
