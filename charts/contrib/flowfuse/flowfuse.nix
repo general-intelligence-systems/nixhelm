@@ -1,8 +1,9 @@
 {
   repo = "https://flowfuse.github.io/helm";
   chart = "flowfuse";
-  latest = "2.84.0";
+  latest = "2.85.0";
   versions = {
+    "2.85.0" = "sha256-DvijrqIJw+YBtv6ScGl/rzf6DbiqDmgeLORBU3pww3w=";
     "2.84.0" = "sha256-/IpGDyxg++jiJ7UiiPrzwUwoU7+CFwBwj4FGpZNH+3U=";
     "2.83.0" = "sha256-FF0rcP19YkvlzLDWY+jiWi7/oAgOuU+/zuIGn9XYKnE=";
     "2.82.0" = "sha256-pOMhhpeevV6/QasHc3ihdKkuyBDIbqsAqdX2Lu4Ejjk=";
