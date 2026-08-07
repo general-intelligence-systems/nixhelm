@@ -1,8 +1,9 @@
 {
   repo = "https://charts.jetstack.io";
   chart = "cert-manager-csi-driver-spiffe";
-  latest = "v0.14.0";
+  latest = "v0.15.0";
   versions = {
+    "v0.15.0" = "sha256-2SsJ3HQvP9jSqMqhYaVTLmIC8UVeMeHKNGcKmL7ntlA=";
     "v0.14.0" = "sha256-NykqG55FNw0vwGhVsbvmoNTu0yN+bpiuOW32tos8cgw=";
     "v0.13.0" = "sha256-b8RRLjfPDH9/kck/NtsvBiQmFGok6khr3dGk5jJOf9A=";
     "v0.12.0" = "sha256-gqnFe5mFnlgt+NDr91pk55w9OfzKvjsD2iRoTuMWqio=";

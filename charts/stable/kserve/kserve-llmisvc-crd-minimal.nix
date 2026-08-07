@@ -1,8 +1,9 @@
 {
   repo = "oci://ghcr.io/kserve/charts";
   chart = "kserve-llmisvc-crd-minimal";
-  latest = "v0.19.0";
+  latest = "v0.20.0";
   versions = {
+    "v0.20.0" = "sha256-9o9iA9O/6xkmRtkf+eyp6NxRfGB82ToMwVFySTFYm4w=";
     "v0.19.0" = "sha256-r3kDxKAXM+IYzgnNnBYpE+z1G5CxPhBrj44o/iQd49A=";
     "v0.18.1" = "sha256-BZ4SCuhLVqubca3DLv2YcqXdr2bzRK3VWkcyC3Qm2bY=";
     "v0.18.0" = "sha256-hgIASSY+E/mqfR420qCG0hhHMkDkxANNmnZGTIvBQ4M=";

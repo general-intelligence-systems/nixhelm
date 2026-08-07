@@ -1,8 +1,9 @@
 {
   repo = "oci://ghcr.io/kserve/charts";
   chart = "kserve-crd";
-  latest = "v0.19.0";
+  latest = "v0.20.0";
   versions = {
+    "v0.20.0" = "sha256-C1Q3VY+jp3aEoIsUgCUkBNsrdyn0bwYF9XRPQajv1Ew=";
     "v0.19.0" = "sha256-0gasBRWYE3zZUOqvVIk+RwKXm/DAHBShZOLeOsrvKeI=";
     "v0.18.1" = "sha256-EyP8V3FN9o0YduiqAZxzKcuUHXFRlJa/mfykbLdqzGg=";
     "v0.18.0" = "sha256-nvzmu4NckTO8pK6nDyvIr3SgmpVsUay1Tert5J9faaU=";
