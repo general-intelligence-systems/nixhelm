@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "kube-state-metrics";
-  latest = "8.1.3";
+  latest = "8.2.0";
   versions = {
+    "8.2.0" = "sha256-jOFn5cy0BvSKkPYsF5xpyGqQ9FdqX6VguJUYrL9tBFY=";
     "8.1.3" = "sha256-pIC0udZFLh7tkuKMXAxFbyTf1f7WdzI/6vpDXW5h9bs=";
     "8.1.2" = "sha256-4JZ0d0k8/ZWYvStOYxJLPI82KKzw7tyAdUsngIbLRHc=";
     "8.1.1" = "sha256-gGuAkzJdRhZYwWEcPXk4WKvz2fnkaMiTxRCkASQh8eA=";
