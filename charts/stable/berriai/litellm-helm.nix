@@ -4,6 +4,7 @@
   latest = "1.95.0";
   versions = {
     "1.95.0" = "sha256-V6302972bbQurY03X/9o514xtFMoGbOaa2BlYXx7Vow=";
+    "1.94.2" = "sha256-dY2GrMTFkQmomSGkdcDZHRTkqtYG6UaYJdpSxUr//TY=";
     "1.94.1" = "sha256-9SIUONhkHIs7Y6cX7QEnymxzLrpRib8DxQu1MEgPQEQ=";
     "1.94.0" = "sha256-mc8km8mGa/TTYhN92c0yAAT6IDEnC84eDw6mULGvfyg=";
     "1.93.1" = "sha256-FCMTSeoAxLmGpwfIhChA1WgF+B/ncaNOr8egkZhuNJo=";
@@ -21,6 +22,7 @@
     "1.90.2" = "sha256-+oewBLe75DywJgK42VTRFyklNDToo6Fc5ppstYTXOKA=";
     "1.90.1" = "sha256-ul4BV7qMmvj/ClPP+oA3ONOovH8KigkY4FJxUwgSqb8=";
     "1.90.0" = "sha256-dVnIdwqOpCz44Xs/OjoCjcRo5u/7MHY5UzavfRbR/cE=";
+    "1.89.7" = "sha256-Z+rCqAKp2zTrjjAiNewJzLfGeMkLw6lJGOE/CzE/ac8=";
     "1.89.6" = "sha256-hXrhktvWq5MM9Zdu5za2UPSqtsXAOqk+tqEJdQ6lgbs=";
     "1.89.5" = "sha256-LQGHXghDX2Gcy1cPG6dGE/UWmQTwrCZUTc9SIdJhrrg=";
     "1.89.4" = "sha256-F9X+zitKJYX64kKoXQEcrUjVjZM8quSb22R6lxW+3mI=";
@@ -28,6 +30,7 @@
     "1.89.2" = "sha256-cAUxjTZj6V/kiQ0Q3BebNKaqph6yU/Zhu1xr6MUE3Vc=";
     "1.89.1" = "sha256-mN+wOlRqSfs4KJ/hDZ4GGxk7CKAD6oUfA37iDTCSD5w=";
     "1.89.0" = "sha256-8CjyAaJIsM+JyvSHQDZth02tyRDvVGmGPbKcv1sz020=";
+    "1.88.6" = "sha256-KksIcJTPUHvOoJVbRU/uekfQaVhpVP5HjM4QIgPrEjs=";
     "1.88.5" = "sha256-qGbSio5Dh5JhTRALtDc557zWEsXn3pY06gMMoVo+DOg=";
     "1.88.4" = "sha256-Kfff8yqYK2AkVu1V6OAL51aq94gV4LRCCEyVQ55ZqAg=";
     "1.88.3" = "sha256-ovMnz35/Dw8qUXxB1HwowDhb1n2ZyZlhMy1dRfbXkNs=";
