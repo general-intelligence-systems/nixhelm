@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "alertmanager";
-  latest = "1.41.0";
+  latest = "1.41.1";
   versions = {
+    "1.41.1" = "sha256-Lwd6O1MjWQE8r86k1M2e/JEe34ynbh2MRMrxMEenTYQ=";
     "1.41.0" = "sha256-nuesgtuc0nSd/+0IjWnvq/Dud+ny/VkhfN1IsQAYRTY=";
     "1.40.3" = "sha256-Mp1BlcWvxCaKSMVXRk5f/Fk6On1z2WuV5HoJtwl/LqQ=";
     "1.40.2" = "sha256-y1HJe8V1FqyenufJISkFyc1EMG2QVnbYWSDb6dZKQ7A=";

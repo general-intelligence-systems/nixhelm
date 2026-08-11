@@ -1,8 +1,9 @@
 {
   repo = "https://ananace.gitlab.io/charts";
   chart = "netbox";
-  latest = "6.2.16";
+  latest = "6.2.17";
   versions = {
+    "6.2.17" = "sha256-";
     "6.2.16" = "sha256-";
     "6.2.15" = "sha256-";
     "6.2.14" = "sha256-";
