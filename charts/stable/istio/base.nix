@@ -1,8 +1,9 @@
 {
   repo = "https://istio-release.storage.googleapis.com/charts";
   chart = "base";
-  latest = "1.31.0-alpha.1";
+  latest = "1.31.0-alpha.2";
   versions = {
+    "1.31.0-alpha.2" = "sha256-jOvUv7It9b3Ku1bB7hWtObHreWa3ZLgqFjeAHqlqVJQ=";
     "1.31.0-alpha.1" = "sha256-KVaoOhzotBVTuPmp4D2fDSX+xvTQ0CyT4z5UnWSWvt0=";
     "1.31.0-alpha.0" = "sha256-3ab4Hy2Yn1RNhkRLq+XJZfdJLk9vD1pUQRNdPHymIGs=";
     "1.30.3" = "sha256-l0Q4fkQGc6l/3it+ThmEg6NBWjukvVCvxXwDaXlswQ8=";
