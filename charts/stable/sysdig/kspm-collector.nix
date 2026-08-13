@@ -1,8 +1,9 @@
 {
   repo = "https://charts.sysdig.com";
   chart = "kspm-collector";
-  latest = "0.20.0";
+  latest = "0.20.1";
   versions = {
+    "0.20.1" = "sha256-aFnXshePgaHVRKBLZ3w7CopgQ78pPM0fuE196f0VycY=";
     "0.20.0" = "sha256-7YagAIEQzkz2B4MtoCUzsvrIEjA1J3eA0nbY6Ch2MfU=";
     "0.19.2" = "sha256-DdYVQmpFr5dpq7Y+AJCLS9PIMv6tl/Cg/5GoKB4tvLA=";
     "0.19.1" = "sha256-ieWQwPphZ2fASHvoAYsa/dHB0V/FhDwIl6p3MxmYVhU=";
