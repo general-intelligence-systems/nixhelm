@@ -1,8 +1,9 @@
 {
   repo = "https://charts.rook.io/release";
   chart = "rook-ceph-cluster";
-  latest = "v1.20.3";
+  latest = "v1.20.4";
   versions = {
+    "v1.20.4" = "sha256-3J6hqABWoEVPx+aed+v0SuMY9G26JuNAb+/F45TdTzA=";
     "v1.20.3" = "sha256-LHxL9JMDGOI3XJ5l63Y+X134lz2p5duI28Y4Pnmi4xQ=";
     "v1.20.2" = "sha256-/KSCdGI5v8n7LYiPH1/CBvzGMFk0Z0dZ8SKwEezoeCc=";
     "v1.20.1" = "sha256-08mCsMPhDegk9cHsTiiL0AQAlD4+HbezgjuMDf5tJzM=";

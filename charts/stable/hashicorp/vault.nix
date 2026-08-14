@@ -1,8 +1,9 @@
 {
   repo = "https://helm.releases.hashicorp.com";
   chart = "vault";
-  latest = "0.34.0";
+  latest = "0.34.1";
   versions = {
+    "0.34.1" = "sha256-30w3+sMklokv8eHW/XlU06QCzHsbK0wiJq8RuKV1ZMQ=";
     "0.34.0" = "sha256-pxb0+ou4DkUM58D53ntHUYPEdDehYu7nRM1Av5kSROk=";
     "0.33.0" = "sha256-/D8yYo4k6BvwNdUy7aIK04xrTlqDMIna7YHCtK5Flec=";
     "0.32.0" = "sha256-4x3fP23QMcD1QH3WtjNh6l/2VficeBBJs59MKpWm+Io=";
