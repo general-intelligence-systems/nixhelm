@@ -1,8 +1,9 @@
 {
   repo = "https://charts.hetzner.cloud";
   chart = "cert-manager-webhook-hetzner";
-  latest = "0.8.0";
+  latest = "0.8.1";
   versions = {
+    "0.8.1" = "sha256-m+fIUNI7zT3M6IMWuuMh4ZtOpxkve0AMr/t3Gm9jkdk=";
     "0.8.0" = "sha256-y82KpR0NZG8TJXrCDIbDCl+n2eVGPnhVKz7t+zaZ6oE=";
     "0.7.0" = "sha256-cJpUZSrgYR/0GL6NgR2mEw/6JIsSJGiJcM4KtcYX5Kk=";
     "0.6.7" = "sha256-PiDwvkeJCz+3FhZ/MaGY91lL4Yuhu13CrlO7PuDXLVI=";

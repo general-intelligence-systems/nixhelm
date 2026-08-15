@@ -1,8 +1,9 @@
 {
   repo = "https://emberstack.github.io/helm-charts";
   chart = "reflector";
-  latest = "10.0.64";
+  latest = "10.0.65";
   versions = {
+    "10.0.65" = "sha256-dhUQWByrkYGSaaS6xxvYv6I7EL8+C2GdpZKCZTQLe+U=";
     "10.0.64" = "sha256-XGMwhoU+7jPeS2yF45cfEGLMBOwYPKBtf3Q+Cn/K0Uk=";
     "10.0.63" = "sha256-y8bzLWZ2GvJ2DWsXNuy2xFCweNdIJLmV3Z9HCunDiQ8=";
     "10.0.62" = "sha256-nIK6nmCMLyVYpgKMlzodopnyrKIGx5i5osZ/X2cVO/E=";
