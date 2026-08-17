@@ -1,8 +1,9 @@
 {
   repo = "https://groundhog2k.github.io/helm-charts";
   chart = "nextcloud";
-  latest = "0.22.4";
+  latest = "0.22.5";
   versions = {
+    "0.22.5" = "sha256-dLUCQSanWAwSX6qIgUgO0WZto/hZTIyNo+507yePGHc=";
     "0.22.4" = "sha256-vAbEAx0mLEZSKQhf6gYhtE5MFs+Jb6i/x4HiGQGnIYg=";
     "0.22.3" = "sha256-AuYvHVKskR904SFjSj48QWs+fvdG5ln0P4AgSPCgfEM=";
     "0.22.2" = "sha256-qSyxT/yr7W4Jpl6w2qk2VtyL7OUC0Wyz3NMrjkLYh84=";

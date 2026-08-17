@@ -1,8 +1,9 @@
 {
   repo = "https://bjw-s-labs.github.io/helm-charts";
   chart = "common";
-  latest = "5.0.1";
+  latest = "5.1.0";
   versions = {
+    "5.1.0" = "sha256-xyyaSmKTNlgp21ssorUqgt1i3qRrg1yJ7rCLHYq6qRY=";
     "5.0.1" = "sha256-TOsVcmyoV400iI3cXvkGw/a3o35o9SNQZ6j44srpBy4=";
     "5.0.0" = "sha256-iWjFVkpwhGpYWlM11sRGrFXPKc8HQvosqdfLhLyP+I8=";
     "4.6.2" = "sha256-2b7RR547tTvMstjQpLrOpGZ70RRV+sxGAMzsa9+jX7M=";
