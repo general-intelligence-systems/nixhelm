@@ -1,8 +1,9 @@
 {
   repo = "https://charts.redpanda.com";
   chart = "redpanda";
-  latest = "26.2.1";
+  latest = "26.2.2";
   versions = {
+    "26.2.2" = "sha256-XTnjlrFJ0o+0iDfqlxUl+ltoGOTlJ3+Clrt3EoBILIs=";
     "26.2.1" = "sha256-SIAjSPY+e/amVP8OfhUqh+uL9uYQM3z7PkYVhBLViG8=";
     "26.1.10" = "sha256-UxDhfN4oAYF6WO2e9QGYiHUEDWag9kYuawU8H6e1RG8=";
     "26.1.9" = "sha256-lYP51HFUJBOi4sEAU1xSTri13sNf3+tUgkljL8mh4gA=";
@@ -14,6 +15,7 @@
     "26.1.3" = "sha256-HfrRLlGo4Fai9zyhaet6GDZ8TMWkIN7yVbQczPBemIo=";
     "26.1.2" = "sha256-2ZrzIHTOKKszAPih38+UfHilGxRBO8n88u3cFvutvb0=";
     "26.1.1" = "sha256-ORFPihc6QLKCg//me7H9GTIxTc9c8tskuHwaapX3lzU=";
+    "25.3.9" = "sha256-GnOTiB4+mk6AGYnenGHn/K5r4c+RZsu611pE74oWjmI=";
     "25.3.8" = "sha256-XvL5a7P+pPmC1g6ygQRIfQRdKRfWAfOFixKDB+g7pIg=";
     "25.3.7" = "sha256-Yq4b6pr6otL9PxUJVWNNy3/1wfhFMGLCsgm1inF3E64=";
     "25.3.6" = "sha256-kNTU6vGjBvh2VJXzP0Tg+7CNSDj9bJju4+3OZ/ipfaI=";
