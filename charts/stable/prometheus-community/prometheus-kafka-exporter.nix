@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-kafka-exporter";
-  latest = "3.1.0";
+  latest = "3.1.1";
   versions = {
+    "3.1.1" = "sha256-53LBrQtMc6/lsmql0RboFkWTXAGq0ewHPeWy0YQpyLQ=";
     "3.1.0" = "sha256-cJ3g0yg0vzuvKwwguVISKZxdpC233YAyCZxDOUEWtQY=";
     "3.0.1" = "sha256-h8loR1XAITV8rV0RAjxx+tQ2+3vIk6bh8KB325qjd38=";
     "3.0.0" = "sha256-889aeA3oBqIa2r9sAvdQUb9C4hRjdOvJoKsQUw5FYfg=";

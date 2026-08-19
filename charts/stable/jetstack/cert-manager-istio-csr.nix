@@ -1,8 +1,9 @@
 {
   repo = "https://charts.jetstack.io";
   chart = "cert-manager-istio-csr";
-  latest = "v0.16.0";
+  latest = "v0.17.0";
   versions = {
+    "v0.17.0" = "sha256-w0nv8IvUap3Wu6vODzscO5waJ60Mgw5z4D3Gtq58Llk=";
     "v0.16.0" = "sha256-doJvDc/P2V7cj3/bK/gW9i5Jbg9OeG7zv6o852veK+A=";
     "v0.15.1" = "sha256-4W2ZeVmhjHwGiUckLkrVBfU0D1rv0jen7yJz/5oy5b8=";
     "v0.15.0" = "sha256-feGzoxWGjiurvwkZ7iopm/SrTfNMo5HoRGKc1Ix8kzw=";

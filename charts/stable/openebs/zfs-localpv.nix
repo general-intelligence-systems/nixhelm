@@ -6,6 +6,7 @@
     "2.12.0-develop" = "sha256-ZvSpjjMvIAsjb3A2OKGLvCiGxoLWq072Wgu8zyUiA1s=";
     "2.11.0-prerelease" = "sha256-8LFVqNIsAbD1DYOgOvLckq2REuzSl2EHjMyfyzLEEwc=";
     "2.11.0-develop" = "sha256-FAa/EHuxjN2EMwtztth7+E9z3WM/OGuFUGlqHKkjCu8=";
+    "2.11.0" = "sha256-rgivX7RvXWR4e53rSSgM9fxNhqSoer5+e3FI8sqc/C4=";
     "2.10.2-prerelease" = "sha256-FROveIXd5bGs997hSaKbD/0J97PZPwLAitAS4+9qs9E=";
     "2.10.1-prerelease" = "sha256-xqsyroaOHdi03VLvGxEWQhWxV4mzd3Ypm2/DICCARk0=";
     "2.10.1" = "sha256-ZdwHvFrRswN7vNORXMiMuesKRur9N+Ev9z3AfqhdG24=";

@@ -1,8 +1,9 @@
 {
   repo = "https://eclipse-dirigible.github.io/dirigible";
   chart = "dirigible";
-  latest = "14.28.0";
+  latest = "14.29.0";
   versions = {
+    "14.29.0" = "sha256-fmKHJBvL69nkBwtMwDY3RWl/ANuvkpWbVmDhfhQdPuU=";
     "14.28.0" = "sha256-qx1U5JEenl9aQLmwjesRAMSzEGQFm9Wr2tJXOu25RZg=";
     "14.27.0" = "sha256-4E1yypfgQG15KBZQiBoypWpq/uasHQCyJqdvYIK4PgE=";
     "14.26.0" = "sha256-ri2ATW6fWTk5hkiIgePug+Vfov38y4HK+9QIkXdHzS4=";
