@@ -1,8 +1,9 @@
 {
   repo = "https://kubernetes-sigs.github.io/metrics-server";
   chart = "metrics-server";
-  latest = "3.13.1";
+  latest = "3.14.0";
   versions = {
+    "3.14.0" = "sha256-wsoRhcAebn9T3Rt9Ex8Mmz+lDgA+0Gi3hFY6G1o0IqE=";
     "3.13.1" = "sha256-CE5u22gM9OKswwvUllaMU/32Y8us9uF4drJXhcNbehM=";
     "3.13.0" = "sha256-+5KZAuO3VlZjzdFzTzHWNzXJMr4VQacii1ru9tI0ih8=";
     "3.12.2" = "sha256-6QT/ov4zxCnhLKyKoBO6OPQtlE4xXQYOlCMKU7mJhc8=";

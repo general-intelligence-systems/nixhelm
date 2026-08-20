@@ -3,7 +3,7 @@
   chart = "clickhouse";
   latest = "4.1.1";
   versions = {
-    "4.1.1" = "sha256-5X6Uoz9vCGYMY3uA01hz1BESp25vsU0FSpsto0YNU7I=";
+    "4.1.1" = "sha256-+0SgUlWhrJiMutnLdFm0QaUI/CbeXc6yYtZj65K6CBM=";
     "4.1.0" = "sha256-xt0IbaUIZHONyCN0tl3nr0zkLRIZJVpXPmcOaLweAgU=";
     "4.0.1" = "sha256-w2BKyavEKSnPCxv6XasyMpnq1xMU1qR+g6cB99ZzhcQ=";
     "4.0.0" = "sha256-/sEl3rA9tFs5UZnpf6zthCmTOEa8m6nRIImkvwxKaKk=";

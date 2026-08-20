@@ -1,8 +1,9 @@
 {
   repo = "https://charts.rook.io/release";
   chart = "rook-ceph";
-  latest = "v1.20.4";
+  latest = "v1.20.5";
   versions = {
+    "v1.20.5" = "sha256-dfWwZvE1ZcjrcEP7NckVM8l52t6MJt0Y+gLVDkytfu4=";
     "v1.20.4" = "sha256-VhwiCdC1cZwCh/d8fGO5FBvKSmOv5kS7ryF0MprOAfI=";
     "v1.20.3" = "sha256-lb05Zrzzazg7iOGZYTJkIFfo/kvBM7loEJLE3exN0LI=";
     "v1.20.2" = "sha256-bg8Q9cpU5hj7kN0UncnfvIpJMpVb/yIntpL7Mgadr1I=";
@@ -12,6 +13,7 @@
     "v1.20.0-alpha.0" = "sha256-7Tf/QmX2vA64E0kgQe9ul/T8x/qnRMNxTP3tU+NvIt0=";
     "v1.20.0-alpha-0" = "sha256-cCITsYldyTHXNB+EmEKzbTgq5t2nPV7/J5kqyiJpNEc=";
     "v1.20.0" = "sha256-6g+mNV/g2aU4UJyTQtlsthhTHQJK7o2kjS63Ds59yxg=";
+    "v1.19.9" = "sha256-EVcuhle2s9leEWrPQ+TVJl/vDz5fK+ZrrY56M6xqL/o=";
     "v1.19.8" = "sha256-PArNzo096irh42CpBHuW/dHw478ei3Ke8grjvfH0SoU=";
     "v1.19.7" = "sha256-eNsdE10SBdh0aTwaEDtJbaz12vMGih/cSwnMV17yEkg=";
     "v1.19.6" = "sha256-NKNNRI1L5XmY2BF/6eWQh0n2/pqmxsYYRLv7hdz6LWs=";
