@@ -94,6 +94,7 @@
     "3.9.0-rc.3" = "sha256-l6TAjCgK+1d6Kwhbpq13IYXCouy0WPrjhCCGjCX8lzE=";
     "3.9.0-rc.2" = "sha256-nmumE+nXJsx0f52mVGvlqz+M7zLUFPZDMmK0sGdHgYg=";
     "3.9.0-rc.1" = "sha256-Yu3826H4La3fuc9MHjTmVspO0DEEq1fzACVfjW5YPvs=";
+    "3.9.0" = "sha256-lmPo09FbBw5ZJbTyaz+aiCSHKkKse/J8oQXIl8taulE=";
     "3.8.2-rc.2" = "sha256-AMe0kuqx3u0K+hgJJHKioE3ZHsE9m+2SdL9S0l8+LAs=";
     "3.8.2" = "sha256-9Px4fPHWeB7vuem0WDftzdz66YTIcoiCiZFOlyB8xd4=";
     "3.8.1-rc.2" = "sha256-dR8MHrR99M/LZQHGbaCRqH8KTBRiC4T1JpKvIE2ABeI=";

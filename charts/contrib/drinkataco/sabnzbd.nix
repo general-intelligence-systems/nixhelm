@@ -1,8 +1,11 @@
 {
   repo = "https://media-servarr.shw.al/charts";
   chart = "sabnzbd";
-  latest = "1.3.0";
+  latest = "1.4.1";
   versions = {
+    "1.4.1" = "sha256-AZAgkqZwPC+BUHjq23ytzaHMcjFZcHnVnjBTVovDEA0=";
+    "1.4.0" = "sha256-i6RIV2uDDkttHwZhFHUAp9e7t2AKM94BHLQI9l8Hjz4=";
+    "1.3.1" = "sha256-UppiiJotVU2JI/7ko4nWXfdbYYLRNNvbjUTc8JwgS9c=";
     "1.3.0" = "sha256-rcTomM5MZZTGPKnYGyPJnhKyrIUzskkKEMGLzW1tmlw=";
     "1.2.1" = "sha256-qE6oHiN14KlLEmaV0ycybEwnwrRiKKFnsk9LYz6RI4M=";
     "1.2.0" = "sha256-MLAlpHZfWrU4zMglFS4Fdrhwl9pNLvvhbzqRHVvA090=";
@@ -19,10 +22,8 @@
     "0.6.3" = "sha256-2BQIpx1sPBJ3EDr8Ql1cPcF9g42raUzbWiLBtqEFgic=";
     "0.6.2" = "sha256-uIGiTY0gGGYWYTUPe1+nauqx68lxKGy64UZRXdcL35U=";
     "0.6.1" = "sha256-QuqsYaKg3j51ePyAKyAArqQDYP+vhMwR8zwOtCAtaCo=";
-    "0.6.0" = "sha256-L9nefy4YNBuaPqu/BCMbUR7X5GUCaE9JJvJmSg84v4Y=";
     "0.3.0" = "sha256-ukDczvecRSWQ5WGcrFLSpxj6AOK+Ro108gDTCIMN408=";
     "0.2.0" = "sha256-VYRBXgDNun3njMvgrX3HcF+jicMby+gzaOUgvWp7cqQ=";
-    "0.1.3" = "sha256-UBfW0XFsUgwlJk6VuOO0Kd10HIhcw6rPB+u6/aYhscA=";
     "0.1.0" = "sha256-ENMdMcwQIo7U2QzccQ4s78Eg+J14qJRhVy4dqCwZtSI=";
   };
 }

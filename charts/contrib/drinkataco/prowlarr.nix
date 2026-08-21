@@ -1,8 +1,10 @@
 {
   repo = "https://media-servarr.shw.al/charts";
   chart = "prowlarr";
-  latest = "0.26.0";
+  latest = "0.27.1";
   versions = {
+    "0.27.1" = "sha256-fE5Q6zm7bVKlyuSSUrxbA/JKaVUQ4Yx24+uXYG8XAXk=";
+    "0.27.0" = "sha256-1LKK7JTSQcqynJAdDi5vdrZ/CGeKbohszsUbkTJdo0g=";
     "0.26.0" = "sha256-9zzTAXpqLR4zsa+OIrCyHJKieJD+xT/0sOiqBb5ADpM=";
     "0.25.1" = "sha256-f2CYX+4mJT1JvQsxez/gIpWxICRN3RrYqW77A2Ej++E=";
     "0.25.0" = "sha256-UMHAE+Y7ifxwSZXd1j4/sTiMy5Wwj9tF5jVM6dLaMhg=";

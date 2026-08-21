@@ -1,8 +1,9 @@
 {
   repo = "oci://code.forgejo.org/forgejo-helm";
   chart = "forgejo";
-  latest = "17.1.4";
+  latest = "17.1.5";
   versions = {
+    "17.1.5" = "sha256-PUDoM3SOXJKFXH+Rn2ibpSbu7HKgg4bnl9ZZBfmjrik=";
     "17.1.4" = "sha256-ScYFoSZZbid21lFWNosJC99EMIqkgicIGhDeJms+Ddc=";
     "17.1.3" = "sha256-+KeVA51lwXMULFOesXqU2vTisyYdiQSzWq0Gmc9lhtQ=";
     "17.1.2" = "sha256-Wga3/CDey7bgdHVutS6e8CoB84iq/jD16LDwjitvOFc=";
