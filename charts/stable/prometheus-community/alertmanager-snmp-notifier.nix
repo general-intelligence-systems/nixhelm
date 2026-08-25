@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "alertmanager-snmp-notifier";
-  latest = "2.1.1";
+  latest = "2.2.0";
   versions = {
+    "2.2.0" = "sha256-K7Ns4BSfhnCc/ueId9Ivl0Yo9GqZRbRE1Vc1WDOwEr4=";
     "2.1.1" = "sha256-T3C40Uw/vV3sgxMdfj6xiL7YsnSOg8UwHYXuIs5zgqQ=";
     "2.1.0" = "sha256-h6nf884t8JysbP+w3GBxHvLcD4DZDEKSKrnfKYG5YtM=";
     "2.0.1" = "sha256-i4EMCn83bDcUrJSimys8dAhXU2OBkWre9jAJJGOAxhg=";
