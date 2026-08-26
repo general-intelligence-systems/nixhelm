@@ -1,8 +1,9 @@
 {
   repo = "https://emberstack.github.io/helm-charts";
   chart = "azure-alb-extensions";
-  latest = "1.0.20";
+  latest = "1.0.21";
   versions = {
+    "1.0.21" = "sha256-fBbLJKdiBU30XWiL3QXzc4ivUbiQ9ZGkCZ8HxwT0xMg=";
     "1.0.20" = "sha256-fp+VKPPT4gvvYsr8TmjniVxeDiIYAUSdK8dyJbhHWR8=";
     "1.0.19" = "sha256-Bp0kKfMUf880Z208CQwcBMKWXkzm+dGUQ/ZpRYmk7BI=";
     "1.0.18" = "sha256-XY62rjU4MZdYcmEFgzMkFP+rnNJSAhVjFXxOn9yT21I=";

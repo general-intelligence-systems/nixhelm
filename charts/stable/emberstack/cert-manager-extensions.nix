@@ -1,8 +1,9 @@
 {
   repo = "https://emberstack.github.io/helm-charts";
   chart = "cert-manager-extensions";
-  latest = "1.0.20";
+  latest = "1.0.21";
   versions = {
+    "1.0.21" = "sha256-Ba5xvdGwMg4K7SAYbWYPvpBPSfU57eto+zNa5YPF/Y4=";
     "1.0.20" = "sha256-jhULAHzJqjvl8gMHH19zW08DBjkcju47KMjAEFkDkGg=";
     "1.0.19" = "sha256-gcw1lo/FGRWe8DnaFiU9WRKAj50IyVtdrsGSqr8oZx4=";
     "1.0.18" = "sha256-M8E9aEJX+6vcvIUuDEoTWq8sPYl4pMtW4zMBMSQecsg=";
