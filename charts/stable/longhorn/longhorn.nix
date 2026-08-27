@@ -3,7 +3,7 @@
   chart = "longhorn";
   latest = "1.12.1";
   versions = {
-    "1.12.1" = "sha256-1wdk4tbM5nNILaTZHaW0SpeRzahCwZFPd+eAatHNlLs=";
+    "1.12.1" = "sha256-yM9LNanYcs1ffkT9JtjmrHwquu5C9OLyoLDrvG46YRY=";
     "1.12.0" = "sha256-hpuyBwGxVEc2BvHolnsn808kSKLf5uuJcPHK5pVzhPU=";
     "1.11.3" = "sha256-qwaC/oqyhjwnG8/CMLyMZ6RdwPJDLK27kXs/UqIzk9Q=";
     "1.11.2" = "sha256-pwJyyDaDkj7ZyvoH/h5POm59XXSHQRGzqK1CHmQQKnc=";

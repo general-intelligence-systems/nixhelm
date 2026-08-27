@@ -1,8 +1,9 @@
 {
   repo = "oci://registry.dagger.io";
   chart = "dagger-helm";
-  latest = "0.21.8";
+  latest = "0.21.9";
   versions = {
+    "0.21.9" = "sha256-g3iYZpMq0PXU+5bcJtYjkBGUG/uwa8roziEzkByXW5Y=";
     "0.21.8" = "sha256-YpOKCet37EIw8VK/mcPQHZZpwq8rN2WOKQ21zq8IwFU=";
     "0.21.7" = "sha256-hFjcQ3W6ZzR/j/g2MUcyIzkGEsw/qkk7XAdJyBRExUg=";
     "0.21.6" = "sha256-ZnW3+Gk1D48SqZAAbnZiaqSjd3cREpQoCZp5dWumiSg=";

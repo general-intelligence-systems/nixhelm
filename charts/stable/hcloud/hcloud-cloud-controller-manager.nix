@@ -14,6 +14,7 @@
     "v1.14.1" = "sha256-kijN8vuhHwWmoWSe+510Ha805oHat/SrUqpCeTInrT8=";
     "v1.14.0-rc.2" = "sha256-vy6ics9Er+AiCzSVgWEhsObfzpvslRs0tzEedDwCNpY=";
     "v1.14.0-rc.1" = "sha256-vh3oj1chJYP3jtMt7ypfN8xvkiTp0gFrTxxpLo0aOpU=";
+    "1.36.0" = "sha256-sGsN3KaNl4TCfBQWBZaDsr+05U9w8F5utzaSTG3BmlI=";
     "1.35.0" = "sha256-Iu0BJrOS4RAKlC2+X7R82AV7QxONmXTDCHYK1Y8urCQ=";
     "1.34.0" = "sha256-tFa2+L2dpAyOZ+nCCpu3YKtSaBaf8LiK0nszUDQRve8=";
     "1.33.0" = "sha256-tjQ3kCY5/7JPOKoIR8acMDcNxBw674LETMsIASf5s+Y=";

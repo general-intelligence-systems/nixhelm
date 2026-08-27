@@ -1,8 +1,22 @@
 {
   repo = "https://charts.authelia.com";
   chart = "authelia";
-  latest = "0.11.6";
+  latest = "0.11.20";
   versions = {
+    "0.11.20" = "sha256-6WPevcH9VXfA0KUTExxNrbZ5QfC6OesXBIkxlzCgzcg=";
+    "0.11.19" = "sha256-UUzOrjcWETGuHuwUymZuGDrqymXJNBc8iG9s61+2OWU=";
+    "0.11.18" = "sha256-1bLpCTKjI+cayHZyk/jB6p23HAb5H1N3sleB+lURSNw=";
+    "0.11.17" = "sha256-VCINUckDipOCxK3Bs2m7nmdEWTuwxuFW8iqimuwfW3M=";
+    "0.11.16" = "sha256-Xi4PIibRAuIkyF75yNUUsti1pxBGWKuAa46ZYLTnS9g=";
+    "0.11.15" = "sha256-6MqBzbcS8emTNs7y8a9Y3XnxQjTJJpBM3mLIxyY9PzI=";
+    "0.11.14" = "sha256-W8mvu/1yzB6hFDlrHEiosF2jdF/9pwF3YI2cja8zFTk=";
+    "0.11.13" = "sha256-tH26zTDx/q+nQ9jYpVXcfvjdaqYKCNnhCuWReufrs8k=";
+    "0.11.12" = "sha256-KqJxNP1Mj2ODoKRCVybW+8irIPrZgWhn7effgqK57vM=";
+    "0.11.11" = "sha256-oVXze5sOA+JWV5C3p/aR6SnxmQ50fLVecSdDxFX2hHA=";
+    "0.11.10" = "sha256-KtyXdMs3aOw03eM0FgB67uM4Gh/xzrxrYXVBbIfJBFU=";
+    "0.11.9" = "sha256-CD8EeMqbJNoL3N786PjMX5lytwCyfNpZ3kj/BSjVemI=";
+    "0.11.8" = "sha256-bi1+vCfqJg9ZVuuuM1F4ogASFdRSxJ35nY7Z4PxAsFM=";
+    "0.11.7" = "sha256-rwfTMn2EUxjaOeiP273kcqGM9VO2qbATKd68FtAEVVY=";
     "0.11.6" = "sha256-FqtC7mOoU5xClCUPrruS5xnMUCI4K3mlyDrqxlqPT8U=";
     "0.11.5" = "sha256-OdSSeITp9p4de4oBJQyfKqScxJR1SmlyQUCCFzWmbso=";
     "0.11.4" = "sha256-OM0L85FZHy0iyXRMkIspEITRE+puPBSfOEwqz6y/z3E=";
