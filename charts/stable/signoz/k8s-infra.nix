@@ -1,8 +1,9 @@
 {
   repo = "https://charts.signoz.io";
   chart = "k8s-infra";
-  latest = "0.17.0";
+  latest = "0.17.1";
   versions = {
+    "0.17.1" = "sha256-WXI76gUJLchc3u9kFUcB06DLBysWJFWrzxHhBP+t8oo=";
     "0.17.0" = "sha256-HGSTZx7UE9WPcLG/z3IsSc8OuPZNiNVk1+A3kxGrVyw=";
     "0.16.0" = "sha256-6poc1ZmxsWULp9R0SynLZc+cairy7crSwWSbliDnsr0=";
     "0.15.1" = "sha256-Mwmk4TajWVV2BvEXyyukMBxqLtJNyBx8PoTx67mr8rQ=";

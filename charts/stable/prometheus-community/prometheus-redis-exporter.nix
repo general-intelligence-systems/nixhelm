@@ -1,8 +1,9 @@
 {
   repo = "https://prometheus-community.github.io/helm-charts";
   chart = "prometheus-redis-exporter";
-  latest = "6.29.0";
+  latest = "6.30.0";
   versions = {
+    "6.30.0" = "sha256-2E4f4BmRvZ65w0cTSyZgFp2hgWykmB+TW8/xaMgEvug=";
     "6.29.0" = "sha256-NgM97ifUNGPAi76RmnTtxcAP5QM60bWazqiy07w2aWM=";
     "6.28.0" = "sha256-GCfFi0mn0Au0mg+E9NPKelbfgvuKBs+fPWGA7X6H8BU=";
     "6.27.0" = "sha256-RsBgOUJ0RCV/RHUE4LyP+l61RCcFkTa12rt36Pir3cc=";

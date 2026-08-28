@@ -10,6 +10,7 @@
     "1.31.0-alpha.2" = "sha256-lW7b7N1+rmi+bf4jVRBFxXtZ1vw3ZaUubJNiMr3Hv4c=";
     "1.31.0-alpha.1" = "sha256-elnuLQVKh6BASoh3mCvzpsDJdx+EF3vSOEPJ7pgoR9s=";
     "1.31.0-alpha.0" = "sha256-vOVBkik2acTpkY/eH73fSp/7D3N04wWiFRktFIPQHEI=";
+    "1.30.4" = "sha256-Y6JepfZit3K4mdaFVylJQgQS0mjmhGbzT4MFlNOvHRk=";
     "1.30.3" = "sha256-ZWIhHQoYMEmbSYapf86FZ5cygk34bT3C9ZWgpumeo0E=";
     "1.30.2" = "sha256-e4Ut/KvVbFrMZ79VVIDQ9XJajWACitwHXCr7uRzO+3Y=";
     "1.30.1" = "sha256-Jp7R0blZBrwMecwXhqwHaSWso626lAUt0FRrSTHYxjQ=";
@@ -18,6 +19,7 @@
     "1.30.0-alpha.2" = "sha256-70Ng28YOS3orjeJMxHNO4vcjtNJBSYKOg65/tC0RhEY=";
     "1.30.0-alpha.1" = "sha256-XzpBqCKCDz7KdltpniwEQLAG6zgytDSRuyi/STUgml4=";
     "1.30.0" = "sha256-eoZHa8tbUIYwt6OJtWmZSZdMXDXtGqRnIcfU3wDL2Zc=";
+    "1.29.7" = "sha256-3vSsePILlEXQklFZ6EfKhCYIYSi6jrL0w8W589Kb+c8=";
     "1.29.6" = "sha256-OXhzf+twbouUZKsugQjHi1mExvCV1LDKoRNWQU6VvtA=";
     "1.29.5" = "sha256-m5wPTAIoWmjGEmPmqPa/gZHJUzxzZFFMWWtpMOQ3WpU=";
     "1.29.4" = "sha256-ky3NQkqobL0xRLv58Ke1BnY8GSD/5kOopDEYEZS1ihg=";

@@ -4,6 +4,7 @@
   latest = "4.13.0-next.internal.2";
   versions = {
     "4.13.0-next.internal.2" = "sha256-MZ4nk2613taJp65aFnBvcpB62yrm6bRhbp/va9/Nfl8=";
+    "4.12.0-rc.4" = "sha256-cIlJFhi2lMGVc/uggAUQ+VnH4WISyYGeZAvrR9t5fGI=";
     "4.12.0-rc.3" = "sha256-gYpM0bUVOapiFOTHEBJoA3bkpY1GHn7HMOV3MI/i21E=";
     "4.12.0-rc.2" = "sha256-Tzv1G2M+3zdktdZ2/gyKonmFzyaYMZxN8HiQJIFb/M8=";
     "4.12.0-rc.1" = "sha256-ZPn4PfSYth8jxuRrkoDDq/wg6Hw9wVNnpg4Vx/M/IXQ=";
