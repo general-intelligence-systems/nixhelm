@@ -4,7 +4,12 @@
   latest = "4.13.0-next.internal.2";
   versions = {
     "4.13.0-next.internal.2" = "sha256-MZ4nk2613taJp65aFnBvcpB62yrm6bRhbp/va9/Nfl8=";
+    "4.13.0-alpha.3" = "sha256-Mwc/w8efMI53GW2EUql92szTH5BnB2N6ajQsQtP5lg8=";
+    "4.13.0-alpha.2" = "sha256-aVVQArtgY0ro0mQ7K9CIjPC83ZbDfCLv6XRf3Ll7ZeI=";
     "4.13.0-alpha.1" = "sha256-CEnuodwB6k9tbqASOkRf80VDJihD/aXMfG7RQy1Moy8=";
+    "4.12.0-rc.7" = "sha256-GoyPLxHZEj0KsflTHLtYXzQnG2fqlcWYmSg5rEb7iUY=";
+    "4.12.0-rc.6" = "sha256-qMTt7qJisErT749CYFc1t3Xz0MCNx+EH6ObiqwpNX5w=";
+    "4.12.0-rc.5" = "sha256-1tDHS5vBYWjtqHIXqh9Aqv66tbVm2JoeunY/KKzesG8=";
     "4.12.0-rc.4" = "sha256-cIlJFhi2lMGVc/uggAUQ+VnH4WISyYGeZAvrR9t5fGI=";
     "4.12.0-rc.3" = "sha256-gYpM0bUVOapiFOTHEBJoA3bkpY1GHn7HMOV3MI/i21E=";
     "4.12.0-rc.2" = "sha256-Tzv1G2M+3zdktdZ2/gyKonmFzyaYMZxN8HiQJIFb/M8=";
@@ -20,6 +25,7 @@
     "4.12.0-alpha.3" = "sha256-DBEuTXxFhSSkq3K+EDsb4SSTy1V+WGBmNH+cKM5q3Eo=";
     "4.12.0-alpha.2" = "sha256-JUQ9VThHGRUOjnfByoelA5oe1y7sccSzNShVCLfeScY=";
     "4.12.0-alpha.1" = "sha256-7QCLQW8BWZKqIjhY/IWjvDpjTk9d0zv50+WIFQ6ri6o=";
+    "4.11.3-rc.1" = "sha256-INK+C2HhTFfuYMK8jGUwE2hnQ7HYxegrQw3DAKxx2+g=";
     "4.11.2-rc.2" = "sha256-r0UnC0eCkwMXVeeJiQG4DJuG/SJ+MUvQRWdd5Ait144=";
     "4.11.2-rc.1" = "sha256-8JDlOfUfzJ7Fn56VsNCf8Lfs6LnFa4KmNNAKP2Af6Dc=";
     "4.11.2" = "sha256-wu1ZzsuKrKl/WYJTQyN5dpSbpyLg+u2ff3LJ16i57uQ=";

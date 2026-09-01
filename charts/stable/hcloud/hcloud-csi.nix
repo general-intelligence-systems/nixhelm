@@ -1,8 +1,9 @@
 {
   repo = "https://charts.hetzner.cloud";
   chart = "hcloud-csi";
-  latest = "2.22.1";
+  latest = "2.22.2";
   versions = {
+    "2.22.2" = "sha256-KihLet1ZDPq2MLYmVi7yrtd3j5Z7gectoxcXsK37saQ=";
     "2.22.1" = "sha256-uanUZniG+UVAB6zWPPQF09s9Z07rk/BdWUUUOYhHdaQ=";
     "2.22.0" = "sha256-uOuN7X23BzclE2DcDhkVVC65G6Lg663vqi67Ovgrg0U=";
     "2.21.2" = "sha256-lzXFx9KCZk1+i9GNYd2dPd+zI2WeUPv4xnJ27qETPEs=";

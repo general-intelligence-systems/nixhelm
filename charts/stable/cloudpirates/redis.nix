@@ -1,8 +1,10 @@
 {
   repo = "oci://registry-1.docker.io/cloudpirates";
   chart = "redis";
-  latest = "0.34.24";
+  latest = "0.34.26";
   versions = {
+    "0.34.26" = "sha256-bWZQ4KJDNZe22NM0wSUVDm/+LHEhHgASM0IR/abAxgE=";
+    "0.34.25" = "sha256-RHzs661Dj1r3GzJMQfQYZfci8mVVZm1KbW59Oq3YFOk=";
     "0.34.24" = "sha256-7bptx7YBnGB4ksJrpxcaraJSx1EdK8V93ltrCq4ncxw=";
     "0.34.23" = "sha256-T5NBTH+ER8SmauN0IXEBkYa5bDtrjuuFOR3LwaOg++8=";
     "0.34.22" = "sha256-FF0ucK7Ripq//7DHTeEX4Z3xW/DuCeHgEeocUB2EOV0=";
