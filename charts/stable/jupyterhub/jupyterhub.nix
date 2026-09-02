@@ -256,6 +256,7 @@
     "5.0.0-0.dev.git.7301.h9bb5fb62" = "sha256-PdZuBGzZDfdcA+2R8/p8wTnD997n67u1wjRoEJO5eYk=";
     "5.0.0-0.dev.git.7299.hda209a6a" = "sha256-iW1R/8s+ZUk+Dx5bf3vZAUKYApg99C8/PXypBQpyRek=";
     "5.0.0-0.dev.git.7297.h030c49ec" = "sha256-Yz9/M6lYiIgDV8Ov116o5wp67EEa1D7iSQ/qAgMWAHI=";
+    "4.4.2" = "sha256-Dd+lFwUNFvLhtQxitbY3exJXT5oriPOzUr0hHvMXPD4=";
     "4.4.1" = "sha256-WWdQim4r2zPTgtlrGEGhNjBkN1yr6QBvsnDk0uXxQ88=";
     "4.4.0" = "sha256-meQpyoIFvyFGjq7ZeNp7QluU6tlm2xh1IR3DEMbr8ig=";
     "4.3.5" = "sha256-TQdIG0A2cM/c8RWGNBAYuDBGmSqVpewgSq3YjTl6/1k=";
