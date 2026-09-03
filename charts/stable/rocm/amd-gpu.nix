@@ -1,8 +1,9 @@
 {
   repo = "https://rocm.github.io/k8s-device-plugin";
   chart = "amd-gpu";
-  latest = "0.21.0";
+  latest = "0.22.0";
   versions = {
+    "0.22.0" = "sha256-eRraiPCbUVmtifLABrYQedB10CD5JMr9X+PjFxIjJpU=";
     "0.21.0" = "sha256-qyG64LA4uP7YTcwgrzcYDbGM3nXO5Ib4yZg7ja+FsxI=";
     "0.20.0" = "sha256-n+WpKFengixamvlUv3vG5DdFUhlicHo7o7zJyC2ZeXw=";
     "0.19.0" = "sha256-J478AtVQgF4eyaHbI0+U0w4v34mj6PlS5Tn4qU75bbU=";
