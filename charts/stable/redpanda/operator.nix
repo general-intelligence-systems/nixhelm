@@ -10,11 +10,13 @@
     "v2.4.1" = "sha256-OtyzEYV/Cd4w0E4Vho5OfUP7zdsp4AFqJTtuKdhnX8Y=";
     "v2.3.10-24.3.14" = "sha256-mb5GtkJXs+JjsomXwcOAOIK9F+x/Fqn5w+kLRVKF+go=";
     "v2.3.9-24.3.11" = "sha256-owZj2E+Q8fQeKVABJJiSZGfHPj3fJTLq2EM9Ypom+FE=";
+    "26.2.3" = "sha256-d2LWobMkBO/KLL8pe6q+61TipcKWDG6mHgFNmzrcI00=";
     "26.2.2" = "sha256-o4UxsYMwBPXNaxcV8fM8HwtMLMB9BTaiCAIn3veH8WY=";
     "26.2.1-beta.3" = "sha256-dasb9IfOxPTVFS5Iy44Lw/cQwOiOD4ialA790qC/4jg=";
     "26.2.1-beta.2" = "sha256-EjVF5lQSlMGkPtfDZVv7u4tP+rbW0NMf+V4M4kjjuKo=";
     "26.2.1-beta.1" = "sha256-p+EdKQk1Of78dzthHOZlL0p1HzpP+vUwZyq0KQzqlew=";
     "26.2.1" = "sha256-2c6PbO0JURzsCZj2L8PXG7dtEgs8GBI+wx1gjYoyfYY=";
+    "26.1.11" = "sha256-InXNjFJLvk280j00w02Xha+V/HfWiNggcAAbl0gsF5M=";
     "26.1.10" = "sha256-XLpXU96vmfU6xpMay7JfVZs/cDWkbw1WYv6dgunXvy0=";
     "26.1.9" = "sha256-eyKwLjTLbSFJhvJtUxQBSEQEr7DSdXgZTJPbAz2/SOA=";
     "26.1.8" = "sha256-FRagGw6p/IPqHndCEzTqgM6beTlFNArr0FjaiSDlSmE=";
