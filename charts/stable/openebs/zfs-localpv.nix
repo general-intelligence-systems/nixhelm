@@ -4,7 +4,9 @@
   latest = "2.12.0-develop";
   versions = {
     "2.12.0-develop" = "sha256-NpLNaEWLN3AXIbuBs0T4hKlGo2v4PUP4+NR2yYA4fUE=";
+    "2.11.2-prerelease" = "sha256-mti/GyPDmaurPav0PmiJTFWuG4rKxeTvc8e2tw3JEMk=";
     "2.11.1-prerelease" = "sha256-TIUXQOE+Qd+/CGmF5kXSQTCjcEhqzjsTWvi19JarN48=";
+    "2.11.1" = "sha256-VNGqtfwjA7r8xgCFxBHdkx27Q/tcFgv8ZOth8pQqiwI=";
     "2.11.0-prerelease" = "sha256-8LFVqNIsAbD1DYOgOvLckq2REuzSl2EHjMyfyzLEEwc=";
     "2.11.0-develop" = "sha256-FAa/EHuxjN2EMwtztth7+E9z3WM/OGuFUGlqHKkjCu8=";
     "2.11.0" = "sha256-rgivX7RvXWR4e53rSSgM9fxNhqSoer5+e3FI8sqc/C4=";
