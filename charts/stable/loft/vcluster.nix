@@ -17,6 +17,7 @@
     "0.37.0-alpha.2" = "sha256-BrEVu+O5Ac082Rs1rK90fV9D7/Uq3a7qhxyjt9xpBFY=";
     "0.37.0-alpha.1" = "sha256-oNUqNvIDUkRaH9MIYXJLpW/scWweSYfbjsEa+OcqlTI=";
     "0.37.0-alpha.0" = "sha256-E7YQXxhanHHrDteyCkJWj3tknpE+uqzfhawkOj4eZ1w=";
+    "0.36.2-rc.3" = "sha256-en5h2ShiRr6u8xSpGNrHlpt4ZeWWBzbT1N67J5C83Lo=";
     "0.36.2-rc.1" = "sha256-0dDx5lL+tDLDtWysB2pKsWTAIQemnPKO30akL68TOfM=";
     "0.36.1-rc.4" = "sha256-hCwf+RoAZuGMQq57iMjxk0/JizRP15FY8mH5bxMFlFk=";
     "0.36.1-rc.3" = "sha256-LZXez7aX9yVmQwoJNBltCBUYKPqQkyQK4aqd06Xu2Bs=";

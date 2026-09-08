@@ -1,8 +1,9 @@
 {
   repo = "https://percona.github.io/percona-helm-charts";
   chart = "pxc-operator";
-  latest = "1.20.0";
+  latest = "1.20.1";
   versions = {
+    "1.20.1" = "sha256-/fcPeqGzKy2xr+yKvqHked1QS6s+RcjBT7g1pu0mSq0=";
     "1.20.0" = "sha256-uL/4HQ+WkbHklflY+6G7Jo5Ig4z1SK32rmVw6g4AWc8=";
     "1.19.1" = "sha256-O2Go9hr5/bucOb0ImgcHaA1qO4nrjdumuexYjtFhKYw=";
     "1.19.0" = "sha256-WbTuD5uAep6xsE3MSMl/NpGxy4ZcLfEmAns48/UsSzo=";
